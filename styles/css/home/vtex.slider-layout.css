@@ -1,0 +1,24 @@
+.sliderLayoutContainer--home_slider{
+    max-width: 1300px;
+    margin:0 auto 50px;
+}
+
+.imageElement--home_slider_logo{
+    max-width: 150px;
+    margin:0 auto 20px;
+    
+}
+
+
+.paginationDosContainer--home_slider{
+    transform: translateY(30px);
+}
+
+.imageElement--home_slider{
+    max-height: auto !important;
+}
+
+.slideChildrenContainer--home_slider_logo{
+    background-color: rgb(246, 240, 240);
+}
+
