@@ -6,8 +6,8 @@
       "flex-layout.row#home_section--three",
       "list-context.image-list#home_slider--list",
       "flex-layout.row#home_section--two",
-      "flex-layout.row#home_section--one1",
-      "responsive-layout.desktop#home__section-1"
+      "flex-layout.row#home_section--one1"
+      // "responsive-layout.desktop#home__section-1"
 
     ]
   },
@@ -68,13 +68,13 @@
           
           "image#home_slider--tree"
     ]
-   }, 
-
-   "rich-text#text":{
-    "props": {
-      "text":"testo de prueba"
-    }
    }
+
+  //  "rich-text#text":{
+  //   "props": {
+  //     "text":"testo de prueba"
+  //   }
+  //  }
 
 
  
