@@ -1,5 +1,12 @@
-/* Example desktop:
-.flexRow--home__section-2 {
-    margin: 50px auto;
+.slideChildrenContainer--home_slider{
     max-width: 1200px;
-} */
+    margin:0 auto 50px;
+}
+
+.flexColChild--section_one--image{
+    max-width: 600px;
+}
+
+
+
+

@@ -23,7 +23,7 @@
       }
   },
 
-//------------------------------------------------------------
+//SLIDER PRINCIPAL
 
     "slider-layout#home_slider-children":{
         "title":"hijos declarados",
@@ -34,7 +34,7 @@
             "mobile": 1
     
           },
-          "infinite":"true",
+          "infinite": true,
           "blockClass":"slider-children",
              "autoplay": {
             "timeout": 5000,
@@ -63,7 +63,7 @@
         }
       },
 
-      //segunda forma de hacer un slider
+      //SLIDER DE MARCAS
     
       "list-context.image-list#home_slider--list":{
         "title": "lista de image",
@@ -128,7 +128,7 @@
             "mobile": 6
     
           },
-          "infinite":"true",
+          "infinite": true,
           "blockClass":"home_slider_logo",
           "autoplay": {
             "timeout": 5000,

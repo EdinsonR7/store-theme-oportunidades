@@ -1,0 +1,31 @@
+
+    {
+    "header-layout.desktop": {
+        "title":"",
+        "children": [
+            "header-row#header-desktop_logo"
+        ]
+    },
+
+    "header-row#header-desktop_logo": {
+        "props": {
+            "blockClass": "header-desktop_logo",
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true
+          }
+          
+        },  
+        
+      
+        "logo#desktop_logo": {
+          "props": {
+            "title": "desktop_logo",
+            "blockClass": "desktop_logo",
+            "href": "/",
+            "url": "assets/img/oportunidades-logo.png"
+          }
+}
+}

@@ -1,5 +1,5 @@
-.sliderLayoutContainer--home_slider{
-    max-width: 1300px;
+.slideChildrenContainer--slider-children{
+    max-width: 1350px;
     margin:0 auto 50px;
 }
 
@@ -21,4 +21,16 @@
 .slideChildrenContainer--home_slider_logo{
     background-color: rgb(246, 240, 240);
 }
+
+.paginationDotsContainer--slider-children{
+    max-width: 150px;
+    margin:0 auto 20px;
+    position:absolute;
+    top:85%;
+    color: blue;
+}
+
+/* .slide--slider-children--firstVisible{
+    width: 200%;
+} */
 

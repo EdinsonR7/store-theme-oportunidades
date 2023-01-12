@@ -1,6 +1,140 @@
 {
-  "responsive-layout.desktop#home__section-1": {
-    "title": "Home Section 1 Desktop",
-    "children": ["flex-layout.row#home__section-1"]
+  "store.home": { 
+    "blocks": [
+      "flex-layout.row#home_section--one",
+      "slider-layout#home_slider-children",
+      "flex-layout.row#home_section--three",
+      "list-context.image-list#home_slider--list",
+      "flex-layout.row#home_section--two",
+      "flex-layout.row#home_section--one1",
+      "responsive-layout.desktop#home__section-desktop",
+      "responsive-layout.tablet#home__section-tablet",
+      "responsive-layout.phone#home__section-phone",
+      "responsive-layout.mobile#home__section-mobile"
+       
+
+    ]
+  },
+ 
+  //seccion 1 flex-layout.row
+
+  "flex-layout.row#home_section--one1":{
+    "title":"section-one-slider",
+    "children": [
+      "flex-layout.col#section_one--image"
+      
+    ],
+
+    "props":{
+    "blockClass":"slider_section_one"
+    }
+  },
+
+  "flex-layout.col#section_one--image":{
+    "children":[
+      "image#home_image"
+    ],
+    "props":{
+      "colSizing": "auto"
+    }
+
+  },
+
+  
+ 
+   //seccion 2 flex-layout.row
+
+   "flex-layout.row#home_section--two":{
+    "title":"seccion two",
+    "children":[
+      "flex-layout.col#section_two--item-1",
+      "flex-layout.col#section_two--item-2",
+      "flex-layout.col#section_two--item-3"
+    ],
+    "props":{
+      "blockClass":"layout_section_two",
+      "preserveLayoutOnMobile": true
+    }
+   },
+
+   "flex-layout.col#section_two--item-1":{
+      "children": [
+        "image#home_slider--one"
+      ]
+   },
+   "flex-layout.col#section_two--item-2":{
+      "children": [
+        "image#home_slider--two"
+    ]
+   },
+   "flex-layout.col#section_two--item-3":{
+      "children": [
+          
+          "image#home_slider--tree"
+    ]
+   },
+
+  //RESPONSIVE LAYOUT
+  "responsive-layout.desktop#home__section-desktop":{
+    "title":"home__section-desktop",
+  "children": [
+     "rich-text#desktop_section--desktop"
+  ]
+
+  },
+
+  "responsive-layout.tablet#home__section-tablet":{
+    "title":"home__section-tablet",
+    "children": [
+      "rich-text#desktop_section--tablet"
+    ]
+
+  },
+
+  "responsive-layout.phone#home__section-phone":{
+    "title":"home__section-phone",
+    "children": [
+      "rich-text#desktop_section--phone"
+    ]
+
+  },
+
+  "responsive-layout.mobile#home__section-mobile":{
+    "title":"home__section-mobile",
+    "children": [
+      "rich-text#desktop_section--mobile"
+    ]
+
+  },
+
+  "rich-text#desktop_section--desktop":{
+   "props": {
+    "text": "hola 1 computador"
+   }
+  },
+
+  "rich-text#desktop_section--tablet":{
+    "props": {
+      "text": "hola 2 tableta"
+     }
+  },
+
+  "rich-text#desktop_section--phone":{
+    "props": {
+      "text": "hola 3 telefono y tablet"
+     }
+  },
+
+  "rich-text#desktop_section--mobile":{
+    "props": {
+      "text": "hola 4 movil"
+     }
+
   }
+
+
+
+
+
+ 
 }
