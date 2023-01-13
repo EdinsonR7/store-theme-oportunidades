@@ -1,16 +1,16 @@
 {
-"image#home_image":{
+  "image#home_image": {
     "title": "Home Image",
     "props": {
-        "src":"assets/img/Mini_1_Pagos.png",
-        "max_width": 600,
-        "title":"Mini Image",
-        "blockClass":"imagen_home",
-        "link":{
-             "url":"http://www.google.com/",
-             "newTab": true,
-             "atributeNoFollow":true
-        }
+      "src": "assets/img/Mini_1_Pagos.png",
+      "max_width": 400,
+      "title": "Mini Image",
+      "blockClass": "imagen_home",
+      "link": {
+        "url": "http://www.google.com/",
+        "newTab": true,
+        "atributeNoFollow": true
+      }
     }
-}
+  }
 }

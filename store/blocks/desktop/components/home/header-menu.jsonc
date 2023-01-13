@@ -3,7 +3,9 @@
     "header-layout.desktop": {
         "title":"",
         "children": [
-            "header-row#header-desktop_logo"
+            "header-row#header-desktop_logo",
+            "logo#desktop_logo"
+            
         ]
     },
 
@@ -24,7 +26,6 @@
           "props": {
             "title": "desktop_logo",
             "blockClass": "desktop_logo",
-            "href": "/",
             "url": "assets/img/oportunidades-logo.png"
           }
 }

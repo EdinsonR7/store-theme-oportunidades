@@ -1,11 +1,23 @@
 .slideChildrenContainer--home_slider{
     max-width: 1200px;
     margin:0 auto 50px;
+    max-height: 100px;
 }
 
 .flexColChild--section_one--image{
     max-width: 600px;
 }
+
+/* 
+.flexRowContent--home_section--two{
+    max-width: 1500px;
+    max-height: 100px;
+    margin:0 auto 50px;
+    position: absolute;
+    top: 155%;
+} */
+
+
 
 
 

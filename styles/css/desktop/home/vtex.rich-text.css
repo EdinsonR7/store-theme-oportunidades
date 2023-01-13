@@ -1,24 +1,43 @@
 .paragraph--home_titulo{
     color:rgb(14, 2, 2);
-    font-weight:800;
-    position:relative;
-    top: 70%;
-    left: 80%;
-    height: 100%;
-    text-align: auto 10px;
+    font-weight:700;
+    font-size: 1.5rem;
+    line-height: 1.15;
+   
 
 }
 
-.container--home_titulo{
-    max-width: 150px;
-    margin:0 auto 20px;
-}
+ .paragraph--home_category--titulo{
+        color:rgb(14, 2, 2);
+        font-weight:700;
+        font-size: 1.5rem;
+        line-height: 5;
+        
+      
 
-.wrapper--home_titulo{
-    position:absolute;
-    top: 100%;
-    left: 33%;
-}
+    } 
+
+    .container--home_texto2--titulo{
+        color:rgb(14, 2, 2);
+        font-weight:700;
+        font-size: 1.5rem;
+        line-height: 6;
+       
+    
+    }
+
+ .paragraph--home_texto--titulo{
+    color:rgb(14, 2, 2);
+    font-weight:700;
+    font-size: 1.5rem;
+    line-height: 3;
+    
+  
+
+} 
+
+
+
 
 
 
