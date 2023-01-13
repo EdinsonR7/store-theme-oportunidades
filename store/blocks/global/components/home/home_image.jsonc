@@ -1,0 +1,36 @@
+{
+  "image#home_image": {
+    "title": "Home Image",
+    "props": {
+      "src": "assets/img/Mini_1_Pagos.png",
+      "max_width": 400,
+      "title": "Mini Image",
+      "blockClass": "imagen_home",
+      "link": {
+        "url": "http://www.google.com/",
+        "newTab": true,
+        "atributeNoFollow": true
+      }
+    }
+  },
+
+  "flex-layout.row#home_section--one1": {
+    "title": "section-one-slider",
+    "children": [
+      "flex-layout.col#section_one--image"
+    ],
+    "props": {
+      "blockClass": "slider_section_one"
+    }
+  },
+  "flex-layout.col#section_one--image": {
+    "children": [
+      "image#home_image"
+    ],
+    "props": {
+      "colSizing": "auto"
+    }
+  }
+
+
+}

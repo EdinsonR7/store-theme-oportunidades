@@ -1,0 +1,28 @@
+{
+    "header": {
+      "title": "Header",
+      "blocks": [
+        "header-layout.desktop#header_desktop",
+        "header-layout.mobile#header_mobile"
+      ],
+
+      "props":{
+        "blockClass": "header"
+      }
+    },
+ 
+    "header.full":{
+        "title": "Header",
+        "blocks": [
+            "header-layout.desktop#header_desktop",
+            "header-layout.mobile#header_mobile"
+          ],
+    
+          "props":{
+            "blockClass": "header"
+          }
+
+    }
+
+
+}

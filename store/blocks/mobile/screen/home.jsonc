@@ -1,0 +1,24 @@
+{
+    "header-layout.mobile#header_mobile":{
+        "title": "header_mobile",
+        "children":[
+            "responsive-layout.desktop",
+            "responsive-layout.tablet",
+            "responsive-layout.phone"
+        ],
+        "props":{
+            "blockClass": "header_mobile"
+        }
+    },
+
+    "header-layout.mobile#header_mobile--header":{
+        "title":"header_mobile",
+        "children": [
+        
+        ],
+        "props":{
+            "blockClass": "header_mobile"
+        }
+
+    }
+}
