@@ -22,7 +22,6 @@
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "blockClass": "home_titulo"
-     
     }
   },
   "flex-layout.row#home_category--titulo": {
@@ -39,8 +38,6 @@
       "blockClass": "home_category--titulo"
     }
   },
-
-
   "flex-layout.row#home_texto--titulo": {
     "title": "home_texto--titulo",
     "children": [
@@ -55,8 +52,6 @@
       "blockClass": "home_texto--titulo"
     }
   },
-
-
   "flex-layout.row#home_texto2--titulo": {
     "title": "home_texto2--titulo",
     "children": [
@@ -71,7 +66,4 @@
       "blockClass": "home_texto2--titulo"
     }
   }
-
 }
-//Más de 50 años de experiencia respaldan su compra
-//Precios muy bajos, Compruebalo!

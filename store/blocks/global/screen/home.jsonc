@@ -1,122 +1,15 @@
 {
   "store.home": {
     "blocks": [
-       "flex-layout.row#home_titulo--one",
       "slider-layout#home_slider-children",
       "flex-layout.row#home_titulo--two",
       "list-context.image-list#home_slider--list",
-       "flex-layout.row#home_category--titulo",
-       "flex-layout.row#home_section--two",
-       "flex-layout.row#home_texto--titulo",
-       "flex-layout.row#home_texto2--titulo",
-       "flex-layout.row#home_section--one1"
-    ]
-  },
-
-
-  // IMAGENES CATEGORIAS
-  //seccion 2 flex-layout.row
-  "flex-layout.row#home_section--two": {
-    "title": "home_section--two",
-    "children": [
-      "flex-layout.col#section_two--item-1",
-      "flex-layout.col#section_two--item-2",
-      "flex-layout.col#section_two--item-3",
-      "flex-layout.col#section_two--item-4",
-      "flex-layout.col#section_two--item-5",
-      "flex-layout.col#section_two--item-6",
-      "flex-layout.col#section_two--item-7"
-    ],
-    "props": {
-      "itemsPerPage": { 
-        "desktop": 1,
-        "tablet": 1,
-        "phone": 1
-      },
-      "blockClass": "home_section--two",
-      "preserveLayoutOnMobile": true,
-      "horizontalAlign": "right"
-    }
-  },
-  "flex-layout.col#section_two--item-1": {
-    "children": [
-      "image#home_category--one"
-    ]
-  },
-  "flex-layout.col#section_two--item-2": {
-    "children": [
-      "image#home_category--two"
-    ]
-  },
-  "flex-layout.col#section_two--item-3": {
-    "children": [
-      "image#home_category--three"
-    ]
-  },
-  "flex-layout.col#section_two--item-4": {
-    "children": [
-      "image#home_category--four"
-    ]
-  },
-  "flex-layout.col#section_two--item-5": {
-    "children": [
-      "image#home_category--five"
-    ]
-  },
-  "flex-layout.col#section_two--item-6": {
-    "children": [
-      "image#home_category--six"
-    ]
-  },
-  "flex-layout.col#section_two--item-7": {
-    "children": [
-      "image#home_category--seven"
-    ]
-  },
-
-
-  "image#home_category--one": {
-    "props": {
-      "src": "assets/img-category/category-Climatizacion.jpg",
-      "href":"REFRIGERACIÓN",
-      "alt": "REFRIGERACIÓN",
-      "link": {
-        "url": "http://www.google.com/",
-        "newTab": true,
-        "atributeNoFollow": true
-      }
-    }
-  },
-  "image#home_category--two": {
-    "props": {
-      "src": "assets/img-category/category-Electrohogar.jpg"
-    }
-  },
-  "image#home_category--three": {
-    "props": {
-      "src": "assets/img-category/category-Hornos.jpg"
-    }
-  },
-  "image#home_category--four": {
-    "props": {
-      "src": "assets/img-category/category-Lavado.jpg"
-    }
-  },
-  "image#home_category--five": {
-    "props": {
-      "src": "assets/img-category/category-Muebles.jpg"
-    }
-  },
-  "image#home_category--six": {
-    "props": {
-      "src": "assets/img-category/category-Refrigeracion.jpg"
-    }
-  },
-  "image#home_category--seven": {
-    "props": {
-      "src": "assets/img-category/category-Television.jpg"
-    }
-  }
-  
- 
+      "flex-layout.row#home_category--titulo",
+      "slider-layout#categoria__home--slider",
+      "flex-layout.row#home_texto--titulo",
+      "flex-layout.row#home_texto2--titulo",
+      "list-context.product-list#demo_1",
+      "flex-layout.row#home_section--one1"
+      ]
+}
 }

@@ -1,145 +1,122 @@
 {
-
-//SLIDER PRINCIPAL
-
-    "slider-layout#home_slider-children":{
-        "title":"hijos declarados",
-        "props":{
-          "itemsPerPage": {
-            "desktop": 1,
-            "tablet": 1,
-            "mobile": 1
-    
-          },
-          "infinite": true,
-          "blockClass":"slider-children",
-             "autoplay": {
-            "timeout": 5000,
-            "stopOnHover": false
-          }
-        },
-        "children":[
-          "image#home_slider--one",
-          "image#home_slider--two",
-          "image#home_slider--tree",
-          "image#home_slider--four",
-          "image#home_slider--five"
-        ]
+  //SLIDER PRINCIPAL
+  "slider-layout#home_slider-children": {
+    "title": "hijos declarados",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
       },
-      "image#home_slider--one":{
-        "props":{
-          "src": "assets/img/main-slider-1.jpg"
-        }
-      },
-      "image#home_slider--two":{
-        "props":{
-          "src": "assets/img/main-slider-2.jpg"
-        }
-      },
-      "image#home_slider--tree":{
-        "props":{
-          "src": "assets/img/main-slider-3.jpg"
-        }
-      },
-
-      "image#home_slider--four":{
-        "props":{
-          "src": "assets/img/main-slider-4.jpg"
-        }
-      },
-      "image#home_slider--five":{
-        "props":{
-          "src": "assets/img/main-slider-5.jpg"
-        }
-      },
-
-      //SLIDER DE MARCAS
-    
-      "list-context.image-list#home_slider--list":{
-        "title": "lista de image",
-        "children": ["slider-layout#home_slider--list"],
-        "props": {
-          "showPaginationDots": "never",
-          "preload": true,
-          "images": [
-            {
-            "image": "assets/logos/Samsung-1.png",
-            "description": "Slaide 1"
-            },
-            
-            {
-             "image": "assets/logos/logo-LG-2.jpg",
-             "description": "Slaide 2"
-            },
-    
-            {
-             "image": "assets/logos/logo-Haceb-3.png",
-             "description": "Slaide 3"
-            },
-
-            {
-              "image": "assets/logos/logo-Mabe-4.jpg",
-              "description": "Slaide 4"
-              },
-
-              {
-              "image": "assets/logos/logo-Oster-5.png",
-              "description": "Slaide 5"
-              },
- 
-              {
-              "image": "assets/logos/HomeElements-6.jpg",
-               "description": "Slaide 6"
-              },
-
-              {
-               "image": "assets/logos/logo-Hp-7.jpg",
-                "description": "Slaide 7"
-              },
-
-              {
-              "image": "assets/logos/Logo-Remington-8.jpg",
-              "description": "Slaide 8"
-              },
-
-              {
-              "image": "assets/logos/Logo-Universal-9.jpg",
-              "description": "Slaide 9"
-              }
-          ]
-        }
-      },
-    
-      "slider-layout#home_slider--list":{
-        "title":"slider con lista",
-        "props":{
-          "itemsPerPage": {
-            "desktop": 6,
-            "tablet": 6,
-            "mobile": 6
-    
-          },
-          "infinite": true,
-          "blockClass":"home_slider_logo",
-          "autoplay": {
-            "timeout": 5000,
-            "stopOnHover": false
-            
-          }
-        
-        }
+      "infinite": true,
+      "blockClass": "slider-children",
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": false
       }
-     
-
-
-      
-
-
-
-
-  
-
-
-
-
+    },
+    "children": [
+      "image#home_slider--one",
+      "image#home_slider--two",
+      "image#home_slider--tree",
+      "image#home_slider--four",
+      "image#home_slider--five"
+    ]
+  },
+  "image#home_slider--one": {
+    "title": "slider--one",
+    "props": {
+      "src": "assets/img/main-slider-1.jpg"
+    }
+  },
+  "image#home_slider--two": {
+    "title": "slider--two",
+    "props": {
+      "src": "assets/img/main-slider-2.jpg"
+    }
+  },
+  "image#home_slider--tree": {
+    "title": "slider--tree",
+    "props": {
+      "src": "assets/img/main-slider-3.jpg"
+    }
+  },
+  "image#home_slider--four": {
+    "title": "slider--four",
+    "props": {
+      "src": "assets/img/main-slider-4.jpg"
+    }
+  },
+  "image#home_slider--five": {
+    "title": "slider--five",
+    "props": {
+      "src": "assets/img/main-slider-5.jpg"
+    }
+  },
+  //SLIDER DE MARCAS
+  "list-context.image-list#home_slider--list": {
+    "title": "lista de image",
+    "children": [
+      "slider-layout#home_slider--list"
+    ],
+    "props": {
+      "preload": true,
+      "images": [
+        {
+          "image": "assets/logos/Samsung-1.png",
+          "description": "Slaide 1"
+        },
+        {
+          "image": "assets/logos/logo-LG-2.jpg",
+          "description": "Slaide 2"
+        },
+        {
+          "image": "assets/logos/logo-Haceb-3.png",
+          "description": "Slaide 3"
+        },
+        {
+          "image": "assets/logos/logo-Mabe-4.jpg",
+          "description": "Slaide 4"
+        },
+        {
+          "image": "assets/logos/logo-Oster-5.png",
+          "description": "Slaide 5"
+        },
+        {
+          "image": "assets/logos/HomeElements-6.jpg",
+          "description": "Slaide 6"
+        },
+        {
+          "image": "assets/logos/logo-Hp-7.jpg",
+          "description": "Slaide 7"
+        },
+        {
+          "image": "assets/logos/Logo-Remington-8.jpg",
+          "description": "Slaide 8"
+        },
+        {
+          "image": "assets/logos/Logo-Universal-9.jpg",
+          "description": "Slaide 9"
+        }
+      ]
+    }
+  },
+  "slider-layout#home_slider--list": {
+    "title": "slider con lista",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 7,
+        "tablet": 3,
+        "mobile": 3
+      },
+      "infinite": true,
+      "showPaginationDots": "mobileOnly",
+      "arrowSize": 20,
+      "blockClass": "home_slider_logo",
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": false
+      }
+    }
+  }
 }

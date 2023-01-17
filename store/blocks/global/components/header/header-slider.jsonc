@@ -1,0 +1,44 @@
+{
+    "header-row#global__header--slider": {
+        "title": "global__header--slider",
+        "children": [
+          "slider-layout#header_slider-1"
+        ],
+        "props": {
+          "blockClass": "global__header--slider"
+        }
+      },
+//HEADER SLIDER 1
+      "slider-layout#header_slider-1": {
+           "title": "header_slider-1",
+           "props":{
+            "itemsPerPage": {
+              "desktop": 1,
+              "tablet": 1,
+              "mobile": 1
+      
+            },
+            "infinite": true,
+            "blockClass":"header_slider-1",
+            "showNavigationArrows":"mobileOnly",
+            "showPaginationDots":"mobileOnly"
+          },
+
+          "children":[
+            "image#header_slider-1",
+            "image#header_slider-2"
+           
+          ]
+      },
+      "image#header_slider-1":{
+       "props": {
+          "src":"assets/header/cinta-envio.jpg"
+       }
+      },
+      "image#header_slider-2":{
+        "props": {
+          "src":"assets/header/Cinta-American express.jpg"
+        }
+      }
+
+}

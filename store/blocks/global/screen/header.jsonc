@@ -1,28 +1,25 @@
 {
-    "header": {
-      "title": "Header",
-      "blocks": [
-        "header-layout.desktop#header_desktop",
-        "header-layout.mobile#header_mobile"
-      ],
-
-      "props":{
-        "blockClass": "header"
-      }
-    },
- 
-    "header.full":{
-        "title": "Header",
-        "blocks": [
-            "header-layout.desktop#header_desktop",
-            "header-layout.mobile#header_mobile"
-          ],
+  "header": {
+    "title": "Header",
+    "blocks": [
+      "header-layout.desktop#desktop__header",
+      "header-layout.mobile#mobile__header"// tablet, phone
+    ],
+    "props": {
+      "blockClass": "header"
     
-          "props":{
-            "blockClass": "header"
-          }
-
     }
-
-
+  },
+  "header.full": {
+    "title": "Header",
+    "blocks": [
+      "header-layout.desktop#desktop__header",
+      "header-layout.mobile#mobile__header"
+    ],
+    "props": {
+      "blockClass": "header"
+      
+  
+    }
+  }
 }

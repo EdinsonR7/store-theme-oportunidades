@@ -1,32 +1,12 @@
 {
-
-"header-layout.desktop#header_desktop":{
-    "title":"header_desktop",
-    "children":[
-        "responsive-layout.desktop",
-        "responsive-layout.tablet",
-        "responsive-layout.phone"
-    ]
-},
-
-"responsive-layout.desktop":{
-    "title":"responsive_layout.desktop",
-    "children":[
-        "header-layout#desktop_header--desktop"
+  "header-layout.desktop#desktop__header": {
+    "title": "desktop__header",
+    "children": [
+      "header-row#global__header--slider",
+      "header-row#desktop__header--initial"
     ],
-    "props":{
-        "blockClass":"responsive_layout.desktop"
+    "props": {
+      "blockClass": "desktop__header"
     }
-},
-
-"header-layout#desktop_header--desktop":{
-    "title":"header_desktop",
-    "children":[
-        
-    ],
-    "props":{
-        "blockClass":"header_desktop"
-    }
-}
-
+  }
 }
