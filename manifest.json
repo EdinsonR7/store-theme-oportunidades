@@ -49,7 +49,8 @@
     "vtex.modal-layout": "0.x",
     "vtex.store-footer": "2.x",
     "vtex.search": "2.x",
-    "vtex.store-link": "0.x"
+    "vtex.store-link": "0.x",
+    "vtex.product-price": "1.x"
   },
   "peerDependencies": {
     "vtex.mega-menu": "2.x"

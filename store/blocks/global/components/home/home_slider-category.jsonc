@@ -3,7 +3,7 @@
     "title": "slider global",
     "props": {
       "itemsPerPage": {
-        "desktop": 6,
+        "desktop": 7,
         "tablet": 3,
         "phone": 2
       },
@@ -59,7 +59,7 @@
       "link.product#estufas-2"
     ],
     "props": {
-      "border": "left",
+      // "border": "left",
       "blockClass": "slider__two--col"
     }
   },
@@ -77,7 +77,7 @@
       "link.product#lavado-3"
     ],
     "props": {
-      "border": "left",
+      // "border": "left",
       "blockClass": "slider__thr--col"
     }
   },
@@ -95,7 +95,7 @@
       "link.product#electrohogar-4"
     ],
     "props": {
-      "border": "left",
+      // "border": "left",
       "blockClass": "slider__fou--col"
     }
   },
@@ -113,7 +113,7 @@
       "link.product#climatizacion-5"
     ],
     "props": {
-      "border": "left",
+      // "border": "left",
       "blockClass": "slider__fiv--col"
     }
   },
@@ -131,7 +131,7 @@
       "link.product#muebles-6"
     ],
     "props": {
-      "border": "left"
+      // "border": "left"
     }
     //-------------------------------------------7 
   },
@@ -146,49 +146,52 @@
     "children": [
       "image#home__slider1--seven",
       "link.product#television-7"
-    ]
+    ],
+    "props": {
+      //  "border-right": "none"
+    }
   },
   //----------------------------------------
   "link.product#refrigeracion-1": {
     "props": {
       "label": "REFRIGERACION",
-      "blockClass": "refrigeracion-1"
+      "blockClass": "slider__one--col"
     }
   },
   "link.product#estufas-2": {
     "props": {
       "label": "ESTUFAS Y HORNOS",
-      "blockClass": "estufas-2"
+      "blockClass": "slider__one--col"
     }
   },
   "link.product#lavado-3": {
     "props": {
       "label": "LAVADO Y SECADO",
-      "blockClass": "lavado-3"
+      "blockClass": "slider__one--col"
     }
   },
   "link.product#electrohogar-4": {
     "props": {
       "label": "ELECTROHOGAR",
-      "blockClass": "electrohogar-4"
+      "blockClass": "slider__one--col"
     }
   },
   "link.product#climatizacion-5": {
     "props": {
       "label": "CLIMATIZACION",
-      "type": "climatizacion-5"
+      "type": "slider__one--col"
     }
   },
   "link.product#muebles-6": {
     "props": {
       "label": "MUEBLES Y HOGAR",
-      "blockClass": "muebles-6"
+      "blockClass": "slider__one--col"
     }
   },
   "link.product#television-7": {
     "props": {
       "label": "TELEVISION",
-      "blockClass": "television-7"
+      "blockClass": "slider__one--col"
     }
   },
   //-----------------------------------------------------------

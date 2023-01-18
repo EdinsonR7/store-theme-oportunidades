@@ -109,6 +109,7 @@
         "tablet": 3,
         "mobile": 3
       },
+      // "max-width": 100,
       "infinite": true,
       "showPaginationDots": "mobileOnly",
       "arrowSize": 20,

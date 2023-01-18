@@ -1,5 +1,4 @@
-.label--muebles-6{
-    position:relative;
-    left: 0px;
-    top: 7px;
-} 
+ .label--slider__one--col{
+    display: inline-flex;
+    text-align: center;
+}

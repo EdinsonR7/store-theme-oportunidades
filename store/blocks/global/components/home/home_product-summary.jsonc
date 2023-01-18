@@ -13,12 +13,16 @@
     "product-summary.shelf#demo--1":{
      "title": "demo--1",
      "children": [
-       "product-summary-space",
+      
        "product-summary-image",
+       "product-summary-space",
        "product-summary-name",
        "product-summary-price",
        "add-to-cart-button"
-    ]
+    ],
+    "props": {
+      "blockClass":"vitrinas"
+    }
   },
 
    "slider-layout#demo-products": {
@@ -33,6 +37,20 @@
         "showNavigationArrows": "desktopOnly",
         "showPaginationDots": "mobileOnly",
         "blockClass": "demo-products"
+        
       }
+   },
+
+   "add-to-cart-button":{
+    "title": "button-vitrina",
+    "props": {
+      "blockClass":"button-vitrina"
+    }
+   },
+
+   "product-summary-image":{
+    "props": {
+      "blockClass":"image"
+    }
    }
 }

@@ -31,10 +31,38 @@
 }
 
 .caretIcon--home_slider_logo {
+    position: relative;
     color: #00c4ff;
+}
+
+ .sliderLayoutContainer--home_slider_logo{
+    max-width: 1250px;
+    margin: auto;
+}  
+
+.sliderLayoutContainer--global__home--slide{
+    max-width: 1200px;
+    margin: auto ;
+   
+   
 }
 
 .slideChildrenContainer--home_section--two {
     max-width: 200px;
     margin: 0 auto 25px;
 }
+
+.slideChildrenContainer--global__home--slide{
+    text-align: center;
+    padding: 0 20px;
+    margin: 0;
+    border-right: 1px solid #0b0c0f;
+    height: 100px;
+    width: 200px;
+}
+
+.slideChildrenContainer--demo-products{
+    max-width: 800px;
+    margin: auto;
+}
+
