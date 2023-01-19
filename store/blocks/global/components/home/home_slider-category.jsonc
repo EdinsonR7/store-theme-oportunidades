@@ -13,10 +13,7 @@
       "showPaginationDots": "mobileOnly",
       "showNavigationArrows": "mobileOnly",
       "blockClass": "global__home--slide"
-      // "autoplay": {
-      //   "timeout": 5000,
-      //   "stopOnHover": true
-      // }
+  
     },
     "children": [
       "flex-layout.row#slider__one",
@@ -59,7 +56,6 @@
       "link.product#estufas-2"
     ],
     "props": {
-      // "border": "left",
       "blockClass": "slider__two--col"
     }
   },
@@ -77,7 +73,6 @@
       "link.product#lavado-3"
     ],
     "props": {
-      // "border": "left",
       "blockClass": "slider__thr--col"
     }
   },
@@ -95,7 +90,6 @@
       "link.product#electrohogar-4"
     ],
     "props": {
-      // "border": "left",
       "blockClass": "slider__fou--col"
     }
   },
@@ -113,7 +107,6 @@
       "link.product#climatizacion-5"
     ],
     "props": {
-      // "border": "left",
       "blockClass": "slider__fiv--col"
     }
   },
@@ -131,9 +124,9 @@
       "link.product#muebles-6"
     ],
     "props": {
-      // "border": "left"
+      "blockClass":"slider__six--col"
     }
-    //-------------------------------------------7 
+    //----------------------------------------7 
   },
   "flex-layout.row#slider__seven": {
     "title": "slider__seven",
@@ -148,10 +141,10 @@
       "link.product#television-7"
     ],
     "props": {
-      //  "border-right": "none"
+      "blockClass":"slider__sev--col"
     }
   },
-  //----------------------------------------
+  //---------------------//
   "link.product#refrigeracion-1": {
     "props": {
       "label": "REFRIGERACION",
@@ -179,7 +172,7 @@
   "link.product#climatizacion-5": {
     "props": {
       "label": "CLIMATIZACION",
-      "type": "slider__one--col"
+      "blockClass": "slider__one--col"
     }
   },
   "link.product#muebles-6": {
@@ -194,7 +187,7 @@
       "blockClass": "slider__one--col"
     }
   },
-  //-----------------------------------------------------------
+  //---------------------------------------------//
   "image#home__slider1--one": {
     "title": "slider one",
     "props": {

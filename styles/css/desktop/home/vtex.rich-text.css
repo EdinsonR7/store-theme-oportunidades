@@ -1,51 +1,51 @@
 .paragraph--home_titulo {
-    color: rgb(14, 2, 2);
+    color      : rgb(14, 2, 2);
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size  : 1.5rem;
     line-height: 1.15;
 
 
 }
 
 .paragraph--home_category--titulo {
-    color: rgb(14, 2, 2);
+    color      : rgb(14, 2, 2);
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size  : 1.5rem;
     line-height: 5;
-    margin: auto;
+    margin     : auto;
 
 
 
 }
 
 .container--home_texto2--titulo {
-    color: rgb(14, 2, 2);
+    color      : rgb(14, 2, 2);
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size  : 1.5rem;
     line-height: 6;
-    
+
 
 }
 
 .paragraph--home_texto--titulo {
-    color: rgb(14, 2, 2);
+    color      : rgb(14, 2, 2);
     font-weight: 700;
-    font-size: 2em;
+    font-size  : 2em;
     line-height: 10;
-  
+
 
 }
 
-.container--home_category--titulo{
-  border: 5px;
-  height: 45px;
-  width: 200px;
+.container--home_category--titulo {
+    border: 5px;
+    height: 45px;
+    width : 200px;
 
 }
 
-.container--home_texto--titulo{
+.container--home_texto--titulo {
     border: 5px;
     height: 100px;
-    width: 200px;
+    width : 200px;
 
 }

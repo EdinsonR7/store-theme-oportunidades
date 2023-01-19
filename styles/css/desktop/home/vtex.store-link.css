@@ -1,4 +1,14 @@
- .label--slider__one--col{
-    display: inline-flex;
-    text-align: center;
-}
+ .label--slider__one--col {
+     display    : flex;
+     text-align : center;
+     white-space: nowrap;
+     color      : rgb(8, 11, 11);
+
+
+
+ }
+
+
+ .link--slider__one--col {
+     color: rgb(254, 255, 255)
+ }

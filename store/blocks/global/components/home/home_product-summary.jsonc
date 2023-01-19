@@ -13,11 +13,12 @@
     "product-summary.shelf#demo--1":{
      "title": "demo--1",
      "children": [
-      
+      "product-summary-space",
        "product-summary-image",
        "product-summary-space",
        "product-summary-name",
        "product-summary-price",
+       "product-summary-space",
        "add-to-cart-button"
     ],
     "props": {
@@ -50,7 +51,8 @@
 
    "product-summary-image":{
     "props": {
-      "blockClass":"image"
+      "blockClass":"image",
+      "width": "200"
     }
    }
 }

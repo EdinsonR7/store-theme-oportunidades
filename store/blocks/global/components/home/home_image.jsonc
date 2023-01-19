@@ -3,8 +3,7 @@
     "title": "Home Image",
     "props": {
       "src": "assets/img/Mini_1_Pagos.png",
-      "max_width": 480,
-      "height": 180,
+      "max_width": 200,
       "title": "Mini Image",
       "blockClass": "imagen_home",
       "link": {
