@@ -141,7 +141,7 @@
       "link.product#television-7"
     ],
     "props": {
-      "blockClass":"slider__sev--col"
+      "blockClass":["slider__sev--col", "slider__sev--col2"]
     }
   },
   //---------------------//
