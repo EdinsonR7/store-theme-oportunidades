@@ -1,15 +1,5 @@
 {
-  "flex-layout.row#home_titulo--one": {
-    "title": "home_titulo--one",
-    "children": [
-      "rich-text#home_titulo--one"
-    ]
-  },
-  "rich-text#home_titulo--one": {
-    "props": {
-      "text": "Oportunidades"
-    }
-  },
+ 
   "flex-layout.row#home_titulo--two": {
     "title": "home_titulo--two",
     "children": [

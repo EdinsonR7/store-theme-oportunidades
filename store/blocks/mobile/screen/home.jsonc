@@ -1,2 +1,16 @@
-
-{}
+{
+  "store.custom": {
+    "blocks": [
+      "responsive-layout.mobile"
+     ]
+  },
+  "responsive-layout.mobile": {
+    "title": "phone",
+    "children": [
+      "flex-layout.row#mobile_titulo--two",
+      "flex-layout.row#mobile_category--titulo",
+      "flex-layout.row#mobile_texto--titulo",
+      "flex-layout.row#mobile_texto2--titulo"
+    ]
+  }
+}
