@@ -1,0 +1,110 @@
+{
+    "flex-layout.row#global__header--megamenu": {
+        "title": "global__header--megamenu",
+        "children": [
+            "flex-layout.col#header__megamenu--trigger"
+        ],
+        "props": {
+            "blockClass": "global__header--megamenu"
+        }
+    },
+    "flex-layout.col#header__megamenu--trigger": {
+        "title": "header__megamenu--trigger",
+        "props": {
+            "verticalAlign": "middle",
+            "blockClass": "header__megamenu--trigger"
+        },
+        "children": [
+            "mega-menu-trigger-btn#header__megamenu--button"
+        ]
+    },
+    "mega-menu-trigger-btn#header__megamenu--button": {
+        "title": "#header__megamenu--button",
+        "props": {
+            "Drawer": "drawer#megamenu__button--drawer",
+            "blockClass": "header__megamenu--button"
+        }
+    },
+    "drawer#megamenu__button--drawer": {
+        "title": "megamenu__button--drawer",
+        "children": [
+            "mega-menu#header__megamenu--content"
+        ],
+        "blocks": [
+            "drawer-header#megamenu__content--header"
+        ],
+        "props": {
+            "renderingStrategy": "eager",
+            "blockClass": "megamenu__button--drawer"
+        }
+    },
+    "mega-menu#header__megamenu--content": {
+        "title": "header__megamenu--content",
+        "props": {
+            "title": "Categorías",
+            "blockClass": "header__megamenu--content"
+        }
+    },
+    "drawer-header#megamenu__content--header": {
+        "title": "megamenu__content--header",
+        "children": [
+            "flex-layout.col#megamenu__header--content"
+        ],
+        "props": {
+            "blockClass": "megamenu__content--header"
+        }
+    },
+    "flex-layout.col#megamenu__header--content": {
+        "title": "megamenu__header--content",
+        "children": [
+            "header-row#megamenu__header--logo",
+            "header-row#mega-menu-go-back-btn" 
+        ],
+        "props": {
+            "blockClass": "megamenu__header--content",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "fullWidth": true
+        }
+    },
+    "header-row#megamenu__header--logo": {
+        "title": "megamenu__header--logo",
+        "children": [
+
+            "flex-layout.row#drawer-close-button" 
+        ],
+        "props": {
+            "blockClass": "megamenu__header--logo"
+        }
+    },
+    "header-row#mega-menu-go-back-btn": {
+        "title": "mega-menu-go-back-btn",
+        "children": [
+            "mega-menu-go-back-btn"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "horizontalAlign": "left",
+            "paddingLeft": 4,
+            "blockClass": "mega-menu-go-back-btn"
+        }
+    },
+    "flex-layout.row#drawer-close-button": {
+        "title": "drawer-close-button",
+        "children": [
+            "drawer-close-button#mega-menu"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "horizontalAlign": "right",
+            "blockClass": "cerrar-boton-megamenu"
+        }
+    },
+    "drawer-close-button#mega-menu": {
+        "title": "boton cerrar",
+        "props": {
+            "blockClass": "boton__megamenu--cerrar"
+        }
+    }
+}

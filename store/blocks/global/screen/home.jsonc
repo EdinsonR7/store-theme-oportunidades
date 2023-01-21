@@ -1,81 +1,15 @@
-  {
-  "store.home": { 
+{
+  "store.home": {
     "blocks": [
-      "flex-layout.row#home_section--one",
       "slider-layout#home_slider-children",
-      "flex-layout.row#home_section--three",
+      "flex-layout.row#home_titulo--two",
       "list-context.image-list#home_slider--list",
-      "flex-layout.row#home_section--two",
+      "flex-layout.row#home_category--titulo",
+      "slider-layout#categoria__home--slider",
+      "flex-layout.row#home_texto--titulo",
+      "flex-layout.row#home_texto2--titulo",
+      "list-context.product-list#demo_1",
       "flex-layout.row#home_section--one1"
-      // "responsive-layout.desktop#home__section-1"
-
-    ]
-  },
- 
-  //seccion 1 flex-layout.row
-
-  "flex-layout.row#home_section--one1":{
-    "title":"section-one-slider",
-    "children": [
-      "flex-layout.col#section_one--image"
-      
-    ],
-
-    "props":{
-    "blockClass":"slider_section_one"
-    }
-  },
-
-  "flex-layout.col#section_one--image":{
-    "children":[
-      "image#home_image"
-    ],
-    "props":{
-      "colSizing": "auto"
-    }
-
-  },
-
-  
- 
-   //seccion 2 flex-layout.row
-
-   "flex-layout.row#home_section--two":{
-    "title":"seccion two",
-    "children":[
-      "flex-layout.col#section_two--item-1",
-      "flex-layout.col#section_two--item-2",
-      "flex-layout.col#section_two--item-3"
-    ],
-    "props":{
-      "blockClass":"layout_section_two",
-      "preserveLayoutOnMobile": true
-    }
-   },
-
-   "flex-layout.col#section_two--item-1":{
-      "children": [
-        "image#home_slider--one"
       ]
-   },
-   "flex-layout.col#section_two--item-2":{
-      "children": [
-        "image#home_slider--two"
-    ]
-   },
-   "flex-layout.col#section_two--item-3":{
-      "children": [
-          
-          "image#home_slider--tree"
-    ]
-   }
-
-  //  "rich-text#text":{
-  //   "props": {
-  //     "text":"testo de prueba"
-  //   }
-  //  }
-
-
- 
+}
 }

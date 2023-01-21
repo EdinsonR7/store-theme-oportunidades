@@ -1,0 +1,128 @@
+.slideChildrenContainer--slider-children {
+    max-width: 1350px;
+    margin   : 0 auto 50px;
+}
+
+.caretIcon--slider-children {
+    position: relative;
+    color : rgb(0, 145, 255);
+    width : 40px;
+    height: 18px;
+
+
+
+}
+
+.imageElement--home_slider_logo {
+    max-width: 115px;
+    margin   : 0 auto 15px;
+
+}
+
+
+.paginationDosContainer--home_slider {
+    transform: translateY(30px);
+}
+
+.imageElement--home_slider {
+    max-height: auto !important;
+}
+
+.slideChildrenContainer--home_slider_logo {
+    background-color: none;
+}
+
+.paginationDotsContainer--slider-children {
+    max-width: 150px;
+    margin   : 0 auto 20px;
+    position : absolute;
+    top      : 85%;
+    color    : blue;
+}
+
+
+/* .caretIcon, */
+.caretIcon--home_slider_logo {
+    position: relative;
+    left    : -12px;
+    top     : -5px;
+    color   : #00c4ff;
+    width   : 20px;
+
+}
+
+.sliderLayoutContainer--home_slider_logo {
+    max-width: 1250px;
+    margin   : auto;
+}
+
+.sliderLayoutContainer--global__home--slide {
+    max-width: 1200px;
+    margin   : auto;
+
+
+}
+
+.slideChildrenContainer--home_section--two {
+    max-width: 200px;
+    margin   : 0 auto 25px;
+}
+
+.slideChildrenContainer--global__home--slide {
+    text-align  : center;
+    padding     : 0 20px;
+    margin      : 0;
+    border-right: 1px solid #18337f;
+    height      : 100px;
+    width       : 200px;
+    
+    
+}
+
+.flexCol--slider__sev--col2{
+    border: none;
+}
+
+.slideChildrenContainer--demo-products {
+    max-width: 800px;
+    margin   : auto;
+}
+
+/* flechas slider cintas */
+
+.caretIcon--header_slider-1 {
+    color : rgb(246, 250, 250);
+    width : 20px;
+    height: 14px;
+
+}
+
+
+
+/* vitrina */
+
+.sliderLayoutContainer--demo-products :global(.vtex-button) {
+    background-color: rgb(241, 12, 12);
+    border: none;
+
+
+}
+
+
+
+
+.paginationDot--slider-children--isActive {
+    background-color: rgb(17, 175, 233);
+
+}
+
+.paginationDot {
+    border: 1px solid #00c4ff;
+    
+}
+
+
+.caretIcon--demo-products{
+    color   : #00c4ff;
+    height: 18px;
+}

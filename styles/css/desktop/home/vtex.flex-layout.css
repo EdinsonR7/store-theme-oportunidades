@@ -1,5 +1,50 @@
-/* Example desktop:
-.flexRow--home__section-2 {
-    margin: 50px auto;
-    max-width: 1200px;
-} */
+.slideChildrenContainer--home_slider {
+    max-width : 1200px;
+    margin    : 0 auto 50px;
+    max-height: 100px;
+}
+
+.flexCol--slider__one--col,
+.flexColChild--slider__one--col {
+    position: relative;
+    left    : 4px;
+    top     : 4px
+}
+
+.flexColChild--slider__two--col {
+    position: relative;
+    left    : 8px;
+    top     : 9px
+}
+
+.flexColChild--slider__thr--col {
+    position: relative;
+    left    : 14px;
+    top     : 9px
+}
+
+
+.flexColChild--slider__fou--col {
+    position: relative;
+    left    : 13px;
+    top     : 11px
+}
+
+
+.flexColChild--slider__fiv--col {
+    position: relative;
+    left    : 8px;
+    top     : 11px
+}
+
+.flexColChild--slider__six--col {
+    position: relative;
+    left    : 2px;
+    top     : 11px
+}
+
+.flexColChild--slider__sev--col {
+    position: relative;
+    left    : 12px;
+    top     : 11px
+}

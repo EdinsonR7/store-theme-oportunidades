@@ -1,0 +1,79 @@
+.searchBarContainer {
+    max-width: 450px;
+}
+
+/* logo oportunidades */
+.logoLink,
+.logoLink--header__drawer--logo {
+    position: relative;
+    top     : 10px;
+    left    : 115px;
+}
+
+/* search */
+.searchBarContainer {
+    position: relative;
+    top   : 2px;
+   left : -120px;
+}
+
+
+.imageElement--global__slider--img1 {
+    position  : relative;
+    top       : -10%;
+    left      : 0%;
+    min-height: 55px;
+    margin    : auto;
+
+}
+
+.imageElement--global__slider--img2 {
+    position: relative;
+    top     : -10%;
+    left    : 0%;
+    width   : 40px;
+    margin  : auto;
+
+
+}
+
+.imageElement--global__slider--img3 {
+    position: relative;
+    top     : -10%;
+    left    : 0%;
+    width   : 50px;
+}
+
+.imageElement--global__slider--img4 {
+    position: relative;
+    top     : -10%;
+    left    : 0%;
+    width   : 55px;
+    margin  : auto;
+
+}
+
+.imageElement--global__slider--img5 {
+    position  : relative;
+    top       : -10%;
+    left      : -4%;
+    min-height: 60px;
+    margin    : auto;
+}
+
+.imageElement--global__slider--img6 {
+    position: relative;
+    top     : -3%;
+    left    : 0%;
+    width   : 80px;
+    margin  : auto;
+}
+
+.imageElement--global__slider--img7 {
+    position: relative;
+    top     : -10%;
+    left    : 0%;
+    width   : 70px;
+    margin  : auto;
+
+}

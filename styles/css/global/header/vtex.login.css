@@ -1,0 +1,16 @@
+.container{
+    position: relative;
+    right: 5px;   
+} 
+
+
+ .profileIcon{
+   background-color:#00c4ff;
+   width: 28px;
+   height: 28px;
+}
+
+.buttonLink{
+  position: relative;
+  left: 15px;
+}
