@@ -1,11 +1,1 @@
-// {
-//   "store.custom#": {
-//     "blocks": [
-//       "flex-layout.row#home_titulo--two",
-//       "flex-layout.row#home_category--titulo",
-//       "flex-layout.row#home_texto--titulo",
-//       "flex-layout.row#home_texto2--titulo"
-//     ]
-//   }
-// }
 {}
