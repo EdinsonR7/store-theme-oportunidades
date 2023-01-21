@@ -6,7 +6,9 @@
       "header-row#desktop__header--initial"
     ],
     "props": {
+  
       "blockClass": "desktop__header"
+
     }
   }
 }
