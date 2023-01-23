@@ -1,22 +1,13 @@
 {
-  "flex-layout.row#home_titulo--one": {
-    "title": "home_titulo--one",
-    "children": [
-      "rich-text#home_titulo--one"
-    ]
-  },
-  "rich-text#home_titulo--one": {
-    "props": {
-      "text": "Oportunidades"
-    }
-  },
-  "flex-layout.row#home_titulo--two": {
+ 
+  "flex-layout.row#desktop_titulo--two": {
     "title": "home_titulo--two",
     "children": [
-      "rich-text#home_titulo--two"
+      "rich-text#desktop_titulo--two"
     ]
   },
-  "rich-text#home_titulo--two": {
+
+  "rich-text#desktop_titulo--two": {
     "props": {
       "text": "NUESTRAS MARCAS",
       "textAlignment": "CENTER",
@@ -24,13 +15,14 @@
       "blockClass": "home_titulo"
     }
   },
-  "flex-layout.row#home_category--titulo": {
-    "title": "home_category--titulo",
+
+  "flex-layout.row#desktop_category--titulo": {
+    "title": "desktop_category--titulo",
     "children": [
-      "rich-text#home_category--titulo"
+      "rich-text#desktop_category--titulo"
     ]
   },
-  "rich-text#home_category--titulo": {
+  "rich-text#desktop_category--titulo": {
     "props": {
       "text": "CATEGORIAS RECOMENDADAS",
       "textAlignment": "CENTER",
@@ -38,13 +30,15 @@
       "blockClass": "home_category--titulo"
     }
   },
-  "flex-layout.row#home_texto--titulo": {
-    "title": "home_texto--titulo",
+
+  "flex-layout.row#desktop_texto--titulo": {
+    "title": "desktop_texto--titulo",
     "children": [
-      "rich-text#home_texto--titulo"
+      "rich-text#desktop_texto--titulo"
     ]
   },
-  "rich-text#home_texto--titulo": {
+
+  "rich-text#desktop_texto--titulo": {
     "props": {
       "text": "Más de 50 años de experiencia respaldan su compra",
       "textAlignment": "CENTER",
@@ -52,13 +46,15 @@
       "blockClass": "home_texto--titulo"
     }
   },
-  "flex-layout.row#home_texto2--titulo": {
+
+  "flex-layout.row#desktop_texto2--titulo": {
     "title": "home_texto2--titulo",
     "children": [
-      "rich-text#home_texto2--titulo"
+      "rich-text#desktop_texto2--titulo"
     ]
   },
-  "rich-text#home_texto2--titulo": {
+
+  "rich-text#desktop_texto2--titulo": {
     "props": {
       "text": "Precios muy bajos, Compruebalo!",
       "textAlignment": "CENTER",

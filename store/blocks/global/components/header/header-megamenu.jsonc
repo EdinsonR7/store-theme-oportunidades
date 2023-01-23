@@ -3,6 +3,7 @@
         "title": "global__header--megamenu",
         "children": [
             "flex-layout.col#header__megamenu--trigger"
+          
         ],
         "props": {
             "blockClass": "global__header--megamenu"
@@ -16,6 +17,7 @@
         },
         "children": [
             "mega-menu-trigger-btn#header__megamenu--button"
+            
         ]
     },
     "mega-menu-trigger-btn#header__megamenu--button": {
@@ -48,10 +50,12 @@
     "drawer-header#megamenu__content--header": {
         "title": "megamenu__content--header",
         "children": [
-            "flex-layout.col#megamenu__header--content"
+            "flex-layout.col#megamenu__header--content",
+            "icon#mi-ubicacion",
+            "login#mobile_header"
         ],
         "props": {
-            "blockClass": "megamenu__content--header"
+            "blockClass": ["megamenu__content--header", "megamenu__content--headermobile"]
         }
     },
     "flex-layout.col#megamenu__header--content": {

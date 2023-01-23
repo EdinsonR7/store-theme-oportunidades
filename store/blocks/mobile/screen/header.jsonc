@@ -1,13 +1,13 @@
 {
   "header-layout.mobile#mobile__header": {
     "title": "mobile__header",
-    "children":     [
-      "header-row#global__header--slider",
-      "header-row#desktop__header--initial"
+    "children": [
+      "header-row#mobile__header--slider",
+      "header-row#mobile__header--initial",
+      "header-row#search__header--mobile"
     ],
-    "props":{
+    "props": {
       "blockClass": "mobile__header"
     }
   }
- 
 }
