@@ -1,6 +1,39 @@
 {
-  "responsive-layout.desktop#home__section-1": {
-    "title": "Home Section 1 Desktop",
-    "children": ["flex-layout.row#home__section-1"]
+  "responsive-layout.desktop#desktop_home1": {
+    "title": "desktop",
+    "children": [
+      "flex-layout.row#desktop_titulo--two"
+    ]
+  },
+  "responsive-layout.desktop#desktop_home2": {
+    "title": "desktop2",
+    "children": [
+      "flex-layout.row#desktop_category--titulo"
+    ]
+  },
+  "responsive-layout.desktop#desktop_home3": {
+    "title": "desktop3",
+    "children": [
+      "flex-layout.row#desktop_texto--titulo"
+    ]
+  },
+  "responsive-layout.desktop#desktop_home4": {
+    "title": "desktop4",
+    "children": [
+      "flex-layout.row#desktop_texto2--titulo"
+    ]
+  },
+  "responsive-layout.desktop#desktop_slider-1": {
+    "title": "desktop_slider-1",
+    "children": [
+      "slider-layout#home_slider-children"
+    ]
+  },
+  "responsive-layout.desktop#desktop_slider-2": {
+    "title": "desktop_slider-2",
+    "children": [
+      "list-context.image-list#home_slider--list"
+    ]
   }
+ 
 }

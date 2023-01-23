@@ -1,0 +1,237 @@
+{
+  "slider-layout#categoria__home--slider1": {
+    "title": "slider global",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 7,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "borderWidth": 0,
+      "arrowSize": 25,
+      "showPaginationDots": "desktopOnly",
+      "showNavigationArrows": "mobileOnly",
+      "blockClass": ["global__home--slide", "mobile__home--slide"]
+  
+    },
+    "children": [
+      "flex-layout.row#slider__one",
+      "flex-layout.row#slider__two",
+      "flex-layout.row#slider__three",
+      "flex-layout.row#slider__four",
+      "flex-layout.row#slider__five",
+      "flex-layout.row#slider__six",
+      "flex-layout.row#slider__seven"
+    ]
+  },
+  //----------------------------------1
+  "flex-layout.row#slider__one": {
+    "title": "slider__one",
+    "children": [
+      "flex-layout.col#slider__one--col"
+    ]
+  },
+  "flex-layout.col#slider__one--col": {
+    "title": "slider__one--col",
+    "children": [
+      "image#home__slider1--one",
+      "link.product#refrigeracion-1"
+    ],
+    "props": {
+      "blockClass": "slider__one--col"
+    }
+  },
+  //----------------------------------------2
+  "flex-layout.row#slider__two": {
+    "title": "slider__two",
+    "children": [
+      "flex-layout.col#slider__two--col"
+    ]
+  },
+  "flex-layout.col#slider__two--col": {
+    "title": "slider__two--col",
+    "children": [
+      "image#home__slider1--two",
+      "link.product#estufas-2"
+    ],
+    "props": {
+      "blockClass": "slider__two--col"
+    }
+  },
+  //-----------------------------------------3
+  "flex-layout.row#slider__three": {
+    "title": "slider__three",
+    "children": [
+      "flex-layout.col#slider__thr--col"
+    ]
+  },
+  "flex-layout.col#slider__thr--col": {
+    "title": "slider__thr--col",
+    "children": [
+      "image#home__slider1--three",
+      "link.product#lavado-3"
+    ],
+    "props": {
+      "blockClass": "slider__thr--col"
+    }
+  },
+  //-------------------------------------------4
+  "flex-layout.row#slider__four": {
+    "title": "slider__four",
+    "children": [
+      "flex-layout.col#slider__fou--col"
+    ]
+  },
+  "flex-layout.col#slider__fou--col": {
+    "title": "slider__fou--col",
+    "children": [
+      "image#home__slider1--four",
+      "link.product#electrohogar-4"
+    ],
+    "props": {
+      "blockClass": "slider__fou--col"
+    }
+  },
+  //----------------------------------------5
+  "flex-layout.row#slider__five": {
+    "title": "slider__five",
+    "children": [
+      "flex-layout.col#slider__fiv--col"
+    ]
+  },
+  "flex-layout.col#slider__fiv--col": {
+    "title": "slider__fiv--col",
+    "children": [
+      "image#home__slider1--five",
+      "link.product#climatizacion-5"
+    ],
+    "props": {
+      "blockClass": "slider__fiv--col"
+    }
+  },
+  //----------------------------------------6
+  "flex-layout.row#slider__six": {
+    "title": "slider__six",
+    "children": [
+      "flex-layout.col#slider__six--col"
+    ]
+  },
+  "flex-layout.col#slider__six--col": {
+    "title": "slider__six--col",
+    "children": [
+      "image#home__slider1--six",
+      "link.product#muebles-6"
+    ],
+    "props": {
+      "blockClass":"slider__six--col"
+    }
+    //----------------------------------------7 
+  },
+  "flex-layout.row#slider__seven": {
+    "title": "slider__seven",
+    "children": [
+      "flex-layout.col#slider__sev--col"
+    ]
+  },
+  "flex-layout.col#slider__sev--col": {
+    "title": "slider__sev--col",
+    "children": [
+      "image#home__slider1--seven",
+      "link.product#television-7"
+    ],
+    "props": {
+      "blockClass":["slider__sev--col", "slider__sev--col2"]
+    }
+  },
+  //---------------------//
+  "link.product#refrigeracion-1": {
+    "props": {
+      "label": "REFRIGERACION",
+      "blockClass": "slider__one--col"
+    }
+  },
+  "link.product#estufas-2": {
+    "props": {
+      "label": "ESTUFAS Y HORNOS",
+      "blockClass": "slider__one--col"
+    }
+  },
+  "link.product#lavado-3": {
+    "props": {
+      "label": "LAVADO Y SECADO",
+      "blockClass": "slider__one--col"
+    }
+  },
+  "link.product#electrohogar-4": {
+    "props": {
+      "label": "ELECTROHOGAR",
+      "blockClass": "slider__one--col"
+    }
+  },
+  "link.product#climatizacion-5": {
+    "props": {
+      "label": "CLIMATIZACION",
+      "blockClass": "slider__one--col"
+    }
+  },
+  "link.product#muebles-6": {
+    "props": {
+      "label": "MUEBLES Y HOGAR",
+      "blockClass": "slider__one--col"
+    }
+  },
+  "link.product#television-7": {
+    "props": {
+      "label": "TELEVISION",
+      "blockClass": "slider__one--col"
+    }
+  },
+  //---------------------------------------------//
+  "image#home__slider1--one": {
+    "title": "slider one",
+    "props": {
+      "src": "assets/img-category/category-Refrigeracion.jpg",
+      "blockClass": "global__slider--img1"
+    }
+  },
+  "image#home__slider1--two": {
+    "title": "slider two",
+    "props": {
+      "src": "assets/img-category/category-Hornos.jpg",
+      "blockClass": "global__slider--img2"
+    }
+  },
+  "image#home__slider1--three": {
+    "title": "slider three",
+    "props": {
+      "src": "assets/img-category/category-Lavado.jpg",
+      "blockClass": "global__slider--img3"
+    }
+  },
+  "image#home__slider1--four": {
+    "title": "slider four",
+    "props": {
+      "src": "assets/img-category/category-Electrohogar.jpg",
+      "blockClass": "global__slider--img4"
+    }
+  },
+  "image#home__slider1--five": {
+    "props": {
+      "src": "assets/img-category/category-Climatizacion.jpg",
+      "blockClass": "global__slider--img5"
+    }
+  },
+  "image#home__slider1--six": {
+    "props": {
+      "src": "assets/img-category/category-Muebles.jpg",
+      "blockClass": "global__slider--img6"
+    }
+  },
+  "image#home__slider1--seven": {
+    "props": {
+      "src": "assets/img-category/category-Television.jpg",
+      "blockClass": "global__slider--img7"
+    }
+  }
+}

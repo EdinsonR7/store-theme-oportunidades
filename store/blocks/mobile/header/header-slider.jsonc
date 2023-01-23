@@ -1,0 +1,96 @@
+{
+    "header-row#mobile__header--slider": {
+        "title": "mobile__header--slider",
+        "children": [
+          "slider-layout#header_slider-mobile"
+        ],
+        "props": {
+          "blockClass":"mobile--slider"
+        }
+      
+      },
+//HEADER SLIDER 1
+      "slider-layout#header_slider-mobile": {
+           "title": "header_slider-mobile",
+           "props":{
+            "itemsPerPage": {
+              "desktop": 1,
+              "tablet": 1,
+              "mobile": 1
+     
+            },
+            "infinite": true,
+            "blockClass":"header_slider-mobile",
+            "showNavigationArrows":"desktopOnly",
+            "showPaginationDots":"desktopOnly"
+          },
+
+          "children":[
+            "image#header_slider-mobile1",
+            "image#header_slider-mobile2",
+            "image#header_slider-mobile3",
+            "image#header_slider-mobile4",
+            "image#header_slider-mobile5",
+            "image#header_slider-mobile6",
+            "image#header_slider-mobile7",
+            "image#header_slider-mobile8",
+            "image#header_slider-mobile9"
+           ]
+         
+      },
+      "image#header_slider-mobile1":{
+       "props": {
+          "src":"assets/header/cinta-envio.jpg"
+         
+       }
+      },
+      "image#header_slider-mobile2":{
+        "props": {
+          "src":"assets/header/Cinta-American express.jpg"
+          
+        }
+      },
+      "image#header_slider-mobile3":{
+        "props": {
+          "src":"assets/header/Cinta-Sistecredito-d.jpg"
+         
+       }
+      },
+      "image#header_slider-mobile4":{
+        "props": {
+          "src":"assets/header/Banner_Cinta_WhatsApp_desktop.jpg"
+         
+       }
+      },
+      "image#header_slider-mobile5":{
+        "props": {
+          "src":"assets/header/Cinta-Codensa-d.jpg"
+         
+       }
+      },
+      "image#header_slider-mobile6":{
+        "props": {
+          "src":"assets/header/Cinta-Mastercard-d.jpg"
+         
+       }
+      },
+      "image#header_slider-mobile7":{
+        "props": {
+          "src":"assets/header/Cinta-Visa-d.jpg"
+         
+       }
+      },
+      "image#header_slider-mobile8":{
+        "props": {
+          "src":"assets/header/Cinta-PSE-d.jpg"
+         
+       }
+      },
+      "image#header_slider-mobile9":{
+        "props": {
+          "src":"assets/header/Cinta-Efecty-d.jpg"
+         
+       }
+      }
+
+}

@@ -1,0 +1,28 @@
+.paragraph--home_titulo.paragraph--tablet_titulo{
+    font-size  : 1.5rem;
+    margin: 0;
+    transform:translateY(25px);
+}
+
+
+.paragraph--home_category--titulo.paragraph--tablet_titulo{
+    text-align: center;
+    padding: 0 10px;
+    font-size  : 1.5rem;
+    text-transform: uppercase;
+    margin: 0;
+    transform:translateY(20px);
+}
+
+.paragraph--home_texto--titulo.paragraph--tablet_titulo{
+    font-size  : 1.5rem;
+    margin: 0;
+    transform:translateY(20px);
+    
+}
+
+.container--home_texto2--titulo.container--tablet_texto2--titulo{
+    font-size  : 1rem;
+    margin: 0;
+    transform:translateY(10px)
+}

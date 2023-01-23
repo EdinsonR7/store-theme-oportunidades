@@ -1,0 +1,56 @@
+.paragraph--home_titulo {
+    color      : rgb(14, 2, 2);
+    font-weight: 700;
+    font-size  : 1.5rem;
+    line-height: 1.15;
+    margin: 0;
+    transform:translateY(-8px)
+
+
+}
+
+.paragraph--home_category--titulo {
+    color      : rgb(14, 2, 2);
+    font-weight: 700;
+    font-size  : 1.5rem;
+    line-height: 5;
+    margin: 0;
+    transform:translateY(30px)
+
+
+
+}
+.paragraph--home_texto--titulo {
+    color      : rgb(14, 2, 2);
+    font-weight: 700;
+    font-size  : 2em;
+    margin: 0;
+    transform:translateY(35px)
+
+
+}
+
+.container--home_texto2--titulo {
+    color      : rgb(14, 2, 2);
+    font-weight: 700;
+    font-size  : 1.5rem;
+    margin: 0;
+    transform:translateY(10px)
+  
+
+
+}
+
+
+.container--home_category--titulo {
+    border: 5px;
+    width : 200px;
+
+}
+
+.container--home_texto--titulo {
+    border: 5px;
+    width : 100px;
+   
+
+}
