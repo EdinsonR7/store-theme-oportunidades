@@ -1,5 +1,11 @@
 {
-    "header-row#mobile__header--initial":{
-        
+    "header-row#search__header--mobile": {
+        "title": "search__header--mobile",
+        "children": [
+            "search-bar#mobile_header"
+        ],
+        "props": {
+            "blockClass": "mobile_header"
+        }
     }
 }

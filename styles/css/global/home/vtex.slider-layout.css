@@ -8,14 +8,9 @@
 .caretIcon--slider-children {
     position: relative;
     color : rgb(0, 145, 255);
-<<<<<<< HEAD:styles/css/desktop/home/vtex.slider-layout.css
-    width : 40px;
-    height: 18px;
-=======
     width : 50px;
     height: 30px;
    
->>>>>>> a66fcfa22d85461547acf00d6e008f804bc54035:styles/css/global/home/vtex.slider-layout.css
 
 
 
@@ -84,19 +79,9 @@
     margin      : 0;
     border-right: 1px solid #18337f;
     height      : 100px;
-<<<<<<< HEAD:styles/css/desktop/home/vtex.slider-layout.css
-    width       : 200px;
-    
-    
-}
-
-.flexCol--slider__sev--col2{
-    border: none;
-=======
     /* width       : 200px; */
    
   
->>>>>>> a66fcfa22d85461547acf00d6e008f804bc54035:styles/css/global/home/vtex.slider-layout.css
 }
 
 .slideChildrenContainer--demo-products {

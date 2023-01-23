@@ -2,7 +2,7 @@
   "header-layout.desktop#desktop__header": {
     "title": "desktop__header",
     "children": [
-      "header-row#global__header--slider",
+      "header-row#desktop__header--slider",
       "header-row#desktop__header--initial"
     ],
     "props": {
