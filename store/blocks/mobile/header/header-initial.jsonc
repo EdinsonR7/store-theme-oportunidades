@@ -1,3 +1,78 @@
+{
+    "header-row#mobile__header--initial": {
+      "title": "mobile__header--initial",
+      "children": [
+        "flex-layout.row#global__header--megamenu",
+        "logo#header__drawer--logo",
+        "header-spacer",
+        // "search-bar",
+        // "icon#mi-ubicacion",
+        // "login",  
+        "minicart.v2"
+      ],
+      "props": {
+        "sticky": true,
+        "blockClass": "mobile__header--initial",
+        "inverted": true
+      }
+    },
+    "logo#header__drawer--logo":{
+      "title": "mobile__header--logo",
+      "props": {
+        "title": "header__drawer--logo",
+        "href": "/",
+        "url": "https://lagobo.vtexassets.com/arquivos/MDC-logo.png?v=637391772316170000",
+        "width": "320",
+        "blockClass": "header__drawer--logo"
+      }
+    },
+    "search-bar": {
+      "blocks": [],
+      "props": {
+        "openAutocompleteOnFocus": true
+       
+      }
+    },
+    "login": {
+      "props": {
+        "emailAndPasswordTitle": "LOG-IN",
+        "accessCodeTitle": "Acess Code LOG-IN",
+        "emailPlaceholder": "e-mail",
+        "passwordPlaceholder": "password",
+        "showPasswordVerificationIntoTooltip": true,
+        "showIconProfile": true,
+        "hideIconLabel":true,
+        "labelClasses":"login-header",
+        "logInButtonBehavior":"link"
+        
+  
+       
+        
+      }
+      
+    },
+  
+    "minicart.v2": {
+      "props": {
+        "MinicartIcon": "icon-cart#minicart-icon",
+        "linkVariationUrl":"MI CARRITO",
+        "openOnHover":true
+      },
+      "children": ["minicart-base-content"]
+    },
+    "icon-cart#minicart-icon": {
+      "props": {
+        "size": 28,
+        "blockClass":"minicart-v2",
+        "variation":"popup"
+  
+      }
+    }
 
-{}
-///account#
+  
+  
+    
+  
+  }
+  
+    

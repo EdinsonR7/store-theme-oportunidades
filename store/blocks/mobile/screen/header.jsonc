@@ -3,11 +3,13 @@
     "title": "mobile__header",
     "children":     [
       "header-row#global__header--slider",
-      "header-row#desktop__header--initial"
-    ],
+      "header-row#mobile__header--initial"
+      // "header-row#desktop__header--initial"
+      ],
     "props":{
       "blockClass": "mobile__header"
     }
   }
  
 }
+
