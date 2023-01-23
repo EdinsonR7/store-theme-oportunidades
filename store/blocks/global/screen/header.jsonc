@@ -1,25 +1,26 @@
-{
-  "header": {
-    "title": "Header",
-    "blocks": [
-      "header-layout.desktop#desktop__header",
-      "header-layout.mobile#mobile__header"// tablet, phone
-    ],
-    "props": {
-      "blockClass": "header"
+// {
+//   "header": {
+//     "title": "Header",
+//     "blocks": [
+//       "header-layout.desktop#desktop__header",
+//       "header-layout.mobile#mobile__header"// tablet, phone
+//     ],
+//     "props": {
+//       "blockClass": "header"
     
-    }
-  },
-  "header.full": {
-    "title": "Header",
-    "blocks": [
-      "header-layout.desktop#desktop__header",
-      "header-layout.mobile#mobile__header"
-    ],
-    "props": {
-      "blockClass": "header"
+//     }
+//   },
+//   "header.full": {
+//     "title": "Header",
+//     "blocks": [
+//       "header-layout.desktop#desktop__header",
+//       "header-layout.mobile#mobile__header"
+//     ],
+//     "props": {
+//       "blockClass": "header"
       
   
-    }
-  }
-}
+//     }
+//   }
+// }
+{}

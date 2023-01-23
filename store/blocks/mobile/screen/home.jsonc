@@ -1,16 +1,14 @@
 {
-  "store.custom": {
-    "blocks": [
-      "responsive-layout.mobile"
-     ]
-  },
-  "responsive-layout.mobile": {
-    "title": "phone",
-    "children": [
-      "flex-layout.row#mobile_titulo--two",
-      "flex-layout.row#mobile_category--titulo",
-      "flex-layout.row#mobile_texto--titulo",
-      "flex-layout.row#mobile_texto2--titulo"
-    ]
-  }
+    "responsive-layout.mobile#mobile--slider1": {
+        "title": "mobile_slider1",
+        "children": [
+            "slider-layout#home_slider-mobile"
+        ]
+    },
+    "responsive-layout.mobile#mobile--slider2": {
+        "title": "mobile_slider1",
+        "children": [
+            "list-context.image-list#mobile_slider--list"
+        ]
+    }
 }

@@ -1,5 +1,5 @@
 {
-  "slider-layout#categoria__home--slider": {
+  "slider-layout#categoria__home--slider1": {
     "title": "slider global",
     "props": {
       "itemsPerPage": {
@@ -10,9 +10,9 @@
       "infinite": true,
       "borderWidth": 0,
       "arrowSize": 25,
-      "showPaginationDots": "mobileOnly",
+      "showPaginationDots": "desktopOnly",
       "showNavigationArrows": "mobileOnly",
-      "blockClass": "global__home--slide"
+      "blockClass": ["global__home--slide", "mobile__home--slide"]
   
     },
     "children": [

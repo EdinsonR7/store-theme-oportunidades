@@ -1,8 +1,14 @@
  .label--slider__one--col {
-     display    : flex;
-     text-align : center;
+     /* display    :flexbox;
+     text-align : center; */
      white-space: nowrap;
-     color      : rgb(8, 11, 11);
+     color      :  #18337f;
+     margin: 10px 0 0;
+     margin-top: 10px;
+     margin-right: 0px;
+     margin-bottom: 0px;
+     margin-left: 0px;
+     /* transform: translateX(-10px)  */
 
 
 

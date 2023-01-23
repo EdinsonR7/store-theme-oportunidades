@@ -3,10 +3,13 @@
     margin   : 0 auto 50px;
 }
 
+
+
 .caretIcon--slider-children {
     color : rgb(0, 145, 255);
-    width : 40px;
-    height: 20px;
+    width : 50px;
+    height: 30px;
+   
 
 
 
@@ -19,9 +22,7 @@
 }
 
 
-.paginationDosContainer--home_slider {
-    transform: translateY(30px);
-}
+ 
 
 .imageElement--home_slider {
     max-height: auto !important;
@@ -46,9 +47,19 @@
     left    : -12px;
     top     : -5px;
     color   : #00c4ff;
-    width   : 20px;
+    width   : 10px;
+    height: 15px;
 
 }
+
+.sliderLeftArrow {
+position: relative;
+width   : 70px;
+height: 15px;
+left    : -1230px;
+
+}
+
 
 .sliderLayoutContainer--home_slider_logo {
     max-width: 1250px;
@@ -71,9 +82,11 @@
     text-align  : center;
     padding     : 0 20px;
     margin      : 0;
-    border-right: 1px solid #0b0c0f;
+    border-right: 1px solid #18337f;
     height      : 100px;
-    width       : 200px;
+    /* width       : 200px; */
+   
+  
 }
 
 .slideChildrenContainer--demo-products {

@@ -1,0 +1,26 @@
+{
+    "responsive-layout.tablet#tablet_tablet-1": {
+      "title":"tablet_tablet-1",
+        "children": [
+            "flex-layout.row#tablet_titulo--two"
+        ]
+    },
+    "responsive-layout.tablet#tablet_tablet-2": {
+      "title":"tablet_tablet-2",
+        "children": [
+            "flex-layout.row#tablet_category--titulo"
+        ]
+    },
+    "responsive-layout.tablet#tablet_tablet-3": {
+      "title":"tablet_tablet-3",
+        "children": [
+            "flex-layout.row#tablet_texto--titulo"
+        ]
+    },
+    "responsive-layout.tablet#tablet_tablet-4": {
+      "title":"tablet_tablet-4",
+        "children": [
+            "flex-layout.row#tablet_texto2--titulo"
+        ]
+    }
+}
