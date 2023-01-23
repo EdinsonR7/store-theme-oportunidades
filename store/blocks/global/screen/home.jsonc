@@ -1,15 +1,34 @@
 {
   "store.home": {
     "blocks": [
-      "slider-layout#home_slider-children",
-      "flex-layout.row#home_titulo--two",
-      "list-context.image-list#home_slider--list",
-      "flex-layout.row#home_category--titulo",
-      "slider-layout#categoria__home--slider",
-      "flex-layout.row#home_texto--titulo",
-      "flex-layout.row#home_texto2--titulo",
+
+      "responsive-layout.desktop#desktop_slider-1",
+      "responsive-layout.mobile#mobile--slider1",
+
+      "responsive-layout.desktop#desktop_home1",
+      "responsive-layout.phone#phone_phone1",
+      "responsive-layout.tablet#tablet_tablet-1",
+
+      "responsive-layout.desktop#desktop_slider-2",
+      "responsive-layout.mobile#mobile--slider2",
+
+      "responsive-layout.desktop#desktop_home2",
+      "responsive-layout.phone#phone_phone2",
+      "responsive-layout.tablet#tablet_tablet-2",
+      
+      "slider-layout#categoria__home--slider1",
+
+      "responsive-layout.desktop#desktop_home3",
+      "responsive-layout.phone#phone_phone3",
+      "responsive-layout.tablet#tablet_tablet-3",
+
+      "responsive-layout.desktop#desktop_home4",
+      "responsive-layout.phone#phone_phone4",
+      "responsive-layout.tablet#tablet_tablet-4",
+
       "list-context.product-list#demo_1",
       "flex-layout.row#home_section--one1"
+     
       ]
 }
 }

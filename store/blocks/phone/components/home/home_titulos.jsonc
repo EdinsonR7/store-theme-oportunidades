@@ -1,0 +1,66 @@
+{
+ 
+  "flex-layout.row#phone_titulo--two": {
+    "title": "phone_titulo--two",
+    "children": [
+      "rich-text#phone_titulo--two"
+    ]
+  },
+
+  "rich-text#phone_titulo--two": {
+    "props": {
+      "text": "NUESTRAS MARCAS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": ["home_titulo", "phone_titulo"] 
+    }
+  },
+
+  "flex-layout.row#phone_category--titulo": {
+    "title": "phone_category--titulo",
+    "children": [
+      "rich-text#phone_category--titulo"
+    ]
+  },
+  
+  "rich-text#phone_category--titulo": {
+    "props": {
+      "text": "CATEGORIAS RECOMENDADAS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": ["home_category--titulo","phone_titulo--two"]
+    }
+  },
+
+  "flex-layout.row#phone_texto--titulo": {
+    "title": "phone_texto--titulo",
+    "children": [
+      "rich-text#phone_texto--titulo"
+    ]
+  },
+
+  "rich-text#phone_texto--titulo": {
+    "props": {
+      "text": "Más de 50 años de experiencia respaldan su compra",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": ["home_texto--titulo","phone_texto--titulo"]
+    }
+  },
+
+  "flex-layout.row#phone_texto2--titulo": {
+    "title": "phone_texto2--titulo",
+    "children": [
+      "rich-text#phone_texto2--titulo"
+    ]
+  },
+
+  "rich-text#phone_texto2--titulo": {
+    "props": {
+      "text": "Precios muy bajos, Compruebalo!",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": ["home_texto2--titulo","phone_texto2--titulo"]
+    }
+  }
+}

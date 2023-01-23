@@ -3,11 +3,19 @@
     margin   : 0 auto 50px;
 }
 
+
+
 .caretIcon--slider-children {
     position: relative;
     color : rgb(0, 145, 255);
+<<<<<<< HEAD:styles/css/desktop/home/vtex.slider-layout.css
     width : 40px;
     height: 18px;
+=======
+    width : 50px;
+    height: 30px;
+   
+>>>>>>> a66fcfa22d85461547acf00d6e008f804bc54035:styles/css/global/home/vtex.slider-layout.css
 
 
 
@@ -20,9 +28,7 @@
 }
 
 
-.paginationDosContainer--home_slider {
-    transform: translateY(30px);
-}
+ 
 
 .imageElement--home_slider {
     max-height: auto !important;
@@ -47,9 +53,19 @@
     left    : -12px;
     top     : -5px;
     color   : #00c4ff;
-    width   : 20px;
+    width   : 10px;
+    height: 15px;
 
 }
+
+.sliderLeftArrow {
+position: relative;
+width   : 70px;
+height: 15px;
+left    : -1230px;
+
+}
+
 
 .sliderLayoutContainer--home_slider_logo {
     max-width: 1250px;
@@ -74,6 +90,7 @@
     margin      : 0;
     border-right: 1px solid #18337f;
     height      : 100px;
+<<<<<<< HEAD:styles/css/desktop/home/vtex.slider-layout.css
     width       : 200px;
     
     
@@ -81,6 +98,11 @@
 
 .flexCol--slider__sev--col2{
     border: none;
+=======
+    /* width       : 200px; */
+   
+  
+>>>>>>> a66fcfa22d85461547acf00d6e008f804bc54035:styles/css/global/home/vtex.slider-layout.css
 }
 
 .slideChildrenContainer--demo-products {

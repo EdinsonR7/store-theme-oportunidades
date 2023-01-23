@@ -1,0 +1,26 @@
+
+.paragraph--home_titulo.paragraph--phone_titulo{
+    font-size  : 1.1rem;
+    margin: 0;
+    transform:translateY(30px);
+}
+
+.paragraph--home_category--titulo.paragraph--phone_titulo--two{
+    font-size  : 1.1rem;
+}
+
+
+.paragraph--home_texto--titulo.paragraph--phone_texto--titulo{
+    font-size  : 1.5rem;
+    text-align: center;
+    margin: 0;
+    transform:translateY(50px);
+    height: fit-content;
+    width:fit-content
+}
+
+.container--home_texto2--titulo.container--phone_texto2--titulo{
+    font-size  : 1.1rem;
+    margin: 0;
+    transform:translateY(40px)
+}

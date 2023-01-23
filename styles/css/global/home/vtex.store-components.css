@@ -2,7 +2,7 @@
     max-width: 450px;
 }
 
-/* logo oportunidades */
+
 .logoLink,
 .logoLink--header__drawer--logo {
     position: relative;
@@ -10,7 +10,7 @@
     left    : 115px;
 }
 
-/* search */
+
 .searchBarContainer {
     position: relative;
     top   : 2px;
