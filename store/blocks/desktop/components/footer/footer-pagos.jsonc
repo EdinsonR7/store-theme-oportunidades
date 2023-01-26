@@ -1,0 +1,91 @@
+{
+  "flex-layout.row#footer_desktop--pagos": {
+        "title": "footer_desktop--pagos",
+        "children": [
+            "flex-layout.col#footer_desktop--pagos1",
+            "flex-layout.col#footer_desktop--pagos2",
+            "flex-layout.col#footer_desktop--pagos3",
+            "flex-layout.col#footer_desktop--pagos4",
+            "flex-layout.col#footer_desktop--pagos5"
+        ],
+        "props": {
+            "blockClass": "row-footer-pagos"
+        }
+    },
+    "flex-layout.col#footer_desktop--pagos1": {
+        "title": "footer_desktop--pagos1",
+        "children": [
+            "rich-text#pagos"
+        ]
+       
+    },
+    "rich-text#pagos": {
+        "props": {
+            "text": "Marca líder en electrodomésticos en Colombia",
+             "blockClass": "marcas-lider-color"
+        }
+    },
+    "flex-layout.col#footer_desktop--pagos2": {
+        "title": "footer_desktop--pagos2",
+        "children": [
+            "image#pagos_asodelco"
+        ],
+        "props": {
+        "blockClass":"footer-asodelco"
+      }
+    },
+    "image#pagos_asodelco": {
+        "props": {
+            "src": "assets/img-footer/footer-asodelco.jpg",
+            "maxHeight":50
+            
+        }
+    },
+    "flex-layout.col#footer_desktop--pagos3": {
+        "title": "footer_desktop--pagos1",
+        "children": [
+            "image#pagos_colombia"
+        ],
+        "props": {
+          "blockClass":"pagos_colombia"
+        }
+    },
+    "image#pagos_colombia": {
+        "props": {
+            "src": "assets/img-footer/footer-colombia.jpg",
+            "maxHeight":50
+        }
+    },
+    "flex-layout.col#footer_desktop--pagos4": {
+        "title": "footer_desktop--pagos3",
+        "children": [
+            "image#pagos_industria-comercio"
+        ],
+        "props": {
+          "blockClass":"industria-comercio"
+        }
+    },
+    "image#pagos_industria-comercio": {
+        "props": {
+            "src": "assets/img-footer/footer-industria-y-comercio.jpg",
+            "maxHeight": 50
+        }
+    },
+    "flex-layout.col#footer_desktop--pagos5": {
+        "title": "footer_desktop--pagos4",
+        "children": [
+            "image#metodos_de--pagos"
+        ],
+        "props": {
+          "blockClass":"metodos_de--pagos"
+        }
+    },
+    "image#metodos_de--pagos": {
+        "props": {
+            "src": "assets/img-footer/footer-payment-methods.jpg",
+            "maxHeight": 50
+           
+            
+        }
+    }
+}

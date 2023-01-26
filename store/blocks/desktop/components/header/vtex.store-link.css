@@ -1,0 +1,13 @@
+.link--ubicacion-icono2{
+   position:absolute;
+   top:10px
+}
+
+
+.link--ubicacion-icono3{
+   margin: 0px;
+   padding: -10px;
+   transform: translateY(-10px);
+
+}
+

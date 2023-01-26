@@ -1,0 +1,53 @@
+{
+  "footer-layout.mobile#footer_mobile": {
+        "children": [
+          "flex-layout.row#footer-mobile"
+        ]
+      },
+
+      "flex-layout.row#footer-mobile": {
+        "children": [
+          "social-networks#mobile-footer"
+          
+          
+        ]
+      },
+      "social-networks#mobile-footer": {
+        "props": {
+          "socialNetworks": [
+            { 
+              "url": "https://facebook.com/foo", 
+              "name": "facebook" 
+            },
+            { 
+              "url": "https://twitter.com/foo", 
+              "name": "twitter" 
+            }
+          ]
+        }
+      }
+      
+     
+}
+
+
+// disclosure-layout#": {
+//   "title": "layout about",
+//   "children": [
+//       "disclosure-trigger#about",
+//       "disclosure-content#about"
+//   ]
+ 
+// },
+// "disclosure-trigger#about": {
+//   "title": "text about",
+//   "children": [
+//       "rich-text#about"
+//   ]
+// },
+// "disclosure-content#about": {
+//   "title": "text about",
+//   "children": [
+//       "menu#about"
+//   ]
+// },

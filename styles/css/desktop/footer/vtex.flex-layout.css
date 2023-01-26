@@ -1,0 +1,81 @@
+.flexColChild--mano-derecha-icon{
+    margin: 0px;
+    padding: 0px;
+    transform: translateX(190px) translateY(5px);
+   
+}
+
+
+.flexRowContent--fila-newsletter{
+    width: 100%;
+    background-color: #00c4ff;
+    padding: 20px 10px;
+    
+}
+
+.flexRow--informacion-legal{
+    background-color: #f9f9f9;
+    padding: 50px 15px;
+    width: 100%;
+}
+
+.flexRowContent--row-footer-pagos{
+    background-color:rgb(251, 247, 249);
+    padding: 20px 15px;
+}
+
+.flexRow--info--legal-menu{
+    background-color: #f9f9f9;
+    padding: 50px 15px;
+    width: 100%;
+}
+
+
+
+.flexCol--menu-item1 {
+    margin: 0px;
+    padding: 0px;
+    align-items:initial;
+    transform: translateX(90px);
+}
+
+
+
+.flexCol--footer-asodelco{
+    margin      : 0px;
+    padding     : 0px;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(5px) translateX(-10px);
+    border:hidden
+} 
+
+.flexColChild--pagos_colombia{
+    margin      : 0px;
+    padding     : 0px;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(5px) translateX(-80px);
+    border:hidden
+}
+
+.flexColChild--industria-comercio{
+    margin      : 0px;
+    padding     : 0px;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(5px) translateX(-260px);
+    border:hidden
+   
+}
+
+.flexColChild--metodos_de--pagos{
+    margin      : 0px;
+    padding     : 0px;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(5px) translateX(-290px);
+    width: 500px;
+    border:hidden
+   
+}
