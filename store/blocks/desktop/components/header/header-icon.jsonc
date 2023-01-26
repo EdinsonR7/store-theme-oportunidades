@@ -1,0 +1,111 @@
+{
+    "flex-layout.row#icon__mi-ubicacion": {
+        "title": "icon__mi-ubicacion",
+        "children": [
+            "flex-layout.col#icon__mi-ubicacion",
+            "flex-layout.col#login__login",
+            "flex-layout.col#cart__mi-cart"
+        ],
+        "props": {
+          "blockClass": "icon__mi-ubicacion"
+        }
+    },
+    //------------------------------------------------------
+    "flex-layout.col#icon__mi-ubicacion": {
+        "title": "icon__mi-ubicacion2",
+        "children": [
+            "icon#mi-ubicacion",
+            "link.product#icon_ubicacion-1"
+        ],
+        "props":{"blockClass": "cart__header"}
+      
+    },
+    "link.product#icon_ubicacion-1": {
+        "props": {
+            "label": "Tiendas",
+            "href": "https://www.google.com/maps/@9.25696,-75.808768,13z?hl=es",
+            "blockClass":"ubicacion-icono1"
+        }
+    },
+    "icon#mi-ubicacion": {
+        "title": "ubicacion",
+        "props": {
+            "id": "mpa-location-input",
+            "blockClass": "ubicacion-icono",
+            "size": 35
+        }
+    },
+    //-------------------------------------------
+    "flex-layout.col#login__login": {
+        "title": "login__login",
+        "children": [
+            "login#header__login",
+            "link.product#icon_login-2"
+        ],
+        "props":{
+          "blockClass": "cart__header",
+          "orientation":"down"
+          
+
+      }
+      
+    },
+    "login#header__login": {
+        "props": {
+            "emailAndPasswordTitle": "LOG-IN",
+            "accessCodeTitle": "Acess Code LOG-IN",
+            "emailPlaceholder": "e-mail",
+            "passwordPlaceholder": "password",
+            "showPasswordVerificationIntoTooltip": true,
+            "showIconProfile": true,
+            "hideIconLabel": true,
+            "labelClasses": "login-header",
+            "logInButtonBehavior": "link"
+           
+          
+           
+        }
+
+        
+    },
+    "link.product#icon_login-2": {
+        "props": {
+            "label": "Mi cuenta",
+            "href": "/",
+            "blockClass":"ubicacion-icono2"
+        }
+    },
+    //------------------------------------------------
+    "flex-layout.col#cart__mi-cart": {
+        "children": [
+            "minicart.v2#header__cart",
+            "link.product#icon_cart-3"
+        ],
+        "props":{"blockClass": "cart__header"}
+      
+    },
+    "minicart.v2#header__cart": {
+        "props": {
+            "MinicartIcon": "icon-cart#minicart-icon",
+            "openOnHover": true
+        },
+        "children": [
+            "minicart-base-content"
+        ]
+    },
+    "icon-cart#minicart-icon": {
+        "props": {
+            "size": 35,
+            "blockClass": "minicart-v2",
+            "variation": "popup"
+        }
+    },
+    "link.product#icon_cart-3": {
+        "props": {
+            "label": "Mi carrito",
+            "href": "/",
+            "blockClass":"ubicacion-icono3"
+    
+        }
+    }
+}

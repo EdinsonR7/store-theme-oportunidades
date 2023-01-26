@@ -1,0 +1,103 @@
+{
+    "flex-layout.row#footer_info--legal": {
+        "title": "footer_info--legal",
+        "children": [
+            "flex-layout.col#footer_info--legal1",
+            "flex-layout.col#footer_info--legal2",
+            "flex-layout.col#footer_info--legal3"
+        ],
+        "props": {
+            "blockClass": "informacion-legal"
+        }
+    },
+    "flex-layout.col#footer_info--legal1": {
+        "title": "",
+        "children": [
+            "rich-text#info_legal--1",
+            "menu-item#quienes-somos",
+            "menu-item#trabaja-nosotros",
+            "menu-item#cobertura",
+            "menu-item#ventas-institucionales",
+            "menu-item#ventas-mayoristas"
+        ],
+        "props": {
+            "blockClass": "menu-item1"
+        }
+    },
+    "menu-item#quienes-somos": {
+        "props": {
+            "id": "info",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Quines somos",
+                "text": "Quines somos"
+            }
+        }
+    },
+    "menu-item#trabaja-nosotros": {
+        "props": {
+            "id": "info",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "trabaja-nosotros",
+                "text": "trabaja-nosotros"
+            }
+        }
+    },
+    "menu-item#cobertura": {
+        "props": {
+            "id": "info",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "cobertura",
+                "text": "cobertura"
+            }
+        }
+    },
+    "menu-item#ventas-institucionales": {
+        "props": {
+            "id": "info",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "ventas-institucionales",
+                "text": "ventas-institucionales"
+            }
+        }
+    },
+    "menu-item#ventas-mayoristas": {
+        "props": {
+            "id": "info",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "ventas-mayoristas",
+                "text": "ventas-mayoristas"
+            }
+        }
+    },
+    "rich-text#info_legal--1": {
+        "props": {
+            "text": "NUESTRA COMPAÑÍA",
+            "blockClass": "legal-1"
+        }
+    }
+}

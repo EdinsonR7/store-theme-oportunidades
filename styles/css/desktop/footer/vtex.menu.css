@@ -1,0 +1,13 @@
+.styledLinkContent {
+    text-decoration   : none;
+    font-weight       : 500;
+    font-size         : 12px;
+    -webkit-transition: all .5s;
+    transition        : all .5s;
+    color             : #18337f;
+    font-family       : Montserrat, sans-serif;
+    line-height       : normal;
+    transform         : translateX(30px);
+
+
+}

@@ -1,0 +1,13 @@
+
+
+.flexRowContent--icon__mi-ubicacion{
+    background-color: #50d6ff;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexCol--cart__header{
+    justify-content: center;
+    align-items: center;
+}
