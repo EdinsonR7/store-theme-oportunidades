@@ -7,7 +7,7 @@
 
       "flex-layout.row#footer-mobile": {
         "children": [
-          "social-networks#mobile-footer"
+          // "social-networks#mobile-footer"
           
           
         ]

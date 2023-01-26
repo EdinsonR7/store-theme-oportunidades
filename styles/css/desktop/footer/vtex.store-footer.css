@@ -1,6 +1,6 @@
-.socialNetworkWrapper{
-    padding:0px;
-    margin:0px;
+.socialNetworkWrapper {
+    padding  : 0px;
+    margin   : 0px;
     transform: translateY(-95px) translateX(140px);
-    width: 50px;
+    width    : 50px;
 }
