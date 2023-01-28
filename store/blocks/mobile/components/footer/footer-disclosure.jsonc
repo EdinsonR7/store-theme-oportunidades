@@ -1,0 +1,133 @@
+{
+  "flex-layout.row#footer_mobile--legal": {
+    "children": [
+      "flex-layout.col#footer-mobile_container"
+    ]
+  },
+  "flex-layout.col#footer-mobile_container": {
+    "title": "footer-mobile_container",
+    "children": [
+      "disclosure-layout#menu_item--1",
+      "disclosure-layout#menu_item--2",
+      "disclosure-layout#menu_item--3"
+    ],
+    "props": {
+      "blockClass":"disclosure32"
+    }
+
+  
+  },
+  //--------------------------------------------COMPAÑIA
+  "disclosure-layout#menu_item--1": {
+    "children": [
+      "disclosure-trigger#compañia",
+      "disclosure-content#compañia"
+    ],
+    "props": {
+      "blockClass":"menu_item--1"
+    }
+  },
+  "disclosure-trigger#compañia": {
+    "children": [
+      "rich-text#nombre_compañia"
+    ],
+
+    "props": {
+      "blockClass":"compañia-botom"
+    }
+   
+  },
+  "rich-text#nombre_compañia": {
+    "props": {
+      "text": "NUESTRA COMPAÑÍA",
+      "blockClass": "nombre_compañia"
+    }
+  },
+  "disclosure-content#compañia": {
+    "title": "compañia",
+    "children": [
+      "menu-item#quienes-somos",
+      "menu-item#trabaja-nosotros",
+      "menu-item#cobertura",
+      "menu-item#ventas-institucionales",
+      "menu-item#ventas-mayoristas"
+    ],
+
+    "props":{
+      "blockClass":"compañia-nuestra20"
+    }
+  },
+  //-----------------------------------------------------LEGAL
+  "disclosure-layout#menu_item--2": {
+    "children": [
+      "disclosure-trigger#info_legal",
+      "disclosure-content#info_legal"
+    ],
+
+    "props": {
+      "blockClass": "menu_item--2"
+    }
+  },
+  "disclosure-trigger#info_legal": {
+    "children": [
+      "rich-text#legal_legal"
+    ]
+  },
+  "rich-text#legal_legal": {
+    "props": {
+      "text": "INFORMACIÓN LEGAL",
+      "blockClass":"legal_legal"
+    }
+  },
+  "disclosure-content#info_legal": {
+    "title": "",
+    "children": [
+      "menu-item#termino-condiciones",
+      "menu-item#código-etica",
+      "menu-item#línea-etica",
+      "menu-item#Política-SAGRILAFT",
+      "menu-item#Protección-Consumidor",
+      "menu-item#proteccion-datos",
+      "menu-item#promociones-descuentos",
+      "menu-item#tiempos-envio",
+      "menu-item#cambios-garantia",
+      "menu-item#info-TDT"
+    ],
+    "propos":{
+      "blockClass":"info_legal15"
+    }
+  },
+  //---------------------------------------------------SERVICIO CLIENTE
+  "disclosure-layout#menu_item--3": {
+    "children": [
+      "disclosure-trigger#servicio_cliente",
+      "disclosure-content#servicio_cliente"
+    ],
+
+    "props": {
+      "blockClass":"menu_item--3"
+    }
+  },
+  "disclosure-trigger#servicio_cliente": {
+    "children": [
+      "rich-text#servicio_clien"
+    ]
+  },
+  "rich-text#servicio_clien": {
+    "props": {
+      "text": "SERVICIO AL CLIENTE",
+      "blockClass": "servicio_clien"
+    }
+  },
+  "disclosure-content#servicio_cliente": {
+    "title": "servicio_cliente",
+    "children": [
+      "menu-item#preguntas-frecuente",
+      "menu-item#contactos",
+      "menu-item#telefono",
+      "menu-item#correo",
+      "menu-item#logo-empresa"
+      // "social-networks#desktop-footer"
+    ]
+  }
+}

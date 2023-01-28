@@ -1,0 +1,25 @@
+/* //------------------------------------------metodos de pagos */
+.imageElement--pagos-2{
+    margin: 0px;
+    padding: 0px;
+    transform: translateX(35px);
+    
+    }
+
+    .imageElement--industria-2{
+        margin: 0px;
+        padding: 0px;
+        transform: translateX(180px);
+    }
+    
+    .imageElement--colombia{
+        margin: 0px;
+        padding: 0px;
+        transform: translateX(130px) translateY(37px);
+    }
+
+    .imageElement--asodelco{
+        margin: 0px;
+        padding: 0px;
+        transform: translateX(60px) translateY(70px);
+    }
