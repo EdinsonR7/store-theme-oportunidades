@@ -1,13 +1,28 @@
-
-
-.flexRowContent--icon__mi-ubicacion{
+.flexRowContent--icon__mi-ubicacion {
     background-color: #50d6ff;
-    font-size: 12px;
-    justify-content: center;
-    align-items: center;
+    font-size       : 12px;
+    justify-content : center;
+    align-items     : center;
+
 }
 
-.flexCol--cart__header{
+.flexCol--cart__header {
     justify-content: center;
-    align-items: center;
+    align-items    : center;
+}
+
+.flexCol--cart__header1 :global(.vtex-flex-layout-0-x-flexColChild--cart__header1) {
+    transform: translateX(15px);
+}
+
+
+
+.flexColChild--cart__header2 :global(.vtex-store-link-0-x-link--link-login) {
+    position: relative;
+    top     : -4px
+}
+
+.flexColChild--cart__header3 :global(.vtex-store-link-0-x-link--link-minicart-2) {
+    position: relative;
+    top     : -12px
 }

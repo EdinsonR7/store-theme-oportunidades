@@ -1,0 +1,57 @@
+{
+  "flex-layout.row#footer_mobile--pagos": {
+    "title": "footer_mobile--pagos",
+    "children": [
+      "flex-layout.col#footer_mobile--pagos"
+    ]
+  },
+  "flex-layout.col#footer_mobile--pagos": {
+    "title": "footer_mobile--colunpagos",
+    "children": [
+      "rich-text#pagos_mobile",
+      "image#mobile_asodelco",
+      "image#mobile_colombia",
+      "image#pagos_industria-comercio2",
+      "image#metodos_de--pagos2"
+    ]
+  },
+  "rich-text#pagos_mobile": {
+    "title": "pagos_mobile",
+    "props": {
+      "text": "Marca líder en electrodomésticos en Colombia",
+      "blockClass": "marcas-lider-mobile"
+    }
+  },
+  "image#mobile_asodelco": {
+    "title": "mobile_asodelco",
+    "props": {
+      "src": "assets/img-footer/footer-asodelco.jpg",
+      "maxHeight": 30,
+      "blockClass": "asodelco"
+    }
+  },
+  "image#mobile_colombia": {
+    "title": "mobile_colombia",
+    "props": {
+      "src": "assets/img-footer/footer-colombia.jpg",
+      "maxHeight": 30,
+      "blockClass": "colombia"
+    }
+  },
+  "image#pagos_industria-comercio2": {
+    "title": "industria-comercio2",
+    "props": {
+      "src": "assets/img-footer/footer-industria-y-comercio.jpg",
+      "maxHeight": 30,
+      "blockClass": "industria-2"
+    }
+  },
+  "image#metodos_de--pagos2": {
+    "title": "metodos_de--pagos2",
+    "props": {
+      "src": "assets/img-footer/footer-payment-methods.jpg",
+      "maxHeight": 30,
+      "blockClass": "pagos-2"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+    "newsletter-form#footer_mobile": {
+        "children": [
+            "newsletter-input-email#mobile_1",
+            "newsletter-submit#mobile_2",
+            "newsletter-checkbox-confirmation#mobile_3"
+        ],
+        "props": {
+            "blockClass": "mobile-form12"
+        }
+    },
+    "newsletter-input-email#mobile_1": {
+        "props": {
+            "blockClass": "mobile-email"
+        }
+    },
+    "newsletter-submit#mobile_2": {
+        "props": {
+            "blockClass": "submit-boton-mobile10"
+        }
+    },
+    "newsletter-checkbox-confirmation#mobile_3": {
+        "props": {
+            "url": "/",
+            "checkboxLabel": "Acepto términos, condiciones y política de tratamiento de datos personales.Ver aquí",
+            "blockClass": "mobile-terminos"
+        }
+    }
+}

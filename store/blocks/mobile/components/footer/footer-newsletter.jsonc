@@ -1,0 +1,44 @@
+{
+    "flex-layout.row#footer_mobile--newsletter": {
+        "title": "Newsletter",
+        "children": [
+        "flex-layout.col#footer-mobile--newslestter"
+        ],
+        "props": {
+            "blockClass": "mobile--newsletter10"
+        }
+    },
+    "flex-layout.col#footer-mobile--newslestter": {
+        "title": "sections-newslestter",
+        "children": [
+            "icon#logo_ mobile--newsletter",
+            "rich-text#mobile_suscribete",
+            "rich-text#mobile_ofertas",
+            "newsletter-form#footer_mobile"
+        ],
+        "props": {
+            "blockClass":"newsletter-logo5"
+        }
+    },
+    "icon#logo_ mobile--newsletter": {
+        "props": {
+            "id": "sti-close--filled",
+            "size": 40
+           
+           
+        }
+    },
+    "rich-text#mobile_suscribete": {
+        // "title": "suscribete",
+        "props": {
+            "text": "NEWSLETTER ¡SUSCRÍBETE!",
+            "blockClass": "newsletter-8"
+        }
+    },
+    "rich-text#mobile_ofertas": {
+        "props": {
+            "text": "Y recibe las mejores ofertas",
+            "blockClass": "ofertas_mobile"
+        }
+    }
+}

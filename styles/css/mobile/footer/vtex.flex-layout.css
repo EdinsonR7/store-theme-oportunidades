@@ -1,0 +1,65 @@
+.flexRow--mobile--newsletter10{
+    width: 100%;
+    background-color: #00c4ff;
+    height: 300px;
+  
+    
+}
+
+ /* logo mano pendiente */
+
+.flexColChild--newsletter-logo5 :global(.vtex-svg) {
+    margin: 0px;
+    padding: 0px;
+    transform: translateY(50px); 
+   
+  
+} 
+
+
+
+.flexColChild--newsletter-logo5{
+    position: relative;
+    top: 20px;
+}
+
+
+
+
+
+
+.newsletterForm--mobile-form12{
+margin: 0;
+padding: 0;
+transform: translateX(10px) translateY(-30px);
+border: none;
+}
+
+
+.flexColChild :global(.vtex-disclosure-layout-1-x-trigger){
+    background: none;
+    margin: 0px;
+    padding: 0px;
+    transform: translateX(70px);
+    border: none;
+    color: #18337f;
+}
+
+.flexColChild :global(.vtex-rich-text-0-x-paragraph--marcas-lider-mobile){
+    font-family: Montserrat,sans-serif;
+    color: #18337f;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    margin-right: 10px;
+    line-height: normal;
+    transform: translateX(30px);
+}
+
+
+
+
+
+
+
+
