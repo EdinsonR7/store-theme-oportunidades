@@ -3,6 +3,7 @@
     "children": [
       "flex-layout.col#footer-mobile_container"
     ]
+   
   },
   "flex-layout.col#footer-mobile_container": {
     "title": "footer-mobile_container",
@@ -10,15 +11,14 @@
       "disclosure-layout#menu_item--1",
       "disclosure-layout#menu_item--2",
       "disclosure-layout#menu_item--3"
-    ],
-    "props": {
-      "blockClass":"disclosure32"
-    }
+    ]
+  
 
   
   },
   //--------------------------------------------COMPAÑIA
   "disclosure-layout#menu_item--1": {
+    "title": "menu_item--1",
     "children": [
       "disclosure-trigger#compañia",
       "disclosure-content#compañia"
@@ -28,19 +28,23 @@
     }
   },
   "disclosure-trigger#compañia": {
+    "title": "compañia",
     "children": [
       "rich-text#nombre_compañia"
     ],
-
     "props": {
       "blockClass":"compañia-botom"
     }
+
    
   },
   "rich-text#nombre_compañia": {
+    "title": "nombre_compañia",
     "props": {
-      "text": "NUESTRA COMPAÑÍA",
-      "blockClass": "nombre_compañia"
+      "text": " NUESTRA COMPAÑÍA ",
+      "blockClass":"compañia-botom"
+   
+     
     }
   },
   "disclosure-content#compañia": {
@@ -59,6 +63,7 @@
   },
   //-----------------------------------------------------LEGAL
   "disclosure-layout#menu_item--2": {
+    "title": "menu_item--2",
     "children": [
       "disclosure-trigger#info_legal",
       "disclosure-content#info_legal"
@@ -69,18 +74,20 @@
     }
   },
   "disclosure-trigger#info_legal": {
+    "title": "info_legal",
     "children": [
       "rich-text#legal_legal"
     ]
   },
   "rich-text#legal_legal": {
+    "title": "legal_legal",
     "props": {
       "text": "INFORMACIÓN LEGAL",
       "blockClass":"legal_legal"
     }
   },
   "disclosure-content#info_legal": {
-    "title": "",
+    "title": "info_legal",
     "children": [
       "menu-item#termino-condiciones",
       "menu-item#código-etica",
@@ -99,6 +106,7 @@
   },
   //---------------------------------------------------SERVICIO CLIENTE
   "disclosure-layout#menu_item--3": {
+    "title": "menu_item--3",
     "children": [
       "disclosure-trigger#servicio_cliente",
       "disclosure-content#servicio_cliente"
@@ -109,11 +117,13 @@
     }
   },
   "disclosure-trigger#servicio_cliente": {
+    "title": "servicio_cliente",
     "children": [
       "rich-text#servicio_clien"
     ]
   },
   "rich-text#servicio_clien": {
+    "title": "servicio_clien",
     "props": {
       "text": "SERVICIO AL CLIENTE",
       "blockClass": "servicio_clien"
@@ -126,8 +136,8 @@
       "menu-item#contactos",
       "menu-item#telefono",
       "menu-item#correo",
-      "menu-item#logo-empresa"
-      // "social-networks#desktop-footer"
+      "menu-item#logo-empresa",
+      "social-networks#desktop-footer"
     ]
   }
 }

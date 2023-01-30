@@ -23,22 +23,15 @@
 
 
 
-
-/* .stretchChildrenWidth :global(.vtex-rich-text-0-x-paragraph){
-    font-weight: 900;
-    font-size: 14px;
-    color: #18337f;
-    margin-bottom: 20px;
-    margin-top: 0;
-} */
-
-.trigger--hidden :global(.vtex-rich-text-0-x-paragraph) {
+.flexRowContent :global(.vtex-rich-text-0-x-paragraph){
     font-weight: 900;
     font-size: 14px;
     color: #18337f;
     margin-bottom: 20px;
     margin-top: 0;
 }
+
+
 
 .paragraph--legal_legal{
     font-weight: 900;
