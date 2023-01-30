@@ -5,4 +5,8 @@
    height: 35px;
    }
 
+    .buttonLink :global(.vtex-button):hover{
+       background:none;
+    }
+
 
