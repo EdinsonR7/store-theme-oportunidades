@@ -93,7 +93,7 @@
       "menu-item#cambios-garantia",
       "menu-item#info-TDT"
     ],
-    "propos":{
+    "props":{
       "blockClass":"info_legal15"
     }
   },

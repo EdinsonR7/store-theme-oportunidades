@@ -99,7 +99,7 @@
 }
 
 
-.sliderLayoutContainer--demo-products :global(.vtex-button) {
+.sliderTrackContainer--demo-products :global(.vtex-button) {
     background-color: rgb(241, 12, 12);
     border          : none;
 

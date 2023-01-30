@@ -1,0 +1,218 @@
+{
+  "search-result-layout.desktop#departament": {
+    "title": "store search desktop",
+    "children": [
+      "flex-layout.row#departament__results"
+    ],
+    "props": {
+      "preventRouteChange": true,
+      "thresholdForFacetSearch": 10,
+      "showProductsCount": true,
+      "showFacetQuantity": true
+    }
+  },
+  "flex-layout.row#departament__results": {
+    "title": "departament results",
+    "children": [
+      "flex-layout.col#filter__and__content"
+    ],
+    "props": {
+      "blockClass": "flex-departament-results"
+    }
+  },
+  "flex-layout.col#filter__and__content": {
+    "title": "filter__and__content",
+    "children": [
+      "flex-layout.row#departament__breadcrumb",
+      "flex-layout.row#image_prueba",
+      "flex-layout.row#marca_order-switcher"
+    ]
+  },
+  "flex-layout.row#departament__breadcrumb": {
+    "title": "store-bradcrumb-departament",
+    "children": [
+      "flex-layout.col#departament__breadcrumb"
+    ]
+  },
+  "flex-layout.col#departament__breadcrumb": {
+    "title": "store-bradcrumb_departament",
+    "children": [
+      "breadcrumb.search"
+    ]
+  },
+  "breadcrumb.search": {
+    "props": {
+      "showOnMobile": true
+    }
+  },
+  "flex-layout.row#image_prueba": {
+    "title": "image",
+    "children": [
+      "image#imagen_plp"
+    ]
+  },
+  "image#imagen_plp": {
+    "title": "imagen_plp",
+    "props": {
+      "src": "assets/image-plp/Refrigeracion.webp"
+    }
+  },
+  //-------------------------------------------MARCAS ROW PADRE
+  "flex-layout.row#marca_order-switcher": {
+    "title": "filter_prueba",
+    "children": [
+      "flex-layout.col#marca_order-switcher1",
+      "flex-layout.col#marca_order-switcher2"
+    ]
+  },
+  "flex-layout.col#marca_order-switcher1": {
+    "title": "order_content",
+    "children": [
+      "disclosure-layout#filter-navigator_marca"
+    ],
+    "props": {
+      "width": "20%"
+    }
+  },
+  //------------------------------------------------------- ORDER-PRODUCT
+  "flex-layout.col#marca_order-switcher2": {
+    "title": "marca_order-switcher2",
+    "children": [
+      "flex-layout.row#filter-order-switcher",
+      "flex-layout.row#productos"
+    ]
+  },
+  "flex-layout.row#filter-order-switcher": {
+    "title": "filter-order-switcher",
+    "children": [
+      "order-by.v2",
+      "gallery-layout-switcher"
+    ]
+  },
+  "order-by.v2": {
+    "props": {
+      "width": "25%",
+      "hiddenOptions": [
+        "OrderByTopSaleDESC",
+        "OrderByCollection",
+        "OrderByNameASC"
+      ],
+      "showOrderTitle": true,
+      "blockClass": "order-By-display"
+    }
+  },
+  "flex-layout.row#productos": {
+    "title": "productos_order-switcher",
+    "children": [
+      "search-content#desktop-departament"
+    ]
+  },
+  "gallery-layout-switcher": {
+    "title": "switcher",
+    "children": [
+      "gallery-layout-option#grid",
+      "gallery-layout-option#list"
+    ],
+    "props": {
+      "blockClass": "layout-switcher"
+    }
+  },
+  "gallery-layout-option#grid": {
+    "title": "grid",
+    "props": {
+      "name": "grid"
+    },
+    "children": [
+      "icon-grid",
+      "responsive-layout.desktop#textOptionGrid"
+    ]
+  },
+  "gallery-layout-option#list": {
+    "title": "list",
+    "props": {
+      "name": "list"
+    },
+    "children": [
+      "icon-inline-grid",
+      "responsive-layout.desktop#textOptionList"
+    ]
+  },
+  "responsive-layout.desktop#textOptionGrid": {
+    "title": "textOptionGrid",
+    "children": [
+      "rich-text#option-grid"
+    ]
+  },
+  "responsive-layout.desktop#textOptionList": {
+    "title": "textOptionList",
+    "children": [
+      "rich-text#option-list"
+    ]
+  },
+  "rich-text#option-grid": {
+    "title": "option-grid",
+    "props": {
+      "text": "Grid",
+      "textColor": "c-auto",
+      "blockClass": "layout-option"
+    }
+  },
+  "rich-text#option-list": {
+    "title": "option-list",
+    "props": {
+      "text": "List",
+      "textColor": "c-auto",
+      "blockClass": "layout-option"
+    }
+  },
+  "search-content#desktop-departament": {
+    "title": " search phone ",
+    "blocks": [
+      "gallery#search",
+      "not-found"
+    ]
+  },
+  "gallery#search": {
+    "title": "galllery search",
+    "props": {
+      "layouts": [
+        {
+          "name": "grid",
+          "component": "GridSummary",
+          "itemsPerRow": {
+            "(min-width:1008px)": 4,
+            "(min-width:763px) and (max-width:1024px)": 3,
+            "(max-width:763px)": 2
+          }
+        },
+        {
+          "name": "list",
+          "component": "ListSummary",
+          "itemsPerRow": 1
+        }
+      ],
+      "ListSummary": "product-summary.shelf#departament",
+      "GridSummary": "product-summary.shelf#departament"
+    }
+  },
+  "product-summary.shelf#departament": {
+    "title": "demo--2",
+    "children": [
+      "product-summary-space",
+      "product-summary-image",
+      "product-summary-space",
+      "product-summary-name",
+      "product-summary-price",
+      "product-summary-space",
+      "add-to-cart-button#departament"
+    ],
+    "props": {
+      "blockClass": "productos_order123"
+    }
+  },
+  "add-to-cart-button#departament": {
+    "props": {
+      "blockClass": "vitrinas-plp"
+    }
+  }
+}

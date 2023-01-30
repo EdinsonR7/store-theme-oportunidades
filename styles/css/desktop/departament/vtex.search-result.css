@@ -1,0 +1,20 @@
+.orderByDropdown--order-By-display :global(.vtex-search-result-3-x-orderByButton){
+  background-color: transparent;
+    border: 1px solid #c2b5b5;
+    box-shadow: 0 0 0 transparent;
+    -webkit-box-shadow: 0 0 0 transparent;
+    padding: 5px 10px;
+    margin-left: 10px;
+    transform: translateY(15px) translateX(630px);
+}
+
+.galleryLayoutOptionButton{
+  transform: translateX(640px);
+}
+
+.orderByOptionsContainer{
+  margin: 0px;
+  padding: 0px;
+  transform: translateY(50px) translateX(640px);
+  padding: 5px 10px;
+}
