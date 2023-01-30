@@ -8,13 +8,15 @@
 
  /* logo mano pendiente */
 
-/* .flexRow--mobile--newsletter10 :global(.vtex-flex-layout-0-x-flexColChild ) {
+.flexColChild--newsletter-logo5 :global(.vtex-svg) {
     margin: 0px;
     padding: 0px;
-    transform: translateY(25px); 
+    transform: translateY(50px); 
    
   
-}  */
+} 
+
+
 
 .flexColChild--newsletter-logo5{
     position: relative;
