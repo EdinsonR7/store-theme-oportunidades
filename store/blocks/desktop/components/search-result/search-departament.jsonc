@@ -69,11 +69,13 @@
     "title": "order_content",
     "children": [
       "filter-navigator.v3"
+      "disclosure-layout#filter-navigator_marca"
     ],
     "props": {
       "width": "20%"
     }
   },
+
   "filter-navigator.v3": {
     "title": "navigator-v3",
     "blocks": [
@@ -91,6 +93,7 @@
     }
   },
 
+
   //------------------------------------------------------- ORDER-PRODUCT
   "flex-layout.col#marca_order-switcher2": {
     "title": "marca_order-switcher2",
@@ -105,17 +108,19 @@
       "order-by.v2",
       "flex-layout.row#gallery_switcher"
     
+      "gallery-layout-switcher"
     ]
   },
   "order-by.v2": {
     "props": {
       "width": "80%",
+     
       "hiddenOptions": [
         "OrderByTopSaleDESC",
         "OrderByCollection",
         "OrderByNameASC"
       ],
-      "showOrderTitle": false,
+      "showOrderTitle": true,
       "blockClass": "order-By-display"
     }
   },
