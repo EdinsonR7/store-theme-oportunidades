@@ -1,5 +1,6 @@
 {
   "newsletter-form#footer_desktop": {
+    "title": "footer_desktop2",
     "children": [
       "newsletter-input-email",
       "newsletter-submit",
@@ -10,16 +11,19 @@
     }
   },
   "newsletter-input-email": {
+    "title": "input-email",
     "props": {
       "blockClass": "input-email"
     }
   },
   "newsletter-submit": {
+    "title": "newsletter-submit",
     "props": {
       "blockClass": "submit-boton"
     }
   },
   "newsletter-checkbox-confirmation": {
+    "title":"checkbox-confirmation",
     "props": {
       "url": "/",
       "checkboxLabel": "Acepto términos, condiciones y política de tratamiento de datos personales.Ver aquí",

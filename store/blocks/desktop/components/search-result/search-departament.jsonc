@@ -68,12 +68,32 @@
   "flex-layout.col#marca_order-switcher1": {
     "title": "order_content",
     "children": [
+      "filter-navigator.v3"
       "disclosure-layout#filter-navigator_marca"
     ],
     "props": {
       "width": "20%"
     }
   },
+
+  "filter-navigator.v3": {
+    "title": "navigator-v3",
+    "blocks": [
+      "sidebar-close-button"
+    ],
+    "props": {
+      "truncateFilters": true,
+      "showClearByFilter": true,
+      "fullWidthOnMobile": true,
+      "navigationTypeOnMobile": "collapsible",
+      "appliedFiltersOverview": "show",
+      "totalProductsOnMobile": "show",
+      "updateOnFilterSelectionOnMobile": true,
+      "width": "30%"
+    }
+  },
+
+
   //------------------------------------------------------- ORDER-PRODUCT
   "flex-layout.col#marca_order-switcher2": {
     "title": "marca_order-switcher2",
@@ -86,12 +106,15 @@
     "title": "filter-order-switcher",
     "children": [
       "order-by.v2",
+      "flex-layout.row#gallery_switcher"
+    
       "gallery-layout-switcher"
     ]
   },
   "order-by.v2": {
     "props": {
-      "width": "25%",
+      "width": "80%",
+     
       "hiddenOptions": [
         "OrderByTopSaleDESC",
         "OrderByCollection",
@@ -105,8 +128,22 @@
     "title": "productos_order-switcher",
     "children": [
       "search-content#desktop-departament"
-    ]
+    ],
+    "props": {
+      "blockClass": "desktop-departament1515"
+    }
   },
+
+  "flex-layout.row#gallery_switcher":{
+    "children": [
+      "gallery-layout-switcher"
+    ],
+    "props": {
+      "blockClass": "gallery_switcher"
+    }
+  },
+
+
   "gallery-layout-switcher": {
     "title": "switcher",
     "children": [
@@ -170,7 +207,11 @@
     "blocks": [
       "gallery#search",
       "not-found"
-    ]
+    ],
+
+    "props":{
+      "blockClass": "desktop-departament123"
+    }
   },
   "gallery#search": {
     "title": "galllery search",

@@ -19,6 +19,7 @@
         ]
     },
     "rich-text#pagos": {
+        "title": "pagos",
         "props": {
             "text": "Marca líder en electrodomésticos en Colombia",
             "blockClass": "marcas-lider-color"
@@ -34,6 +35,7 @@
         }
     },
     "image#pagos_asodelco": {
+        "title": "pagos_asodelco",
         "props": {
             "src": "assets/img-footer/footer-asodelco.jpg",
             "maxHeight": 70
@@ -49,6 +51,7 @@
         }
     },
     "image#pagos_colombia": {
+        "title": "pagos_colombia",
         "props": {
             "src": "assets/img-footer/footer-colombia.jpg",
             "maxHeight": 70
@@ -64,6 +67,7 @@
         }
     },
     "image#pagos_industria-comercio": {
+        "title": "industria-comercio",
         "props": {
             "src": "assets/img-footer/footer-industria-y-comercio.jpg",
             "maxHeight": 70
@@ -79,6 +83,7 @@
         }
     },
     "image#metodos_de--pagos": {
+        "title": "metodos_de--pagos",
         "props": {
             "src": "assets/img-footer/footer-payment-methods.jpg",
             "maxHeight": 70

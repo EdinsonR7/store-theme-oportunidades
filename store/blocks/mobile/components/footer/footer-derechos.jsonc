@@ -12,6 +12,7 @@
         ]
     },
     "rich-text#derehos_resrvados-mobile": {
+      "title": "resrvados-mobile",
         "props": {
           "text": "COPYRIGHT 2021 © TODOS LOS DERECHOS RESERVADOS / DESARROLLADO POR MEVM24",
           "textPosition": "CENTER",
