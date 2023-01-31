@@ -6,9 +6,9 @@
       "logo#header__drawer--logo",
       "header-spacer",
       "search-bar",
-      "icon#mi-ubicacion",
-      "login",  
-      "minicart.v2"
+      "header-spacer",
+      "flex-layout.row#icon__mi-ubicacion"
+      
     ],
     "props": {
       "sticky": true,
@@ -33,42 +33,9 @@
       "openAutocompleteOnFocus": true
      
     }
-  },
-  "login": {
-    "props": {
-      "emailAndPasswordTitle": "LOG-IN",
-      "accessCodeTitle": "Acess Code LOG-IN",
-      "emailPlaceholder": "e-mail",
-      "passwordPlaceholder": "password",
-      "showPasswordVerificationIntoTooltip": true,
-      "showIconProfile": true,
-      "hideIconLabel":true,
-      "labelClasses":"login-header",
-      "logInButtonBehavior":"link"
-      
-
-     
-      
-    }
-    
-  },
-
-  "minicart.v2": {
-    "props": {
-      "MinicartIcon": "icon-cart#minicart-icon",
-      "linkVariationUrl":"MI CARRITO",
-      "openOnHover":true
-    },
-    "children": ["minicart-base-content"]
-  },
-  "icon-cart#minicart-icon": {
-    "props": {
-      "size": 28,
-      "blockClass":"minicart-v2",
-      "variation":"popup"
-
-    }
   }
+
+ 
 
   
 

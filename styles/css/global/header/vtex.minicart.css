@@ -1,3 +1,3 @@
-/* .openIconContainer{
-    background-color: #00c4ff;
-} */
+.minicartContainer :global(.vtex-button):hover{
+  background: none;
+}

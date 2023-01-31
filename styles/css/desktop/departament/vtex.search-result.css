@@ -1,0 +1,13 @@
+.orderByOptionsContainer {
+  width : fit-content;
+  border: none;
+}
+
+
+.orderByDropdown--order-By-display {
+  width: fit-content;
+}
+
+.orderByButton--order-By-display {
+  width: 180px;
+}

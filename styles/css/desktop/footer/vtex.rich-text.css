@@ -1,0 +1,72 @@
+.paragraph--suscribete {
+    font-weight  : 900;
+    font-size    : 25px;
+    text-align   : center;
+    margin-bottom: 5px;
+    line-height  : 1;
+    color        : #18337f;
+    font-family  : Montserrat, sans-serif;
+    display      : block;
+    transform    : translateY(4px)translateX(-120px);
+
+}
+
+.paragraph--ofertas {
+    font-size  : 12px;
+    color      : #18337f;
+    font-family: Montserrat, sans-serif;
+    display    : block;
+    line-height: normal;
+    transform  : translateX(-382px) translateY(70px);
+}
+
+
+.paragraph--marcas-lider-color {
+    margin     : 0px;
+    padding    : 0px;
+    font-family: Montserrat, sans-serif;
+    color      : #18337f;
+    text-align : center;
+    align-items: center;
+    font-size  : 13px;
+    transform  : translateX(90px) translateY(10px);
+}
+
+.paragraph--legal-1 {
+    font-weight  : 900;
+    font-size    : 14px;
+    color        : #18337f;
+    margin-bottom: 20px;
+    margin-top   : 0;
+    font-family  : Montserrat, sans-serif;
+    transform    : translateX(70px)
+}
+
+.paragraph--legal-2 {
+    font-weight  : 900;
+    font-size    : 14px;
+    color        : #18337f;
+    margin-bottom: 20px;
+    margin-top   : 0;
+    font-family  : Montserrat, sans-serif;
+    transform    : translateX(70px)
+}
+
+
+.paragraph--legal-3 {
+    font-weight  : 900;
+    font-size    : 14px;
+    color        : #18337f;
+    margin-bottom: 20px;
+    margin-top   : 0;
+    font-family  : Montserrat, sans-serif;
+    transform    : translateX(70px)
+}
+
+
+.paragraph--derchos-reservados {
+    font-weight: 500;
+    font-size  : 9px;
+    color      : #474747;
+    line-height: normal;
+}

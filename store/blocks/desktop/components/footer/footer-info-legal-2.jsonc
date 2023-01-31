@@ -1,0 +1,178 @@
+{
+    "flex-layout.col#footer_info--legal2": {
+        "title": "footer_info--legal2",
+        "children": [
+            "rich-text#info_legal--2",
+            "menu-item#termino-condiciones",
+            "menu-item#código-etica",
+            "menu-item#línea-etica",
+            "menu-item#Política-SAGRILAFT",
+            "menu-item#Protección-Consumidor",
+            "menu-item#proteccion-datos",
+            "menu-item#promociones-descuentos",
+            "menu-item#tiempos-envio",
+            "menu-item#cambios-garantia",
+            "menu-item#info-TDT"
+        ],
+        "props": {
+            "blockClass": "info--legal2"
+        }
+    },
+    "rich-text#info_legal--2": {
+        "title": "legal--2",
+        "props": {
+            "text": "INFORMACIÓN LEGAL",
+            "blockClass": "legal-2"
+        }
+    },
+    "menu-item#termino-condiciones": {
+        "title": "termino-condiciones",
+        "props": {
+            "id": "info",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Términos y condiciones",
+                "text": "Términos y condiciones"
+            }
+        }
+    },
+    "menu-item#código-etica": {
+        "title": "código-etica",
+        "props": {
+            "id": "info",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Código de Ética y Buen Gobierno Corporativo",
+                "text": "Código de Ética y Buen Gobierno Corporativo"
+            }
+        }
+    },
+    "menu-item#línea-etica": {
+        "title": "línea-etica",
+        "props": {
+            "id": "info",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Línea Ética",
+                "text": "Línea Ética"
+            }
+        }
+    },
+    "menu-item#Política-SAGRILAFT": {
+        "title": "Política-SAGRILAFT",
+        "props": {
+            "id": "info",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Política SAGRILAFT",
+                "text": "Política SAGRILAFT"
+            }
+        }
+    },
+    "menu-item#Protección-Consumidor": {
+        "title": "Protección-Consumidor",
+        "props": {
+            "id": "info",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Protección al Consumidor",
+                "text": "Protección al Consumidor"
+            }
+        }
+    },
+    "menu-item#proteccion-datos": {
+        "title": "proteccion-datos",
+        "props": {
+            "id": "info",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Protección de datos personales",
+                "text": "Protección de datos personales"
+            }
+        }
+    },
+    "menu-item#promociones-descuentos": {
+        "title": "promociones-descuentos",
+        "props": {
+            "id": "info",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Promociones y descuentos",
+                "text": "Promociones y descuentos"
+            }
+        }
+    },
+    "menu-item#tiempos-envio": {
+        "title": "tiempos-envio",
+        "props": {
+            "id": "info",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": " Tiempos y costos de envío",
+                "text": " Tiempos y costos de envío"
+            }
+        }
+    },
+    "menu-item#cambios-garantia": {
+        "title": "cambios-garantia",
+        "props": {
+            "id": "info",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Cambios, devoluciones y atención de garantías",
+                "text": "Cambios, devoluciones y atención de garantías"
+            }
+        }
+    },
+    "menu-item#info-TDT": {
+        "title": "info-TDT",
+        "props": {
+            "id": "info",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Todo lo que debes saber sobre la TDT",
+                "text": "Todo lo que debes saber sobre la TDT"
+            }
+        }
+    }
+}

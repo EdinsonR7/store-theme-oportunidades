@@ -1,0 +1,23 @@
+.emailInputContainer--input-email {
+    margin   : 0px;
+    padding  : 0px;
+    transform: translateX(-480px) translateY(30px);
+    width    : 450px;
+}
+
+.formSubmitContainer--submit-boton {
+    margin   : 0px;
+    padding  : 0px;
+    transform: translateX(-10px) translateY(-10px);
+
+}
+
+.confirmationCheckboxContainer--acepto-terminos {
+    margin     : 0px;
+    padding    : 0px;
+    transform  : translateX(-480px) translateY(-5px);
+    font-size  : 11px;
+    font-family: Montserrat, sans-serif;
+    color      : #18337f;
+
+}

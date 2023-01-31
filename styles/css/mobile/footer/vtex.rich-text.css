@@ -1,0 +1,40 @@
+.wrapper--newsletter-8 {
+    font-weight : 900;
+    font-size   : 14px;
+    width       : auto;
+    margin-top  : 0;
+    margin-right: 5px;
+    text-align  : left;
+    color       : #18337f;
+    font-family : Montserrat, sans-serif;
+    margin      : 0px;
+    padding     : 0px;
+    transform   : translateX(50px) translateY(-20px);
+}
+
+.paragraph--ofertas_mobile {
+    font-size  : 9px;
+    margin-top : 5px;
+    width      : 100%;
+    color      : #18337f;
+    font-family: Montserrat, sans-serif;
+    transform  : translateX(51px) translateY(-35px)
+}
+
+
+.paragraph--legal_legal{
+    font-weight: 900;
+    font-size: 14px;
+    color: #18337f;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+
+.paragraph--servicio_clien{
+    font-weight: 900;
+    font-size: 14px;
+    color: #18337f;
+    margin-bottom: 20px;
+    margin-top: 0;
+}

@@ -1,16 +1,12 @@
-.container{
-    position: relative;
-    right: 5px;   
-} 
-
-
  .profileIcon{
-   background-color:#00c4ff;
-   width: 28px;
-   height: 28px;
-}
+   width: 35px;
+   margin: 0px;
+   padding: 0px;
+   height: 35px;
+   }
 
-.buttonLink{
-  position: relative;
-  left: 15px;
-}
+    .buttonLink :global(.vtex-button):hover{
+       background:none;
+    }
+
+

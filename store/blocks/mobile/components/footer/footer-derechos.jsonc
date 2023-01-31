@@ -1,0 +1,23 @@
+{
+    "flex-layout.row#footer_mobile--derechos":{
+      "title": "mobile--derechos",
+      "children": [
+        "flex-layout.col#footer_mobile--derechos"
+      ]
+    },
+    "flex-layout.col#footer_mobile--derechos":{
+        "title": "mobile--derechos",
+        "children": [
+            "rich-text#derehos_resrvados-mobile"
+        ]
+    },
+    "rich-text#derehos_resrvados-mobile": {
+      "title": "resrvados-mobile",
+        "props": {
+          "text": "COPYRIGHT 2021 © TODOS LOS DERECHOS RESERVADOS / DESARROLLADO POR MEVM24",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "blockClass": "derchos-reservados"
+        }
+      }
+}

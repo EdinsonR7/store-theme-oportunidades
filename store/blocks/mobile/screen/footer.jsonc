@@ -1,0 +1,11 @@
+{
+    "footer-layout.mobile#footer_mobile": {
+        "title":"footer_mobile",
+        "children": [
+            "flex-layout.row#footer_mobile--newsletter",
+             "flex-layout.row#footer_mobile--legal",
+             "flex-layout.row#footer_mobile--pagos",
+             "flex-layout.row#footer_mobile--derechos"
+        ]
+    }
+}

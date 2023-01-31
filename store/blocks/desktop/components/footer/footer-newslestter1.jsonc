@@ -1,0 +1,84 @@
+{
+  
+  "flex-layout.row#footer-desktop--newsletter": {
+    "title": "footer-desktop--newsletter",
+    "children": [
+      "flex-layout.col#footer-desktop--logo",
+      "flex-layout.col#footer-desktop--suscribete",
+      "flex-layout.col#footer-desktop--ofertas",
+      "flex-layout.col#footer-desktop--email"
+    ],
+    "props": {
+      "blockClass": "fila-newsletter"
+    }
+  },
+  "flex-layout.col#footer-desktop--logo": {
+    "title": "desktop--logo",
+    "children": [
+      "icon#logo_newsletter"
+    ],
+    "props": {
+      "blockClass": "mano-derecha-icon"
+    }
+  },
+  "icon#logo_newsletter": {
+    "title": "logo_newsletter",
+    "props": {
+      "id": "sti-close--filled",
+      "size": 80
+    }
+  },
+  "flex-layout.col#footer-desktop--suscribete": {
+    "title": "desktop--suscribete",
+    "children": [
+      "rich-text#suscribete"
+    ]
+  },
+  "rich-text#suscribete": {
+    "title": "suscribete",
+    "props": {
+      "text": "NEWSLETTER ¡SUSCRÍBETE!",
+      "blockClass": "suscribete"
+    }
+  },
+  "flex-layout.col#footer-desktop--ofertas": {
+    "title": "desktop--ofertas",
+    "children": [
+      "rich-text#ofertas"
+    ]
+  },
+  "rich-text#ofertas": {
+    "title": "ofertas",
+    "props": {
+      "text": "Y recibe las mejores ofertas",
+      "blockClass": "ofertas"
+    }
+  },
+  "flex-layout.col#footer-desktop--email": {
+    "title": "footer-desktop--newsletter",
+    "children": [
+      "newsletter-form#footer_desktop"
+    ]
+  },
+  "flex-layout.row#footer_desktop--derechos": {
+    "title": "footer_desktop--derechos",
+    "children": [
+      "flex-layout.col#footer_desktop--derechos"
+    ]
+  },
+  "flex-layout.col#footer_desktop--derechos": {
+    "title": "footer_desktop--derec-reser",
+    "children": [
+      "rich-text#derehos_resrvados"
+    ]
+  },
+  "rich-text#derehos_resrvados": {
+    "title": "derehos_resrvados",
+    "props": {
+      "text": "COPYRIGHT 2021 © TODOS LOS DERECHOS RESERVADOS / DESARROLLADO POR MEVM24",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "derchos-reservados"
+    }
+  }
+}

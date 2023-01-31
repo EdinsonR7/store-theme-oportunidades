@@ -1,0 +1,11 @@
+{
+    "footer-layout.desktop#footer_desktop": {
+        "title": "footer_desktop",
+        "children": [
+          "flex-layout.row#footer-desktop--newsletter",
+          "flex-layout.row#footer_info--legal",
+          "flex-layout.row#footer_desktop--pagos",
+          "flex-layout.row#footer_desktop--derechos"
+        ]
+      }
+}
