@@ -1,6 +1,6 @@
 {
     "flex-layout.col#footer_info--legal3": {
-        "title": "",
+        "title": "info--legal3",
         "children": [
             "rich-text#info--legal--3",
             "menu-item#preguntas-frecuente",
@@ -15,12 +15,14 @@
         }
     },
     "rich-text#info--legal--3": {
+        "title": "legal--3",
         "props": {
             "text": "SERVICIO AL CLIENTE",
             "blockClass": "legal-3"
         }
     },
     "menu-item#preguntas-frecuente": {
+        "title": "preguntas-frecuente",
         "props": {
             "id": "info",
             "type": "custom",
@@ -35,6 +37,7 @@
         }
     },
     "menu-item#contactos": {
+        "title": "contactos",
         "props": {
             "id": "info",
             "type": "custom",
@@ -49,6 +52,7 @@
         }
     },
     "menu-item#telefono": {
+        "title": "telefono",
         "props": {
             "id": "info",
             "type": "custom",
@@ -63,6 +67,7 @@
         }
     },
     "menu-item#correo": {
+        "title": "correo",
         "props": {
             "id": "info",
             "type": "custom",
@@ -77,6 +82,7 @@
         }
     },
     "menu-item#logo-empresa": {
+        "title": "logo-empresa",
         "props": {
             "id": "info",
             "type": "custom",
@@ -91,16 +97,19 @@
         }
     },
     "footer-layout.desktop#footer_desktop--social": {
+        "title": "desktop--social",
         "children": [
             "flex-layout.row#footer-desktop"
         ]
     },
     "flex-layout.row#footer-desktop": {
+        "title": "footer-desktop",
         "children": [
             "social-networks#desktop-footer"
         ]
     },
     "social-networks#desktop-footer": {
+        "title": "desktop-footer",
         "props": {
             "blockclass": "redes-social",
             "socialNetworks": [

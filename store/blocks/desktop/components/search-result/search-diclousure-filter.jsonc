@@ -1,50 +1,51 @@
-{
-  "disclosure-layout#filter-navigator_marca": {
-    "title": "navigator_marca",
-    "children": [
-      "disclosure-trigger#filter-navigator",
-      "disclosure-content#filter-navigator"
-    ],
-    "props": {
-      "blockClass": "filter-navigator"
-    }
-  },
-  "disclosure-trigger#filter-navigator": {
-    "title": "filter-navigator",
-    "children": [
-      "rich-text#filter-navigator"
-    ]
-  },
-  "rich-text#filter-navigator": {
-    "title": "filter-navigator2",
-    "props": {
-      "text": "Marcas",
-      "blockClass": "navigator-marcas"
-    }
-  },
-  "disclosure-content#filter-navigator": {
-    "title": "filter-navigator3",
-    "children": [
-      "filter-navigator.v3"
-    ],
-    "props": {
-      "filtersTitleHtmlTag": "h5"
-    }
-  },
-  "filter-navigator.v3": {
-    "title": "navigator-v3",
-    "blocks": [
-      "sidebar-close-button"
-    ],
-    "props": {
-      "truncateFilters": true,
-      "showClearByFilter": true,
-      "fullWidthOnMobile": true,
-      "navigationTypeOnMobile": "collapsible",
-      "appliedFiltersOverview": "show",
-      "totalProductsOnMobile": "show",
-      "updateOnFilterSelectionOnMobile": true,
-      "width": "30%"
-    }
-  }
-}
+// {
+//   "disclosure-layout#filter-navigator_marca": {
+//     "title": "navigator_marca",
+//     "children": [
+//       "disclosure-trigger#filter-navigator",
+//       "disclosure-content#filter-navigator"
+//     ],
+//     "props": {
+//       "blockClass": "filter-navigator"
+//     }
+//   },
+//   "disclosure-trigger#filter-navigator": {
+//     "title": "filter-navigator",
+//     "children": [
+//       "rich-text#filter-navigator"
+//     ]
+//   },
+//   "rich-text#filter-navigator": {
+//     "title": "filter-navigator2",
+//     "props": {
+//       "text": "Marcas",
+//       "blockClass": "navigator-marcas"
+//     }
+//   },
+//   "disclosure-content#filter-navigator": {
+//     "title": "filter-navigator3",
+//     "children": [
+      
+//     ],
+//     "props": {
+//       "filtersTitleHtmlTag": "h5"
+//     }
+//   },
+//   "filter-navigator.v3": {
+//     "title": "navigator-v3",
+//     "blocks": [
+//       "sidebar-close-button"
+//     ],
+//     "props": {
+//       "truncateFilters": true,
+//       "showClearByFilter": true,
+//       "fullWidthOnMobile": true,
+//       "navigationTypeOnMobile": "collapsible",
+//       "appliedFiltersOverview": "show",
+//       "totalProductsOnMobile": "show",
+//       "updateOnFilterSelectionOnMobile": true,
+//       "width": "30%"
+//     }
+//   }
+// }
+{}

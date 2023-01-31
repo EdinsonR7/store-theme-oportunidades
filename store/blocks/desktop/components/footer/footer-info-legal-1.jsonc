@@ -11,7 +11,7 @@
         }
     },
     "flex-layout.col#footer_info--legal1": {
-        "title": "",
+        "title": "info--legal1",
         "children": [
             "rich-text#info_legal--1",
             "menu-item#quienes-somos",
@@ -25,6 +25,7 @@
         }
     },
     "menu-item#quienes-somos": {
+        "title": "quienes-somos",
         "props": {
             "id": "info",
             "type": "custom",
@@ -39,6 +40,7 @@
         }
     },
     "menu-item#trabaja-nosotros": {
+        "title": "trabaja-nosotros",
         "props": {
             "id": "info",
             "type": "custom",
@@ -53,6 +55,7 @@
         }
     },
     "menu-item#cobertura": {
+        "title": "cobertura",
         "props": {
             "id": "info",
             "type": "custom",
@@ -67,6 +70,7 @@
         }
     },
     "menu-item#ventas-institucionales": {
+        "title": "ventas-institucionale",
         "props": {
             "id": "info",
             "type": "custom",
@@ -81,6 +85,7 @@
         }
     },
     "menu-item#ventas-mayoristas": {
+        "title": "ventas-mayoristas",
         "props": {
             "id": "info",
             "type": "custom",
@@ -95,6 +100,7 @@
         }
     },
     "rich-text#info_legal--1": {
+        "title": "info_legal--1",
         "props": {
             "text": "NUESTRA COMPAÑÍA",
             "blockClass": "legal-1"

@@ -1,5 +1,6 @@
 {
     "newsletter-form#footer_mobile": {
+        "title": "footer_mobile",
         "children": [
             "newsletter-input-email#mobile_1",
             "newsletter-submit#mobile_2",
@@ -10,16 +11,19 @@
         }
     },
     "newsletter-input-email#mobile_1": {
+        "title": "mobile_1",
         "props": {
             "blockClass": "mobile-email"
         }
     },
     "newsletter-submit#mobile_2": {
+        "title": "mobile_2",
         "props": {
             "blockClass": "submit-boton-mobile10"
         }
     },
     "newsletter-checkbox-confirmation#mobile_3": {
+        "title": "mobile_3",
         "props": {
             "url": "/",
             "checkboxLabel": "Acepto términos, condiciones y política de tratamiento de datos personales.Ver aquí",

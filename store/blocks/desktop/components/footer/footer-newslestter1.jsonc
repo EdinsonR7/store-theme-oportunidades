@@ -1,6 +1,7 @@
 {
   
   "flex-layout.row#footer-desktop--newsletter": {
+    "title": "footer-desktop--newsletter",
     "children": [
       "flex-layout.col#footer-desktop--logo",
       "flex-layout.col#footer-desktop--suscribete",
@@ -21,6 +22,7 @@
     }
   },
   "icon#logo_newsletter": {
+    "title": "logo_newsletter",
     "props": {
       "id": "sti-close--filled",
       "size": 80
@@ -33,6 +35,7 @@
     ]
   },
   "rich-text#suscribete": {
+    "title": "suscribete",
     "props": {
       "text": "NEWSLETTER ¡SUSCRÍBETE!",
       "blockClass": "suscribete"
@@ -45,6 +48,7 @@
     ]
   },
   "rich-text#ofertas": {
+    "title": "ofertas",
     "props": {
       "text": "Y recibe las mejores ofertas",
       "blockClass": "ofertas"
@@ -69,6 +73,7 @@
     ]
   },
   "rich-text#derehos_resrvados": {
+    "title": "derehos_resrvados",
     "props": {
       "text": "COPYRIGHT 2021 © TODOS LOS DERECHOS RESERVADOS / DESARROLLADO POR MEVM24",
       "textPosition": "CENTER",

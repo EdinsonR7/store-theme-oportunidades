@@ -21,6 +21,7 @@
         }
     },
     "icon#logo_ mobile--newsletter": {
+        "title": "mobile--newsletter",
         "props": {
             "id": "sti-close--filled",
             "size": 40
@@ -29,13 +30,14 @@
         }
     },
     "rich-text#mobile_suscribete": {
-        // "title": "suscribete",
+        "title": "suscribete",
         "props": {
             "text": "NEWSLETTER ¡SUSCRÍBETE!",
             "blockClass": "newsletter-8"
         }
     },
     "rich-text#mobile_ofertas": {
+        "title": "mobile_ofertas",
         "props": {
             "text": "Y recibe las mejores ofertas",
             "blockClass": "ofertas_mobile"

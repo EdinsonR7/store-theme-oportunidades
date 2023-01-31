@@ -1,9 +1,9 @@
 {
   "flex-layout.row#footer_mobile--legal": {
+    "title": "mobile--legal",
     "children": [
       "flex-layout.col#footer-mobile_container"
     ]
-   
   },
   "flex-layout.col#footer-mobile_container": {
     "title": "footer-mobile_container",
@@ -12,9 +12,6 @@
       "disclosure-layout#menu_item--2",
       "disclosure-layout#menu_item--3"
     ]
-  
-
-  
   },
   //--------------------------------------------COMPAÑIA
   "disclosure-layout#menu_item--1": {
@@ -24,27 +21,33 @@
       "disclosure-content#compañia"
     ],
     "props": {
-      "blockClass":"menu_item--1"
+      "blockClass": "menu_item--1"
     }
   },
   "disclosure-trigger#compañia": {
     "title": "compañia",
     "children": [
+      "flex-layout.row#nuestra_compañia"
+    ],
+    "props": {
+      "blockClass": "nombre_compañia2020"
+    }
+  },
+  "flex-layout.row#nuestra_compañia": {
+    "title": "nuestra_compañia",
+    "children": [
       "rich-text#nombre_compañia"
     ],
     "props": {
-      "blockClass":"compañia-botom"
+      "blockClass": "nombre_1500",
+      "preserveLayoutOnMobile": true
     }
-
-   
   },
   "rich-text#nombre_compañia": {
     "title": "nombre_compañia",
     "props": {
       "text": " NUESTRA COMPAÑÍA ",
-      "blockClass":"compañia-botom"
-   
-     
+      "blockClass": "compañia-botom"
     }
   },
   "disclosure-content#compañia": {
@@ -56,9 +59,8 @@
       "menu-item#ventas-institucionales",
       "menu-item#ventas-mayoristas"
     ],
-
-    "props":{
-      "blockClass":"compañia-nuestra20"
+    "props": {
+      "blockClass": "compañia-nuestra20"
     }
   },
   //-----------------------------------------------------LEGAL
@@ -68,7 +70,6 @@
       "disclosure-trigger#info_legal",
       "disclosure-content#info_legal"
     ],
-
     "props": {
       "blockClass": "menu_item--2"
     }
@@ -83,7 +84,7 @@
     "title": "legal_legal",
     "props": {
       "text": "INFORMACIÓN LEGAL",
-      "blockClass":"legal_legal"
+      "blockClass": "legal_legal"
     }
   },
   "disclosure-content#info_legal": {
@@ -100,8 +101,8 @@
       "menu-item#cambios-garantia",
       "menu-item#info-TDT"
     ],
-    "props":{
-      "blockClass":"info_legal15"
+    "props": {
+      "blockClass": "info_legal15"
     }
   },
   //---------------------------------------------------SERVICIO CLIENTE
@@ -111,9 +112,8 @@
       "disclosure-trigger#servicio_cliente",
       "disclosure-content#servicio_cliente"
     ],
-
     "props": {
-      "blockClass":"menu_item--3"
+      "blockClass": "menu_item--3"
     }
   },
   "disclosure-trigger#servicio_cliente": {
