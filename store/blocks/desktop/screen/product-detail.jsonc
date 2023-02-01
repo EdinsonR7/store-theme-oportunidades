@@ -1,0 +1,8 @@
+{
+    "store.product": {
+        "children": [
+            "flex-layout.row#product-main",
+            "shelf.relatedProducts"
+        ]
+    }
+}

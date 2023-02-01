@@ -57,7 +57,6 @@
       "src": "assets/image-plp/Refrigeracion.webp"
     }
   },
-  //-------------------------------------------MARCAS ROW PADRE
   "flex-layout.row#marca_order-switcher": {
     "title": "filter_prueba",
     "children": [
@@ -90,8 +89,6 @@
       "width": "30%"
     }
   },
-
-  //------------------------------------------------------- ORDER-PRODUCT
   "flex-layout.col#marca_order-switcher2": {
     "title": "marca_order-switcher2",
     "children": [
@@ -104,7 +101,6 @@
     "children": [
       "order-by.v2",
       "flex-layout.row#gallery_switcher"
-    
     ]
   },
   "order-by.v2": {
@@ -128,8 +124,7 @@
       "blockClass": "desktop-departament1515"
     }
   },
-
-  "flex-layout.row#gallery_switcher":{
+  "flex-layout.row#gallery_switcher": {
     "children": [
       "gallery-layout-switcher"
     ],
@@ -137,8 +132,6 @@
       "blockClass": "gallery_switcher"
     }
   },
-
-
   "gallery-layout-switcher": {
     "title": "switcher",
     "children": [
@@ -203,8 +196,7 @@
       "gallery#search",
       "not-found"
     ],
-
-    "props":{
+    "props": {
       "blockClass": "desktop-departament123"
     }
   },
@@ -247,6 +239,7 @@
     }
   },
   "add-to-cart-button#departament": {
+    "title": "departament",
     "props": {
       "blockClass": "vitrinas-plp"
     }

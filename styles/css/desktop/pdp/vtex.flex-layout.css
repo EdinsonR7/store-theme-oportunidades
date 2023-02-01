@@ -1,0 +1,18 @@
+.flexCol--detalles_productos {
+    align-items: center;
+}
+
+.flexRowContent--buy-button02 :global(.vtex-button) {
+    border          : 1px solid #f60606;
+    background-color: #f60606;
+    font-size       : 12px;
+    font-family     : Montserrat, sans-serif;
+    font-weight     : 800;
+    line-height     : 40px;
+    width           : 210px;
+    margin          : auto;
+}
+
+.flexRowContent--simulator :global(.vtex-address-form__neighborhood) {
+    display: none;
+}
