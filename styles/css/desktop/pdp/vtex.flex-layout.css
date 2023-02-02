@@ -1,5 +1,8 @@
 .flexCol--detalles_productos {
     align-items: center;
+    transform: translateY(-25px);
+    padding: 0px;
+    margin: 0px;
 }
 
 .flexRowContent--buy-button02 :global(.vtex-button) {
@@ -15,4 +18,40 @@
 
 .flexRowContent--simulator :global(.vtex-address-form__neighborhood) {
     display: none;
+}
+
+.flexColChild--detalles_productos :global(.vtex-numeric-stepper__input){
+    width: 6rem;
+    height: 2rem;
+}
+
+.flexRowContent--simulator :global(.vtex-address-form__state){
+   width: 200px;
+   transform: translateX(-90px);
+   margin: 0px;
+   padding: 0px;
+   border: 1px solid #000;
+   
+ }
+
+
+.flexRowContent--simulator :global(.vtex-address-form__city){
+    transform: translateX(120px) translateY(-42px);
+    width: 200px;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid #000;
+}
+
+
+.flexRowContent--simulator :global(.vtex-dropdown__label){
+    display: none;
+    }
+
+
+.flexRowContent--simulator :global(.vtex-dropdown__caption){
+    padding: 10px 5px;
+    font-weight: 600;
+    font-size: 10px;
+    font-family: Montserrat,sans-serif;
 }

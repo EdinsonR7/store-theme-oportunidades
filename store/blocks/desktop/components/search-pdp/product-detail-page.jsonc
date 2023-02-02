@@ -51,12 +51,24 @@
       "product-price#product-details",
       "product-separator",
       "product-quantity",
-      "product-identifier.product",
+      // "product-identifier.product",
       "sku-selector",
       "flex-layout.row#buy-button",
       "flex-layout.row#gestor_envio"
     ]
   },
+
+  "product-quantity":{
+    "title": "",
+    "props": {
+      "size": "small",
+      "selectorType":"stepper",
+      "blockClasses": "quantity-cantidad"
+      
+    }
+
+  },
+
   "flex-layout.row#gestor_envio": {
     "title": "gestor_envio",
     "children": [

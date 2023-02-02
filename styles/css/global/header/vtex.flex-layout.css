@@ -26,3 +26,7 @@
     position: relative;
     top     : -12px
 }
+
+.flexColChild--cart__header2 :global(.vtex-button){
+    background:none
+}

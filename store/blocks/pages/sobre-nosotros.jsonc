@@ -1,0 +1,112 @@
+{
+    "store.custom#about-us": {
+        "blocks": [
+            "flex-layout.row#sobre_nosotros"
+        ]
+    },
+    "flex-layout.row#sobre_nosotros": {
+        "title": "sobre_nosotros",
+        "children": [
+            "flex-layout.col#sobre_nosotros"
+        ]
+    },
+    "flex-layout.col#sobre_nosotros": {
+        "title": "sobre_nosotros2",
+        "children": [
+            "rich-text#sobre_nosotros1",
+            "image#sobre_nosotros-imagen",
+            "rich-text#sobre_nosotros2",
+            "rich-text#sobre_nosotros3",
+            "rich-text#sobre_nosotros4",
+            "rich-text#sobre_nosotros5",
+            "rich-text#sobre_nosotros6",
+            "rich-text#sobre_nosotros7",
+            "rich-text#sobre_nosotros8",
+            "rich-text#sobre_nosotros9",
+            "rich-text#sobre_nosotros10",
+            "rich-text#sobre_nosotros11",
+            "rich-text#sobre_nosotros12"
+        ]
+    },
+    "rich-text#sobre_nosotros1":{
+        "title": "sobre-nosoros1",
+        "props": {
+            "text": "OPORTUNIDADES"
+        }
+    },
+    "image#sobre_nosotros-imagen":{
+        "title": "sobre-nosoros_imagen",
+       "props": {
+        "src":"assets/Quienes-Somos/QuienesSomos.webp",
+        "blockClass":"imagen-nosotros"
+       }
+    },
+    "rich-text#sobre_nosotros2":{
+        "title": "sobre-nosoros2",
+       "props": {
+        "text":"NUESTRA COMPAÑIA"
+       }
+    },
+    "rich-text#sobre_nosotros3":{
+        "title": "sobre-nosoros3",
+       "props": {
+        "text":"QUIENES SOMOS"
+       }
+    },
+    "rich-text#sobre_nosotros4":{
+        "title": "sobre-nosoros4",
+       "props": {
+        "text":"LAGOBO nació en el año de 1969 en Pereira con su cadena de almacenes dedicados a la venta de electrodomésticos y muebles para el hogar bajo la marca Almacenes Oportunidades®."
+       }
+    },
+    "rich-text#sobre_nosotros5":{
+        "title": "sobre-nosoros5",
+       "props": {
+        "text":"Gracias a su trayectoria y experiencia, hoy en día es una de las empresas líderes en el sector de electrodomésticos y tecnología en Colombia ofreciendo líneas de crédito de consumo, libranza y empresarial."
+       }
+    },
+    "rich-text#sobre_nosotros6":{
+        "title": "sobre-nosoros6",
+       "props": {
+        "text":"En 1972 nace la unidad de negocio dedicada a las ventas al por mayor con cubrimiento nacional, convirtiéndose rápidamente en uno de los mayoristas más grandes de Colombia."
+       }
+    },
+    "rich-text#sobre_nosotros7":{
+        "title": "sobre-nosoros7",
+       "props": {
+        "text":"Desde 2010, Lagobo Distribuciones S.A. con su marca Oportunidades.com.co empieza a comercializar a través de su tienda virtual, electrodomésticos, tecnología, sonido, colchones, electrohogar, refrigeración, lavado y secado, entre otras líneas de hogar de las mejores marcas del mercado ofreciendo excelente calidad a muy buenos precios."
+       }
+    },
+    "rich-text#sobre_nosotros8":{
+        "title": "sobre-nosoros8",
+       "props": {
+        "text":"En más de 50 años de trayectoria hemos logrado posicionarnos como líderes del sector en Colombia. Estamos en más de 30 ciudades del país con más de 50 puntos de atención al público y cientos de clientes que han vivido la experiencia de adquirir sus productos con nosotros."
+       }
+    },
+    "rich-text#sobre_nosotros9":{
+        "title": "sobre-nosoros9",
+       "props": {
+        "text":"MISIÓN"
+       }
+    },
+    "rich-text#sobre_nosotros10":{
+        "title": "sobre-nosoros10",
+       "props": {
+        "text":"Satisfacer las necesidades de nuestros clientes a través de la comercialización y distribución de soluciones para el hogar en electrodomésticos, gasodomésticos, muebles, tecnologías y servicios financieros, generando experiencias positivas por medio de un excelente servicio, calidad e innovación en nuestros productos, mejorando continuamente los procesos e integrando políticas de sostenibilidad ambiental, apoyados por un talento humano capacitado y motivado."
+       }
+    },
+    "rich-text#sobre_nosotros11":{
+        "title": "sobre-nosoros11",
+       "props": {
+        "text":"VISIÓN"
+       }
+    },
+    "rich-text#sobre_nosotros12":{
+        "title": "sobre_nosotros12",
+        "props": {
+            "text":"Continuar siendo en el 2025 una empresa reconocida en la comercialización y distribución de electrodomésticos, gasodomésticos, muebles, tecnologías y servicios financieros; fortalecida como líder a nivel nacional que se caracterice por la excelencia del servicio, la óptima calidad e innovación de los productos que ofrecemos a nuestros clientes, fomentando constantemente políticas medioambientales que contribuyan al desarrollo sostenible y bienestar de todos nuestros colaboradores. Adicional, la compañía busca mejorar constantemente su portafolio de servicios financieros, así como su canal de proyectos y nuevos negocios, también consolidar su actividad comercial ampliando su cobertura a nivel nacional."
+        }
+    }
+}
+
+
