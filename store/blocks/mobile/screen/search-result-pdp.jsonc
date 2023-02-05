@@ -1,0 +1,10 @@
+{
+    "responsive-layout.mobile#pdp": {
+        "title": "pdp-main-tabs",
+        "children": [
+            "flex-layout.row#product_main-mobile",
+            "flex-layout.row#product-tabs-mobile"
+           
+        ]
+    }
+}

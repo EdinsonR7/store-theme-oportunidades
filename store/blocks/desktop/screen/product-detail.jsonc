@@ -1,8 +1,16 @@
 {
     "store.product": {
+        "title": "Product",
+        "children": [
+            "responsive-layout.desktop#pdp",
+            "responsive-layout.mobile#pdp"
+        ]
+    },
+    "responsive-layout.desktop#pdp": {
+        "title": "",
         "children": [
             "flex-layout.row#product-main",
-            "shelf.relatedProducts"
+            "flex-layout.row#product-tabs"
         ]
     }
 }

@@ -1,0 +1,28 @@
+.paragraph--pagos-texto {
+    position   : relative;
+    top        : -30px;
+    right      : 124px;
+    margin     : 0px;
+    padding    : 0px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 800;
+    font-size  : 12px;
+    color      : #242424;
+}
+
+.paragraph--calculo_envio-text {
+    position   : relative;
+    right      : 124px;
+    margin     : 0px;
+    padding    : 0px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 800;
+    font-size  : 12px;
+    color      : #242424;
+}
+
+.wrapper--descripcion-texto2{
+    font-weight: 400;
+    font-size: 14px;
+    color: #242424;
+}

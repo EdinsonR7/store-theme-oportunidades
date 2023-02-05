@@ -1,0 +1,53 @@
+.listItem--tab-desktop1 :global(.vtex-button) {
+    list-style-type        : none;
+    border                 : 1px solid #18337f;
+    -webkit-transition     : all .5s;
+    -o-transition          : all .5s;
+    -moz-transition        : all .5s;
+    transition             : all .5s;
+    cursor                 : pointer;
+    padding                : 20px 15px;
+    border-top-left-radius : 10px;
+    border-top-right-radius: 10px;
+    font-weight            : 800;
+    font-size              : 18px;
+    font-family            : Montserrat, sans-serif;
+    text-decoration        : none;
+
+
+}
+
+.listItem--tab-desktop2 :global(.vtex-button) {
+    list-style-type        : none;
+    border                 : 1px solid #18337f;
+    -webkit-transition     : all .5s;
+    -o-transition          : all .5s;
+    -moz-transition        : all .5s;
+    transition             : all .5s;
+    cursor                 : pointer;
+    padding                : 20px 15px;
+    border-top-left-radius : 10px;
+    border-top-right-radius: 10px;
+    font-weight            : 800;
+    font-size              : 18px;
+    font-family            : Montserrat, sans-serif;
+    text-decoration        : none;
+}
+
+.listItemActive--tab-desktop1 :global(.vtex-button__label) {
+    color           : #f9f9fa;
+    font-weight     : 800;
+    background-color: transparent;
+    font-size       : 18px;
+    font-family     : Montserrat, sans-serif;
+    text-decoration : none;
+}
+
+.listItemActive--tab-desktop2 :global(.vtex-button__label) {
+    color           : #f4f6f9;
+    background-color: transparent;
+    font-weight     : 800;
+    font-size       : 18px;
+    font-family     : Montserrat, sans-serif;
+    text-decoration : none;
+}

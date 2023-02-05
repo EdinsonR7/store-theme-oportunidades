@@ -1,5 +1,5 @@
 .flexCol--texto-info-tablet :global(.vtex-rich-text-0-x-paragraph--tablet_texto1){
     font-family: Roboto, sans-serif;
-    color      : #dc581b;
-    font-weight: 540;
+    color      : #000000;
+    font-weight: 500;
 }

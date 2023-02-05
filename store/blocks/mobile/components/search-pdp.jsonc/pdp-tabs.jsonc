@@ -1,0 +1,84 @@
+{
+    "flex-layout.row#product-tabs-mobile": {
+      "title": "producto--tabs-mobile",
+      "children": [
+        "tab-layout#product--tabs-mobile"
+      ],
+      "props": {
+        "blockClass": "product-tabs-mobile"
+      }
+    },
+    "tab-layout#product--tabs-mobile": {
+      "title": "product-tab-mobile",
+      "children": [
+        "tab-list#product--tabs-mobile",
+        "tab-content#product--tabs-mobile"
+      ]
+    },
+    "tab-list#product--tabs-mobile": {
+      "title": "tab-list-mobile",
+      "children": [
+        "tab-list.item#product--tabs-mobile",
+        "tab-list.item#product--tabs2-mobile"
+      ],
+      "props": {
+        "blockClass":"list-item"
+      }
+    },
+    "tab-list.item#product--tabs-mobile": {
+      "title": "product--tabs-mobile",
+      "props": {
+        "tabId": "reviews-and-ratings",
+        "label": "Descripcion",
+        "defaultActiveTab": false,
+        "blockClass":"descripcion-mobile"
+      }
+    },
+    "tab-list.item#product--tabs2-mobile": {
+      "title": "product--tabs2-mobile",
+      "props": {
+        "tabId": "product-specifications",
+        "label": "Especification",
+        "defaultActiveTab": true,
+        "blockClass":"especificacion-mobile"
+      }
+    },
+    "tab-content#product--tabs-mobile": {
+      "title": "tab-list",
+      "children": [
+        "tab-content.item#product--tabs-mobile",
+        "tab-content.item#product-tabs2-mobile"
+      ]
+    },
+    "tab-content.item#product--tabs-mobile": {
+      "title": "",
+      "props": {
+        "tabId": "reviews-and-ratings"
+      },
+      "children": [
+        "rich-text#descripcion-mobile"
+      ]
+    },
+    "rich-text#descripcion-mobile": {
+      "title": "descripcion-mobile",
+      "props": {
+        "text": "Colchón tapizado con tela en tejido de punto que genera suavidad al tacto. \n Con espuma visco elástica y espuma penta, termo adaptable y de alta transpirabilidad que se amolda a la forma del cuerpo, maximizando el área de contacto y minimizando la presión sanguínea lo que permite un descanso reparador \n * Colchón de 28 cm de altura (+- 2cm).\n * Una sola cara \n * Grado de Firmeza: Firme El precio NO incluye base cama",
+        "blockClass": "bloque-texto"
+      }
+    },
+    "tab-content.item#product-tabs2-mobile": {
+      "title": "",
+      "props": {
+        "tabId": "product-specifications-mobile"
+      },
+      "children": [
+        "rich-text#specifications-mobile"
+      ]
+    },
+    "rich-text#specifications-mobile": {
+      "title": "specification-mobile",
+      "props": {
+        "text": "NO CONTIENE"
+      }
+    }
+  }

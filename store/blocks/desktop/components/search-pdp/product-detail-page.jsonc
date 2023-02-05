@@ -28,7 +28,8 @@
     "title": "images-1",
     "props": {
       "displayThumbnailsArrows": true,
-      "aspectRatio": "3:2.5"
+      "aspectRatio": "3:2.5",
+      "zoomMode": "in-place-hover"
     }
   },
   "flex-layout.row#right-col": {
@@ -47,28 +48,61 @@
     "children": [
       "flex-layout.row#prueba_miga-de-pan",
       "product-name",
+      "product-separator",
+      "product-identifier.product",
       "product-rating-summary",
       "product-price#product-details",
       "product-separator",
       "product-quantity",
-      // "product-identifier.product",
       "sku-selector",
       "flex-layout.row#buy-button",
-      "flex-layout.row#gestor_envio"
+      "link#desktop_boton",
+      "product-separator",
+      "flex-layout.row#calculo_envio",
+      "flex-layout.row#gestor_envio",
+      "flex-layout.row#metodos_pagos",
+      "flex-layout.row#metodos_pagos2"
     ]
   },
-
-  "product-quantity":{
+  "link#desktop_boton": {
+    "title": "desktop_boton",
+    "props": {
+      "href": "https://digital.libranzaoportunidades.com/",
+      "label": "COMPRAR A CUOTAS",
+      "displayMode": "button",
+      "blockClass": "desktop-boton",
+      "buttonProps": {
+        "size": "regular"
+      }
+    }
+  },
+  "product-quantity": {
     "title": "",
     "props": {
       "size": "small",
-      "selectorType":"stepper",
+      "selectorType": "stepper",
       "blockClasses": "quantity-cantidad"
-      
     }
-
   },
-
+  "flex-layout.row#calculo_envio": {
+    "title": "calculo_envio",
+    "children": [
+      "rich-text#calculo_envio"
+    ],
+    "props": {
+      "marginTop": -10,
+      "paddingTop": -15
+    }
+  },
+  "rich-text#calculo_envio": {
+    "title": "calculo_envio-text",
+    "props": {
+      "text": "CALCULA TU ENVIO",
+      "textAlignment": "RIGHT",
+      "textPosition": "RIGHT",
+      "blockClass": "calculo_envio-text"
+    }
+  },
   "flex-layout.row#gestor_envio": {
     "title": "gestor_envio",
     "children": [
@@ -87,18 +121,25 @@
       "marginTop": 4
     }
   },
+  "breadcrumb": {
+    "title": "crumd",
+    "props": {
+      "showOnMobile": true
+    }
+  },
   "product-price#product-details": {
     "title": "product-details",
     "props": {
       "showInstallments": true,
-      "showSavings": true
+      "showSavings": true,
+      "blockClass": "precio-details"
     }
   },
   "flex-layout.row#buy-button": {
     "title": "buy-button",
     "props": {
-      "marginTop": 4,
-      "marginBottom": 7,
+      "marginTop": 2,
+      "marginBottom": 5,
       "blockClass": "buy-button02"
     },
     "children": [
@@ -109,6 +150,41 @@
     "title": "agragar",
     "props": {
       "blockClass": "boton-agregar"
+    }
+  },
+  "flex-layout.row#metodos_pagos": {
+    "title": "metodos-pagos",
+    "children": [
+      "rich-text#metodos_pagos-texto"
+    ],
+    "props": {
+      "marginTop": 1,
+      "paddingTop": 1
+    }
+  },
+  "rich-text#metodos_pagos-texto": {
+    "title": "pagos-texto",
+    "props": {
+      "text": "METODOS DE PAGOS",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "pagos-texto"
+    }
+  },
+  "flex-layout.row#metodos_pagos2": {
+    "title": "todos_pagos2",
+    "children": [
+      "image#metodos_pagos-imagen"
+    ],
+    "props": {
+      "blockClass": "fila-imagen"
+    }
+  },
+  "image#metodos_pagos-imagen": {
+    "title": "pagos-imagen",
+    "props": {
+      "src": "assets/img-footer/footer-payment-methods.jpg",
+      "blockClass": "pagos-imagen"
     }
   }
 }
