@@ -1,0 +1,35 @@
+.flexRowContent--padre_fila :global(.vtex-rich-text-0-x-headingLevel1){
+    font-size: 24px;
+    line-height: 1.2;
+    color: #18337f;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.flexRowContent--padre_fila :global(.vtex-rich-text-0-x-headingLevel2){
+    font-size: 17px;
+    color: #18337f;
+    position: relative;
+    
+}
+
+.flexCol--sobre_nosotros-texto{
+    width: 1197px !important;
+}
+
+.flexColChild--sobre_nosotros-texto :global(.vtex-rich-text-0-x-container){
+    justify-content: center;
+}
+
+.flexCol--sobre_nosotros-texto :global(.vtex-rich-text-0-x-container--quienes_titulo2){
+    justify-content: flex-start;
+}
+
+.flexCol--sobre_nosotros-texto :global(.vtex-rich-text-0-x-container--nosotros-mision){
+    justify-content: flex-start;
+}
+
+
+.flexCol--sobre_nosotros-texto :global(.vtex-rich-text-0-x-container--vision){
+    justify-content: flex-start;
+}
