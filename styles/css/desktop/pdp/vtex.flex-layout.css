@@ -1,0 +1,119 @@
+.flexCol--detalles_productos {
+    align-items: center;
+    transform  : translateY(-25px);
+    padding    : 0px;
+    margin     : 0px;
+
+}
+
+.flexRowContent--buy-button02 :global(.vtex-button) {
+    border          : 1px solid #f60606;
+    background-color: #f60606;
+    font-size       : 12px;
+    font-family     : Montserrat, sans-serif;
+    font-weight     : 800;
+    line-height     : 40px;
+    width           : 210px;
+    margin          : auto;
+
+}
+
+.flexRowContent--simulator :global(.vtex-address-form__neighborhood) {
+    display: none;
+}
+
+.flexColChild--detalles_productos :global(.vtex-numeric-stepper__input) {
+    width : 6rem;
+    height: 2rem;
+}
+
+.flexRowContent--simulator :global(.vtex-address-form__state) {
+    width    : 200px;
+    transform: translateX(-90px);
+    margin   : 0px;
+    padding  : 0px;
+    border   : 1px solid #000;
+
+}
+
+.flexRowContent--simulator :global(.vtex-address-form__city) {
+    transform: translateX(120px) translateY(-42px);
+    width    : 200px;
+    margin   : 0px;
+    padding  : 0px;
+    border   : 1px solid #000;
+}
+
+
+.flexRowContent--simulator :global(.vtex-dropdown__label) {
+    display: none;
+}
+
+
+.flexRowContent--simulator :global(.vtex-dropdown__caption) {
+    padding    : 10px 5px;
+    font-weight: 600;
+    font-size  : 10px;
+    font-family: Montserrat, sans-serif;
+}
+
+.flexRowContent--simulator :global(.vtex-store-components-3-x-shippingNoMessage) {
+    display: none;
+}
+
+.flexRowContent--fila-imagen :global(.vtex-store-components-3-x-imageElement--pagos-imagen) {
+    width   : 430px;
+    position: relative;
+    left    : 12px;
+    top     : -35px
+}
+
+.flexRowContent--simulator :global(.vtex-button) {
+    display: none;
+
+}
+
+.flexColChild--detalles_productos :global(.vtex-store-components-3-x-price_sellingPriceContainer--precio-details) {
+    text-align: center;
+    color     : #000;
+}
+
+.flexColChild--detalles_productos :global(.vtex-numeric-stepper__input) {
+    width  : 125px;
+    border : solid 1px rgb(16, 13, 13);
+    height : 40px;
+    margin : 0px;
+    padding: 0px;
+}
+
+.flexColChild--detalles_productos :global(.vtex-numeric-stepper__minus-button) {
+    border: solid 1px rgb(16, 13, 13);
+    height: 40px;
+}
+
+.flexColChild--detalles_productos :global(.vtex-numeric-stepper__plus-button) {
+    border: solid 1px rgb(16, 13, 13);
+    height: 40px;
+}
+
+.flexColChild--detalles_productos :global(.vtex-store-link-0-x-link):hover {
+    color           : #fff;
+    width           : 210px;
+    font-family     : Montserrat, sans-serif;
+    display         : block;
+    margin          : auto;
+    background-color: #00c4ff;
+    border          : 1px solid #00c4ff;
+    text-align      : center;
+    text-decoration : none;
+    height          : 40px;
+    line-height     : 40px;
+    font-size       : 12px;
+    text-transform  : uppercase;
+    font-weight     : 800;
+}
+
+.flexRowContent--buy-button02 :global(.vtex-button__label) {
+    padding-top   : 0px !important;
+    padding-bottom: 0px !important;
+}

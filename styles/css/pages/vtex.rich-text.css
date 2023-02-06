@@ -1,0 +1,55 @@
+.paragraph--sobre_nosotros1 {
+    content       : "Oportunidades";
+    font-size     : 16px;
+    color         : #00c4ff;
+    text-transform: uppercase;
+    padding-left  : 14px;
+    
+
+}
+
+.paragraph--nosotros-mision{
+    margin-bottom: 20px;
+    color: #000;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    font-size: 16px;
+    display: block;
+    font-weight: bold;
+
+}
+
+.paragraph--vision{
+    margin-bottom: 20px;
+    color: #000;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    font-size: 16px;
+    display: block;
+    font-weight: bold;
+}
+
+
+.wrapper--sobre-nosotros3{
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #000;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+
+.wrapper--sobre-nosotros4{
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #000;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+
+.wrapper--sobre-nosotros6{
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #000;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}

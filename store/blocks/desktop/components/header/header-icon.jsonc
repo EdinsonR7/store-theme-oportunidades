@@ -81,9 +81,30 @@
             "openOnHover": true
         },
         "children": [
-            "minicart-base-content"
+         "flex-layout.row#minicart_prueba"
+           
+            // "quantity-selector#minicart"
         ]
     },
+
+    "flex-layout.row#minicart_prueba":{
+        "children": [
+            "flex-layout.col#minicart_prueba"
+        ]
+    },
+
+    "flex-layout.col#minicart_prueba":{
+       "children": [
+        "minicart-base-content"
+        // "quantity-selector#minicart"
+       ]
+    },
+// "quantity-selector#minicart":{
+//         "props": {
+//           "mode":"stepper"
+//         }
+//       },
+
     "icon-cart#minicart-icon": {
         "props": {
             "size": 35,

@@ -1,0 +1,208 @@
+{
+  "flex-layout.row#product_main-mobile": {
+    "title": "product_main-mobile",
+    "props": {
+      "colGap": 7,
+      "rowGap": 7,
+      "marginTop": 4,
+      "marginBottom": 5,
+      "paddingTop": 7,
+      "paddingBottom": 7,
+      "blockClass": [
+        "plp-detalles",
+        "plp-detalles-tablet"
+      ]
+    },
+    "children": [
+      "flex-layout.col#product-mobile"
+    ]
+  },
+  "flex-layout.col#product-mobile": {
+    "title": "main-mobile",
+    "children": [
+      "flex-layout.row#mi_de-pan",
+      "product-name",
+      "product-identifier.product",
+      "product-rating-summary",
+      "flex-layout.row#imagenes",
+      "flex-layout.row#imagenes_list",
+      "flex-layout.row#product_precio",
+      "flex-layout.row#quantity_mobile",
+      "flex-layout.row#boton_agregar",
+      "link#mobile_boton",
+      "flex-layout.row#calculo_envio-mobile",
+      "flex-layout.row#boton_simulador",
+      "flex-layout.row#mobile_pagos",
+      "flex-layout.row#mobile_pagos2"
+    ]
+  },
+  "flex-layout.row#mi_de-pan": {
+    "title": "mi_de-pan",
+    "children": [
+      "breadcrumb"
+    ]
+  },
+  "flex-layout.row#product_precio": {
+    "title": "precio",
+    "children": [
+      "product-price#product-details"
+    ],
+    "props": {
+      "blockClass": "product_precio"
+    }
+  },
+  "flex-layout.row#boton_agregar": {
+    "title": "boton_agregar",
+    "children": [
+      "buy-button"
+    ],
+    "props": {
+      "blockClass": "boton_agregar"
+    }
+  },
+  "link#mobile_boton": {
+    "title": "mobile_boton",
+    "props": {
+      "href": "https://digital.libranzaoportunidades.com/",
+      "label": "COMPRAR A CUOTAS",
+      "displayMode": "button",
+      "blockClass": [
+        "desktop-boton",
+        "mobile-boton",
+        "tablet-boton"
+      ],
+      "buttonProps": {
+        "size": "regular"
+      }
+    }
+  },
+  "flex-layout.row#calculo_envio-mobile": {
+    "title": "calculo_envio",
+    "children": [
+      "rich-text#calculo_envio-mobile"
+    ],
+    "props": {
+      "marginTop": -10,
+      "paddingTop": -15
+    }
+  },
+  "rich-text#calculo_envio-mobile": {
+    "title": "calculo_envio-text",
+    "props": {
+      "text": "CALCULA TU ENVIO",
+      "textAlignment": "RIGHT",
+      "textPosition": "RIGHT",
+      "blockClass": [
+        "calculo_envio-mobile",
+        "tablet_12"
+      ]
+    }
+  },
+  "flex-layout.row#boton_simulador": {
+    "title": "boton_simulador",
+    "children": [
+      "shipping-simulator"
+    ],
+    "props": {
+      "blockClass": [
+        "boton_simulador",
+        "boton_simulador-tablet"
+      ]
+    }
+  },
+  "flex-layout.row#quantity_mobile": {
+    "title": "quantity",
+    "children": [
+      "product-quantity"
+    ],
+    "props": {
+      "blockClass": [
+        "quantity_mobile",
+        "contador_tablet"
+      ]
+    }
+  },
+  "flex-layout.row#mobile_pagos": {
+    "title": "mobile_pagos",
+    "children": [
+      "rich-text#mobile_pagos-texto"
+    ]
+  },
+  "rich-text#mobile_pagos-texto": {
+    "title": "pagos-texto",
+    "props": {
+      "text": "METODOS DE PAGOS",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "pagos-texto-mobile"
+    }
+  },
+  "flex-layout.row#mobile_pagos2": {
+    "title": "mobile_pagos2",
+    "children": [
+      "image#metodos_pagos-imagen-mobile"
+    ]
+  },
+  "image#metodos_pagos-imagen-mobile": {
+    "title": "pagos-imagen-mobile",
+    "props": {
+      "src": "assets/img-footer/footer-payment-methods.jpg",
+      "blockClass": "pagos-imagen-mobile"
+    }
+  },
+  "product-name": {
+    "title": "product-nombre",
+    "props": {
+      "blockClass": [
+        "nombre-produt",
+        "nombre-produt-tablet"
+      ]
+    }
+  },
+  "product-identifier.product": {
+    "title": "Product",
+    "props": {
+      "blockClass": [
+        "referencia-mobil",
+        "referencia-tablet"
+      ]
+    }
+  },
+  "flex-layout.row#imagenes": {
+    "title": "imagenes",
+    "children": [
+      "product-images#mobile"
+    ]
+  },
+  "product-images#mobile": {
+    "title": "mobile-imagen",
+    "props": {
+      "displayMode": "carousel",
+      "contentOrder": "images-first",
+      "thumbnailsOrientation": "horizontal",
+      "thumbnailVisibility": "hidden",
+      "blockClass": [
+        "carousel-mobile",
+        "carousel-tablet"
+      ]
+    }
+  },
+  "flex-layout.row#imagenes_list": {
+    "title": "imagenes-list",
+    "children": [
+      "product-images#mobile_list"
+    ]
+  },
+  "product-images#mobile_list": {
+    "title": "mibile-list",
+    "props": {
+      "displayMode": "list",
+      "thumbnailVisibility": "hidden",
+      "thumbnailsOrientation": "horizontal",
+      "blockClass": [
+        "carrousel-list",
+        "carrousel-tablet-lista"
+      ]
+    }
+  }
+}

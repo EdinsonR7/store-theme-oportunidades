@@ -1,0 +1,9 @@
+{
+    "search-not-found-layout": {
+        "title": "not_found",
+        "children": [
+            "responsive-layout.desktop#not-found",
+            "responsive-layout.mobile#not-found"
+        ]
+    }
+}

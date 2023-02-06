@@ -1,0 +1,7 @@
+.flexRowContent--contador_tablet :global(.vtex-numeric-stepper__input) {
+    width: 645px;
+}
+
+.flexRowContent--boton_simulador-tablet :global(.vtex-button) {
+    width: inherit;
+}

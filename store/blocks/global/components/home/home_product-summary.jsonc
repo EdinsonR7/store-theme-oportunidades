@@ -26,6 +26,8 @@
     }
   },
 
+ 
+
    "slider-layout#demo-products": {
     "title": "demo-products",
       "props": {
