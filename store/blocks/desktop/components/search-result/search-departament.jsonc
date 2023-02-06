@@ -73,6 +73,7 @@
       "width": "20%"
     }
   },
+
   "filter-navigator.v3": {
     "title": "navigator-v3",
     "blocks": [
@@ -106,12 +107,13 @@
   "order-by.v2": {
     "props": {
       "width": "80%",
+     
       "hiddenOptions": [
         "OrderByTopSaleDESC",
         "OrderByCollection",
         "OrderByNameASC"
       ],
-      "showOrderTitle": false,
+      "showOrderTitle": true,
       "blockClass": "order-By-display"
     }
   },
