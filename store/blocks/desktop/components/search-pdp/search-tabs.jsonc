@@ -1,0 +1,79 @@
+{
+  "flex-layout.row#product-tabs": {
+    "title": "producto-tabs",
+    "children": [
+      "tab-layout#product-tabs"
+    ]
+  },
+  "tab-layout#product-tabs": {
+    "title": "product-tab",
+    "children": [
+      "tab-list#product-tabs",
+      "tab-content#product-tabs"
+    ]
+  },
+  "tab-list#product-tabs": {
+    "title": "tab-list",
+    "children": [
+      "tab-list.item#product-tabs",
+      "tab-list.item#product-tabs2"
+    ]
+  },
+  "tab-list.item#product-tabs": {
+    "title": "product-tabs",
+    "props": {
+      "tabId": "reviews-and-ratings",
+      "label": "Descripcion",
+      "defaultActiveTab": true,
+      "blockClass":"tab-desktop1"
+    }
+  },
+  "tab-list.item#product-tabs2": {
+    "title": "product-tabs2",
+    "props": {
+      "tabId": "product-specifications",
+      "label": "Especificaciones",
+      "defaultActiveTab": true,
+      "blockClass":"tab-desktop2"
+    }
+  },
+  "tab-content#product-tabs": {
+    "title": "tab-list",
+    "children": [
+      "tab-content.item#product-tabs",
+      "tab-content.item#product-tabs2"
+    ]
+  },
+  "tab-content.item#product-tabs": {
+    "title": "product-tabs",
+    "props": {
+      "tabId": "reviews-and-ratings"
+      
+    },
+    "children": [
+      "rich-text#descripcion"
+    ]
+  },
+  "rich-text#descripcion": {
+    "title": "descripcion",
+    "props": {
+      "blockClass": "descripcion-texto2",
+      "text": "Colchón tapizado con tela en tejido de punto que genera suavidad al tacto. \n Con espuma visco elástica y espuma penta, termo adaptable y de alta transpirabilidad que se amolda a la forma del cuerpo, maximizando el área de contacto y minimizando la presión sanguínea lo que permite un descanso reparador \n * Colchón de 28 cm de altura (+- 2cm).\n * Una sola cara \n * Grado de Firmeza: Firme El precio NO incluye base cama"
+    }
+  },
+  "tab-content.item#product-tabs2": {
+    "title": "",
+    "props": {
+      "tabId": "product-specifications"
+    },
+    "children": [
+      "rich-text#specifications"
+    ]
+  },
+  "rich-text#specifications": {
+    "title": "specification",
+    "props": {
+      "text": ""
+    }
+  }
+}

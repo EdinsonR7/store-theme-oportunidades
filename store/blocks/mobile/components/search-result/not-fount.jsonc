@@ -1,0 +1,101 @@
+{
+    "responsive-layout.mobile#not-found": {
+        "title": "Not-Found",
+        "children": [
+            "image#mobile",
+            "rich-text#mobile",
+            "flex-layout.row#ric-texto"
+        ]
+    },
+    "image#mobile": {
+        "title": "nobile-imagen",
+        "props": {
+            "src": "assets/not-fount/not-fount.gif",
+            "blockClass": [
+                "mobile_imagen",
+                "tablet_imagen"
+            ]
+        }
+    },
+    "rich-text#mobile": {
+        "title": "mobile_text",
+        "props": {
+            "text": "Página no encontrada",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "mobile0"
+        }
+    },
+    "flex-layout.row#ric-texto": {
+        "title": "ric-texto1",
+        "children": [
+            "flex-layout.col#ric-texto"
+        ]
+    },
+    "flex-layout.col#ric-texto": {
+        "title": "ric-texto",
+        "children": [
+            "rich-text#mobile_texto1",
+            "rich-text#mobile_texto2",
+            "rich-text#mobile_texto3",
+            "rich-text#mobile_texto4",
+            "link.product#mobile_link"
+        ],
+        "props": {
+            "blockClass": [
+                "textos-info",
+                "texto-info-tablet"
+            ]
+        }
+    },
+    "rich-text#mobile_texto1": {
+        "title": "mobile-texto1",
+        "props": {
+            "text": "No encontramos la página que estas buscando. Te sugerimos probar con una de estas opciones.",
+            "blockClass": [
+                "mobile_texto1",
+                "tablet_texto1"]
+        }
+    },
+    "rich-text#mobile_texto2": {
+        "title": "mobile-texto2",
+        "props": {
+            "text": "• Si tipeaste la URL directamente, asegúrate que la ortografía sea la correcta.",
+            "blockClass": [
+                "mobile_texto2",
+                "tablet_texto2"
+            ]
+        }
+    },
+    "rich-text#mobile_texto3": {
+        "title": "mobile-texto3",
+        "props": {
+            "text": "• Por favor, intenta utilizando nuestro cuadro de búsqueda, para encontrar lo que necesitas.",
+            "blockClass": [
+                "mobile_texto3",
+                "tablet_texto3"
+            ]
+        }
+    },
+    "rich-text#mobile_texto4": {
+        "title": "mobile-texto4",
+        "props": {
+            "text": "• Si no estás seguro de cómo llegaste hasta aquí, regresa a la página anterior o a la home.",
+            "blockClass": [
+                "mobile_texto4",
+                "tablet_texto4"
+            ]
+        }
+    },
+    "link.product#mobile_link": {
+        "title": "mobile-link",
+        "props": {
+            "href": "/",
+            "label": "ir a la home",
+            "blockClass": [
+                "mobile_link",
+                "tablet_link"
+            ]
+        }
+    }
+}

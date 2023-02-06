@@ -1,0 +1,25 @@
+.paragraph--calculo_envio-mobile{
+    margin     : 0px;
+    padding    : 0px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 800;
+    font-size  : 12px;
+    color      : #242424;
+}
+
+
+
+
+.paragraph--pagos-texto-mobile {
+    margin     : 0px;
+    padding    : 0px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 800;
+    font-size  : 12px;
+    color      : #242424;
+}
+
+.container--calculo_envio-mobile{
+    justify-content: flex-start;
+}
+

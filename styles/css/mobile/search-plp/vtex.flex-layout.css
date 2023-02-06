@@ -1,0 +1,23 @@
+.flexCol--textos-info :global(.vtex-rich-text-0-x-paragraph--mobile_texto1) {
+    font-family: Roboto, sans-serif;
+    color      : #000000;
+    font-weight: 520;
+}
+
+.flexCol--textos-info :global(.vtex-rich-text-0-x-paragraph--mobile_texto2) {
+    font-family: Roboto, sans-serif;
+    color      : #000000;
+    font-weight: 520;
+}
+
+.flexCol--textos-info :global(.vtex-rich-text-0-x-paragraph--mobile_texto3) {
+    font-family: Roboto, sans-serif;
+    color      : #000000;
+    font-weight: 520;
+}
+
+.flexCol--textos-info :global(.vtex-rich-text-0-x-paragraph--mobile_texto4) {
+    font-family: Roboto, sans-serif;
+    color      : #000000;
+    font-weight: 520;
+}

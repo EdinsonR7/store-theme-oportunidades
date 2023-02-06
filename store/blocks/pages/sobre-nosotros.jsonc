@@ -1,0 +1,117 @@
+{
+    "store.custom#about-us": {
+        "blocks": [
+            "flex-layout.row#sobre_nosotros"
+        ]
+    },
+    "flex-layout.row#sobre_nosotros": {
+        "title": "sobre_nosotros",
+        "children": [
+            "flex-layout.col#sobre_nosotros"
+        ],
+        "props": {
+            "blockClass": "padre_fila"
+        }
+    },
+    "flex-layout.col#sobre_nosotros": {
+        "title": "sobre_nosotros2",
+        "children": [
+            "rich-text#sobre_nosotros1",
+            "image#sobre_nosotros-imagen",
+            "flex-layout.row#sobre_nosotros2"
+        ],
+        "props": {
+            "blockClass": "nuestra_compañi"
+        }
+    },
+    "flex-layout.row#sobre_nosotros2": {
+        "title": "sobre_nosotros2",
+        "children": [
+        
+            "flex-layout.col#sobre_nosotros_textos"
+        ],
+        "props": {
+            "blockClass": "titulo-principal"
+        }
+    },
+    "flex-layout.col#sobre_nosotros_textos": {
+        "children": [
+            "rich-text#sobre_nosotros2",
+            "rich-text#quienes_nosotros",
+            "rich-text#sobre_nosotros3",
+            "rich-text#sobre_nosotros-mision",
+            "rich-text#sobre_nosotros4",
+            "rich-text#sobre_nosotros5",
+            "rich-text#sobre_nosotros6"
+        ],
+        "props": {
+            "blockClass": "sobre_nosotros-texto"
+        }
+    },
+    "rich-text#sobre_nosotros1": {
+        "title": "sobre-nosoros1",
+        "props": {
+            "text": "OPORTUNIDADES",
+            "blockClass": "sobre_nosotros1"
+        }
+    },
+    "image#sobre_nosotros-imagen": {
+        "title": "sobre-nosoros_imagen",
+        "props": {
+            "src": "assets/Quienes-Somos/QuienesSomos.webp",
+            "blockClass": "imagen-nosotros"
+        }
+    },
+    "rich-text#sobre_nosotros2": {
+        "title": "sobre-nosoros2",
+        "props": {
+            "text": "# NUESTRA COMPAÑIA",
+            "blockClass": "nuestra-compañia20"
+        }
+    },
+
+    "rich-text#quienes_nosotros":{
+        "props": {
+            "text": "## QUIENES SOMOS",
+            "blockClass": "quienes_titulo2"
+        }
+
+    },
+    "rich-text#sobre_nosotros3": {
+        "title": "sobre-nosoros3",
+        "props": {
+            "text": "LAGOBO nació en el año de 1969 en Pereira con su cadena de almacenes dedicados a la venta de electrodomésticos y muebles para el hogar bajo la marca Almacenes Oportunidades®. \n \n Gracias a su trayectoria y experiencia, hoy en día es una de las empresas líderes en el sector de electrodomésticos y tecnología en Colombia ofreciendo líneas de crédito de consumo, libranza y empresarial. \n \n En 1972 nace la unidad de negocio dedicada a las ventas al por mayor con cubrimiento nacional, convirtiéndose rápidamente en uno de los mayoristas más grandes de Colombia. \n \n Desde 2010, Lagobo Distribuciones S.A. con su marca Oportunidades.com.co empieza a comercializar a través de su tienda virtual, electrodomésticos, tecnología, sonido, colchones, electrohogar, refrigeración, lavado y secado, entre otras líneas de hogar de las mejores marcas del mercado ofreciendo excelente calidad a muy buenos precios. \n \n En más de 50 años de trayectoria hemos logrado posicionarnos como líderes del sector en Colombia. Estamos en más de 30 ciudades del país con más de 50 puntos de atención al público y cientos de clientes que han vivido la experiencia de adquirir sus productos con nosotros.",
+            "blockClass": "sobre-nosotros3"
+        }
+    },
+    "rich-text#sobre_nosotros-mision":{
+        "title": "sobre_nosotros-mision",
+        "props": {
+            "text": "MISION",
+            "blockClass": "nosotros-mision"
+        }
+        
+    },
+
+    "rich-text#sobre_nosotros4": {
+        "title": "sobre-nosoros4",
+        "props": {
+            "text": "Satisfacer las necesidades de nuestros clientes a través de la comercialización y distribución de soluciones para el hogar en electrodomésticos, gasodomésticos, muebles, tecnologías y servicios financieros, generando experiencias positivas por medio de un excelente servicio, calidad e innovación en nuestros productos, mejorando continuamente los procesos e integrando políticas de sostenibilidad ambiental, apoyados por un talento humano capacitado y motivado.",
+            "blockClass": "sobre-nosotros4"
+        }
+    },
+    "rich-text#sobre_nosotros5": {
+        "title": "sobre-nosoros5",
+        "props": {
+            "text": "VISIÓN",
+            "blockClass": "vision"
+        }
+    },
+    "rich-text#sobre_nosotros6": {
+        "title": "sobre_nosotros6",
+        "props": {
+            "text": "Continuar siendo en el 2025 una empresa reconocida en la comercialización y distribución de electrodomésticos, gasodomésticos, muebles, tecnologías y servicios financieros; fortalecida como líder a nivel nacional que se caracterice por la excelencia del servicio, la óptima calidad e innovación de los productos que ofrecemos a nuestros clientes, fomentando constantemente políticas medioambientales que contribuyan al desarrollo sostenible y bienestar de todos nuestros colaboradores. Adicional, la compañía busca mejorar constantemente su portafolio de servicios financieros, así como su canal de proyectos y nuevos negocios, también consolidar su actividad comercial ampliando su cobertura a nivel nacional.",
+            "blockClass": "sobre-nosotros6"
+        }
+    }
+}

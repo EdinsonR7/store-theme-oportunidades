@@ -1,0 +1,117 @@
+.flexColChild--plp-detalles :global(.vtex-store-components-3-x-productBrand--nombre-produt) {
+    font-weight: 700;
+    font-size  : 25px;
+    font-family: Montserrat, sans-serif;
+    line-height: 1.2;
+    color      : #242424;
+    max-width  : 300px;
+    margin     : auto;
+}
+
+.flexRowContent--plp-detalles :global(.vtex-flex-layout-0-x-flexColChild) {
+    margin-left: 5px;
+    font-size  : 12px;
+    color      : #242424;
+    text-align : center;
+
+}
+
+.flexRowContent--boton_simulador :global(.vtex-dropdown__button) {
+    color: #242424;
+}
+
+
+.flexColChild--plp-detalles :global(.vtex-reviews-and-ratings-3-x-summaryContainer) {
+    text-align: -webkit-center;
+
+}
+
+.flexColChild--plp-detalles :global(.vtex-product-quantity-1-x-quantitySelectorContainer) {
+    align-items: center;
+
+
+}
+
+.flexRowContent--plp-detalles :global(.vtex-numeric-stepper__input) {
+    width  : 210px;
+    border : solid 1px rgb(16, 13, 13);
+    height : 40px;
+    margin : 0px;
+    padding: 0px;
+
+
+}
+
+.flexRowContent--plp-detalles :global(.vtex-numeric-stepper__minus-button) {
+    border: solid 1px rgb(16, 13, 13);
+    height: 40px;
+}
+
+.flexRowContent--plp-detalles :global(.vtex-numeric-stepper__plus-button) {
+    border: solid 1px rgb(16, 13, 13);
+    height: 40px;
+}
+
+
+.flexRowContent--boton_agregar :global(.vtex-button) {
+    border          : 1px solid #f60606;
+    background-color: #f60606;
+    color           : #fff;
+    font-family     : Montserrat, sans-serif;
+    display         : block;
+    margin          : auto;
+    text-align      : center;
+    text-decoration : none;
+    height          : 40px;
+    line-height     : 40px;
+    font-size       : 12px;
+    text-transform  : uppercase;
+    font-weight     : 800;
+    cursor          : pointer;
+}
+
+.flexRowContent--boton_simulador :global(.vtex-button) {
+    color           : #fff;
+    width           : 300px;
+    font-family     : Montserrat, sans-serif;
+    display         : block;
+    margin          : auto;
+    background-color: #00c4ff;
+    border          : 1px solid #00c4ff;
+    text-align      : center;
+    text-decoration : none;
+    height          : 40px;
+    line-height     : 40px;
+    font-size       : 12px;
+    text-transform  : uppercase;
+    font-weight     : 800;
+    cursor          : pointer;
+}
+
+.flexRowContent--boton_simulador :global(.vtex-address-form__neighborhood) {
+    display: none;
+}
+
+.flexRowContent--boton_simulador :global(.vtex-address-form-4-x-container) {
+    border: 1px solid #000;
+}
+
+.flexRowContent--boton_simulador :global(.vtex-dropdown__label) {
+    display: none;
+}
+
+.flexRowContent--boton_simulador :global(.vtex-store-components-3-x-shippingNoMessage) {
+    display: none;
+}
+
+.flexRowContent--product_precio :global(.vtex-store-components-3-x-sellingPrice) {
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size  : 23px;
+    line-height: 27px;
+    color      : #242424;
+}
+
+.flexRowContent--quantity_mobile :global(.vtex-numeric-stepper__input) {
+    width: 212px;
+}

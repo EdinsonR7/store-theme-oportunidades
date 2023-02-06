@@ -1,0 +1,25 @@
+.flexCol--texto-info-tablet :global(.vtex-rich-text-0-x-paragraph--tablet_texto1) {
+    font-family: Roboto, sans-serif;
+    color      : #000000;
+    font-weight: 520;
+  
+}
+
+.flexCol--texto-info-tablet :global(.vtex-rich-text-0-x-paragraph--tablet_texto2) {
+    font-family: Roboto, sans-serif;
+    color      : #000000;
+    font-weight: 520;
+}
+
+.flexCol--texto-info-tablet :global(.vtex-rich-text-0-x-paragraph--tablet_texto3) {
+    font-family: Roboto, sans-serif;
+    color      : #000000;
+    font-weight: 520;
+}
+
+.flexCol--texto-info-tablet :global(.vtex-rich-text-0-x-paragraph--tablet_texto4) {
+    font-family: Roboto, sans-serif;
+    color      : #000000;
+    font-weight: 520;
+}
+

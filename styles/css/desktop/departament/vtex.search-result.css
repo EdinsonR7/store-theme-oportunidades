@@ -11,3 +11,13 @@
 .orderByButton--order-By-display {
   width: 180px;
 }
+
+.gallery--list :global(.vtex-product-summary-2-x-clearLink--productos_order123) {
+  align-items: flex-start;
+
+}
+
+.filter__container--title :global(.vtex-search-result-3-x-filterMessage) {
+  font-size  : 15px;
+  font-weight: 700;
+}
