@@ -1,9 +1,40 @@
 {
+  "responsive-layout.desktop#imagen_pagos": {
+    "title": "imagen_pagos",
+    "children": [
+      "flex-layout.row#home_section--one1"
+    ]
+  },
+  "responsive-layout.tablet#imagen_pagos": {
+    "title": "imagen_pagos",
+    "children": [
+      "flex-layout.row#home_section--one1"
+    ]
+  },
+  "flex-layout.row#home_section--one1": {
+    "title": "Home Section",
+    "title": "section-one-slider",
+    "children": [
+      "flex-layout.col#section_one--image"
+    ],
+    "props": {
+      "blockClass": "imagen-seguro"
+    }
+  },
+  "flex-layout.col#section_one--image": {
+    "title": "section_one--image",
+    "children": [
+      "image#home_image"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "section_one--image"
+    }
+  },
   "image#home_image": {
     "title": "Home Image",
     "props": {
       "src": "assets/img/Mini_1_Pagos.png",
-      "max_width": 200,
       "title": "Mini Image",
       "blockClass": "imagen_home",
       "link": {
@@ -13,21 +44,10 @@
       }
     }
   },
-  "flex-layout.row#home_section--one1": {
-    "title": "section-one-slider",
+  "responsive-layout.phone#imagen_pagos-mobile": {
+    "title": "imagen_pagos-mobile",
     "children": [
-      "flex-layout.col#section_one--image"
-    ],
-    "props": {
-      "blockClass": "slider_section_one"
-    }
-  },
-  "flex-layout.col#section_one--image": {
-    "children": [
-      "image#home_image"
-    ],
-    "props": {
-      "colSizing": "auto"
-    }
+      "flex-layout.row#home_section--one2"
+    ]
   }
 }

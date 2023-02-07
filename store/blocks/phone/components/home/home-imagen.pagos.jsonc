@@ -1,0 +1,34 @@
+{
+  "flex-layout.row#home_section--one2": {
+    "title": "section-one-slider",
+    "children": [
+      "flex-layout.col#section_one--image2"
+    ],
+    "props": {
+      "blockClass": "imagen-seguro-mobile"
+    }
+  },
+  "flex-layout.col#section_one--image2": {
+    "title": "one--image2",
+    "children": [
+      "image#home_image-mobile"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "image-mobile"
+    }
+  },
+  "image#home_image-mobile": {
+    "title": "Home Image",
+    "props": {
+      "src": "assets/img/Mini_2_Movil_Pagos.png",
+      "title": "Min-Image",
+      "blockClass": "imagen_home-mobile",
+      "link": {
+        "url": "http://www.google.com/",
+        "newTab": true,
+        "atributeNoFollow": true
+      }
+    }
+  }
+}
