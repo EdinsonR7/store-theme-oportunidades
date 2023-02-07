@@ -3,14 +3,17 @@
     "blocks": [
 
       "responsive-layout.desktop#desktop_slider-1",
-      "responsive-layout.mobile#mobile--slider1",
+      "responsive-layout.tablet#tablet--slider1",
+      "responsive-layout.phone#telefono--slider1",
 
       "responsive-layout.desktop#desktop_home1",
       "responsive-layout.phone#phone_phone1",
       "responsive-layout.tablet#tablet_tablet-1",
 
       "responsive-layout.desktop#desktop_slider-2",
-      "responsive-layout.mobile#mobile--slider2",
+      "responsive-layout.tablet#tablet--slider2",
+      "responsive-layout.phone#telefono--slider3",
+    
 
       "responsive-layout.desktop#desktop_home2",
       "responsive-layout.phone#phone_phone2",
@@ -27,7 +30,9 @@
       "responsive-layout.tablet#tablet_tablet-4",
 
       "list-context.product-list#demo_1",
-      "flex-layout.row#home_section--one1"
+      "responsive-layout.desktop#imagen_pagos",
+      "responsive-layout.tablet#imagen_pagos",
+      "responsive-layout.phone#imagen_pagos-mobile"
      
       ]
 }

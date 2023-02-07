@@ -1,6 +1,5 @@
-
 {
-  "list-context.product-list#demo_1":{
+  "list-context.product-list#demo_1": {
     "title": "demo_1",
     "blocks": [
       "product-summary.shelf#demo--1"
@@ -8,53 +7,59 @@
     "children": [
       "slider-layout#demo-products"
     ]
- },
-
-    "product-summary.shelf#demo--1":{
-     "title": "demo--1",
-     "children": [
+  },
+  "product-summary.shelf#demo--1": {
+    "title": "demo--1",
+    "children": [
       "product-summary-space",
-       "product-summary-image",
-       "product-summary-space",
-       "product-summary-name",
-       "product-summary-price",
-       "product-summary-space",
-       "add-to-cart-button"
+      "product-summary-image",
+      "product-summary-space",
+      "product-summary-name",
+      "product-summary-price",
+      "product-summary-space",
+      "add-to-cart-button"
     ],
     "props": {
-      "blockClass":"vitrinas"
+      "blockClass": ["vitrinas","vitrinas-telefono"]
     }
   },
-
- 
-
-   "slider-layout#demo-products": {
+  "product-summary-price": {
+    "title": "price",
+    "props": {
+      "blockClass": ["precio", "precio-telefono"]
+    }
+  },
+  "product-summary-name": {
+    "title": "name",
+    "props": {
+      "blockClass": "name"
+    }
+  },
+  "slider-layout#demo-products": {
     "title": "demo-products",
-      "props": {
-        "itemsPerPage": {
-          "desktop": 4,
-          "tablet":3,
-          "phone": 2
-        },
-        "infinite": true,
-        "showNavigationArrows": "desktopOnly",
-        "showPaginationDots": "mobileOnly",
-        "blockClass": "demo-products"
-        
-      }
-   },
-
-   "add-to-cart-button":{
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows":"always",
+      "showPaginationDots": "never",
+      "blockClass": "demo-products"
+    }
+  },
+  "add-to-cart-button": {
     "title": "button-vitrina",
     "props": {
-      "blockClass":"button-vitrina"
+      "blockClass": "button-vitrina"
     }
-   },
-
-   "product-summary-image":{
+  },
+  "product-summary-image": {
+    "title": "summary-image",
     "props": {
-      "blockClass":"image",
+      "blockClass": "image",
       "width": "200"
     }
-   }
+  }
 }

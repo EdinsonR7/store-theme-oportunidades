@@ -7,12 +7,12 @@
 .logoLink--header__drawer--logo {
     position: relative;
     top     : 10px;
-   
+
 }
 
-.logoImage--header__drawer--logo{
-    margin: 0px;
-    padding: 0px;
+.logoImage--header__drawer--logo {
+    margin   : 0px;
+    padding  : 0px;
     transform: translateY(-10px);
 
 }
@@ -20,8 +20,8 @@
 
 .searchBarContainer {
     position: relative;
-    top   : 2px;
-  
+    top     : 2px;
+
 }
 
 
@@ -83,4 +83,9 @@
     width   : 70px;
     margin  : auto;
 
+}
+
+.imageElement--imagen_home {
+    margin-top   : 54px;
+    margin-bottom: 70px
 }

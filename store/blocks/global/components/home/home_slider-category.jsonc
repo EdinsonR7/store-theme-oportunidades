@@ -12,8 +12,12 @@
       "arrowSize": 25,
       "showPaginationDots": "desktopOnly",
       "showNavigationArrows": "mobileOnly",
-      "blockClass": ["global__home--slide", "mobile__home--slide"]
-  
+      "blockClass": [
+        "global__home--slide",
+        "telefono__home--slide",
+        "tablet__home--slide"
+
+      ]
     },
     "children": [
       "flex-layout.row#slider__one",
@@ -24,6 +28,7 @@
       "flex-layout.row#slider__six",
       "flex-layout.row#slider__seven"
     ]
+
   },
   //----------------------------------1
   "flex-layout.row#slider__one": {
@@ -124,7 +129,7 @@
       "link.product#muebles-6"
     ],
     "props": {
-      "blockClass":"slider__six--col"
+      "blockClass": "slider__six--col"
     }
     //----------------------------------------7 
   },
@@ -132,7 +137,10 @@
     "title": "slider__seven",
     "children": [
       "flex-layout.col#slider__sev--col"
-    ]
+    ],
+    "props": {
+      "blockClass": "slider__seven"
+    }
   },
   "flex-layout.col#slider__sev--col": {
     "title": "slider__sev--col",
@@ -141,47 +149,57 @@
       "link.product#television-7"
     ],
     "props": {
-      "blockClass":["slider__sev--col", "slider__sev--col2"]
+      "blockClass": [
+        "slider__sev--col",
+        "slider__sev--col2"
+      ]
     }
   },
   //---------------------//
   "link.product#refrigeracion-1": {
+    "title": "refrigeracion-1",
     "props": {
       "label": "REFRIGERACION",
       "blockClass": "slider__one--col"
     }
   },
   "link.product#estufas-2": {
+    "title": "estufas-2",
     "props": {
       "label": "ESTUFAS Y HORNOS",
       "blockClass": "slider__one--col"
     }
   },
   "link.product#lavado-3": {
+    "title": "lavado-3",
     "props": {
       "label": "LAVADO Y SECADO",
       "blockClass": "slider__one--col"
     }
   },
   "link.product#electrohogar-4": {
+    "title": "electrohogar-4",
     "props": {
       "label": "ELECTROHOGAR",
       "blockClass": "slider__one--col"
     }
   },
   "link.product#climatizacion-5": {
+    "title": "climatizacion-5",
     "props": {
       "label": "CLIMATIZACION",
       "blockClass": "slider__one--col"
     }
   },
   "link.product#muebles-6": {
+    "title": "muebles-6",
     "props": {
       "label": "MUEBLES Y HOGAR",
       "blockClass": "slider__one--col"
     }
   },
   "link.product#television-7": {
+    "title": "television-7",
     "props": {
       "label": "TELEVISION",
       "blockClass": "slider__one--col"
@@ -217,18 +235,21 @@
     }
   },
   "image#home__slider1--five": {
+    "title": "slider1--five",
     "props": {
       "src": "assets/img-category/category-Climatizacion.jpg",
       "blockClass": "global__slider--img5"
     }
   },
   "image#home__slider1--six": {
+    "title": "slider1--six",
     "props": {
       "src": "assets/img-category/category-Muebles.jpg",
       "blockClass": "global__slider--img6"
     }
   },
   "image#home__slider1--seven": {
+    "title": "slider1--seven",
     "props": {
       "src": "assets/img-category/category-Television.jpg",
       "blockClass": "global__slider--img7"

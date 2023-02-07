@@ -1,14 +1,28 @@
 {
-    "responsive-layout.mobile#mobile--slider1": {
+    "responsive-layout.tablet#tablet--slider1": {
         "title": "mobile_slider1",
         "children": [
-            "slider-layout#home_slider-mobile"
+            "slider-layout#home_slider-children"
         ]
     },
-    "responsive-layout.mobile#mobile--slider2": {
+    "responsive-layout.phone#telefono--slider1": {
         "title": "mobile_slider1",
         "children": [
-            "list-context.image-list#mobile_slider--list"
+            "slider-layout#home_slider-telefono"
         ]
+    },
+    //SLIDER LISTA
+    "responsive-layout.tablet#tablet--slider2": {
+        "title": "mobile_slider1",
+        "children": [
+            "list-context.image-list#home_slider--list"
+        ]
+    },
+    "responsive-layout.phone#telefono--slider3": {
+        "title": "mobile_slider1",
+        "children": [
+            "list-context.image-list#home_slider--list-telefono"
+        ]
+       
     }
 }

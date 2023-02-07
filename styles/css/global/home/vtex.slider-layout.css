@@ -3,16 +3,10 @@
     margin   : 0 auto 50px;
 }
 
-
-
 .caretIcon--slider-children {
-    position: relative;
-    color   : rgb(0, 145, 255);
-    width   : 50px;
-    height  : 30px;
-
-
-
+    color : rgb(0, 145, 255);
+    width : 50px;
+    height: 30px;
 
 }
 
@@ -21,8 +15,6 @@
     margin   : 0 auto 15px;
 
 }
-
-
 
 
 .imageElement--home_slider {
@@ -42,29 +34,23 @@
 }
 
 
-
 .caretIcon--home_slider_logo {
-    position: relative;
-    left    : -12px;
-    top     : -5px;
-    color   : #00c4ff;
-    width   : 10px;
-    height  : 15px;
+    color : #00c4ff;
+    width : 10px;
+    height: 15px;
 
 }
 
 
-
-
 .sliderLayoutContainer--home_slider_logo {
-    max-width: 1250px;
-    margin   : auto;
+    max-width  : 1250px;
+    margin     : auto;
+    padding-top: 20px;
 }
 
 .sliderLayoutContainer--global__home--slide {
     max-width: 1200px;
     margin   : auto;
-
 
 }
 
@@ -72,6 +58,7 @@
     max-width: 200px;
     margin   : 0 auto 25px;
 }
+
 
 .slideChildrenContainer--global__home--slide {
     text-align  : center;
@@ -81,14 +68,12 @@
     height      : 100px;
     width       : 200px;
 
-
 }
 
 .slideChildrenContainer--demo-products {
     max-width: 800px;
     margin   : auto;
 }
-
 
 
 .caretIcon--header_slider-1 {
@@ -105,7 +90,6 @@
 
 
 }
-
 
 .paginationDot--slider-children--isActive {
     background-color: rgb(17, 175, 233);

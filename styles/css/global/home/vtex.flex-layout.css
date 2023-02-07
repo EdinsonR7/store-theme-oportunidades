@@ -46,5 +46,11 @@
 .flexColChild--slider__sev--col {
     position: relative;
     left    : 12px;
-    top     : 11px
+    top     : 11px;
+}
+
+
+.flexRowContent--imagen-seguro :global(.vtex-flex-layout-0-x-flexCol--section_one--image) {
+    width: 1200px;
+
 }
