@@ -1,21 +1,22 @@
 {
- 
   "flex-layout.row#tablet_titulo--two": {
     "title": "tablet_titulo--two",
     "children": [
       "rich-text#tablet_titulo--two"
     ]
   },
-
   "rich-text#tablet_titulo--two": {
+    "title": "titulo--two",
     "props": {
       "text": "NUESTRAS MARCAS",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "blockClass": ["home_titulo", "tablet_titulo"]
+      "blockClass": [
+        "home_titulo",
+        "tablet_titulo"
+      ]
     }
   },
-
   "flex-layout.row#tablet_category--titulo": {
     "title": "tablet_titulo--two",
     "children": [
@@ -23,43 +24,52 @@
     ]
   },
   "rich-text#tablet_category--titulo": {
+    "title": "category--titulo",
     "props": {
       "text": "CATEGORIAS RECOMENDADAS",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "blockClass": ["home_category--titulo" ,"tablet_titulo"]
+      "blockClass": [
+        "home_category--titulo",
+        "tablet_titulo"
+      ]
     }
   },
-
   "flex-layout.row#tablet_texto--titulo": {
     "title": "tablet_titulo--two",
     "children": [
       "rich-text#tablet_texto--titulo"
     ]
   },
-
   "rich-text#tablet_texto--titulo": {
+    "title": "tablet_texto--titulo",
     "props": {
       "text": "Más de 50 años de experiencia respaldan su compra",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "blockClass": ["home_texto--titulo","tablet_titulo"]
+      "blockClass": [
+        "home_texto--titulo",
+        "tablet_titulo"
+      ]
     }
   },
-
   "flex-layout.row#tablet_texto2--titulo": {
+    "title": "texto2--titulo",
     "title": "tablet_texto2--titulo",
     "children": [
       "rich-text#tablet_texto2--titulo"
     ]
   },
-
   "rich-text#tablet_texto2--titulo": {
+    "title": "tablet_texto2--titulo",
     "props": {
       "text": "Precios muy bajos, Compruebalo!",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "blockClass": ["home_texto2--titulo","tablet_texto2--titulo"]
+      "blockClass": [
+        "home_texto2--titulo",
+        "tablet_texto2--titulo"
+      ]
     }
   }
 }

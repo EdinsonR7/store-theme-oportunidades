@@ -9,7 +9,11 @@
         "mobile": 1
       },
       "infinite": true,
-      "blockClass": "slider-children",
+      "blockClass": [
+        "slider-children",
+        "slider-children-tablet",
+        "slider-children-telefono"
+      ],
       "autoplay": {
         "timeout": 5000,
         "stopOnHover": false
@@ -61,6 +65,7 @@
     ],
     "props": {
       "preload": true,
+      "blockClass": "slider3-logos",
       "images": [
         {
           "image": "assets/logos/Samsung-1.png",
@@ -110,7 +115,7 @@
         "mobile": 3
       },
       "infinite": true,
-      "showPaginationDots": "mobileOnly",
+      "showPaginationDots": "never",
       "arrowSize": 20,
       "blockClass": "home_slider_logo",
       "autoplay": {

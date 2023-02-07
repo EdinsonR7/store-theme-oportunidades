@@ -1,0 +1,10 @@
+.element--vitrinas-telefono {
+    width     : 140px;
+    padding   : 10px;
+    text-align: center;
+    display   : contents;
+}
+
+.containerNormal--vitrinas-telefono :global(.vtex-product-summary-2-x-installmentContainer--precio-telefono) {
+    display: none
+}

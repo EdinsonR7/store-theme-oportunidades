@@ -1,0 +1,68 @@
+{
+    "list-context.image-list#home_slider--list-telefono": {
+        "title": "lista-image",
+        "children": [
+            "slider-layout#home_slider--list-telefono"
+        ],
+        "props": {
+            "preload": true,
+            "blockClass": "slider4-logos",
+            "images": [
+                {
+                    "image": "assets/logos/Samsung-1.png",
+                    "description": "Slaide 1"
+                },
+                {
+                    "image": "assets/logos/logo-LG-2.jpg",
+                    "description": "Slaide 2"
+                },
+                {
+                    "image": "assets/logos/logo-Haceb-3.png",
+                    "description": "Slaide 3"
+                },
+                {
+                    "image": "assets/logos/logo-Mabe-4.jpg",
+                    "description": "Slaide 4"
+                },
+                {
+                    "image": "assets/logos/logo-Oster-5.png",
+                    "description": "Slaide 5"
+                },
+                {
+                    "image": "assets/logos/HomeElements-6.jpg",
+                    "description": "Slaide 6"
+                },
+                {
+                    "image": "assets/logos/logo-Hp-7.jpg",
+                    "description": "Slaide 7"
+                },
+                {
+                    "image": "assets/logos/Logo-Remington-8.jpg",
+                    "description": "Slaide 8"
+                },
+                {
+                    "image": "assets/logos/Logo-Universal-9.jpg",
+                    "description": "Slaide 9"
+                }
+            ]
+        }
+    },
+    "slider-layout#home_slider--list-telefono": {
+        "title": "slider_lista",
+        "props": {
+            "itemsPerPage": {
+                "phone": 3
+            },
+            "infinite": true,
+            "showPaginationDots": "desktopOnly",
+            "arrowSize": 20,
+            "centerMode": "center",
+            "centerModeSlidesGap": 10,
+            "blockClass": "home_slider_telefono",
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": false
+            }
+        }
+    }
+}
