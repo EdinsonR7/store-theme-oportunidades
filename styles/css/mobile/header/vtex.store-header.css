@@ -1,1 +1,7 @@
+.headerStickyRow--mobile__header--initial :global(.vtex-store-header-2-x-headerRowContentContainer--mobile__header--initial) {
+    padding: 0%;
+}
 
+.headerRowContainer--megamenu__header--logo{
+    display:block;
+}

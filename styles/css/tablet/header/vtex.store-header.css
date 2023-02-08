@@ -1,0 +1,8 @@
+.headerRowContainer--mobile__header--initial {
+    display: block
+}
+
+.headerStickyRow--mobile__header--initial {
+    top    : 0px !important;
+    padding: 0px;
+}

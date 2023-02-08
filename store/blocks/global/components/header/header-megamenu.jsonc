@@ -50,9 +50,8 @@
     "drawer-header#megamenu__content--header": {
         "title": "megamenu__content--header",
         "children": [
-            "flex-layout.col#megamenu__header--content",
-            "icon#mi-ubicacion",
-            "login#mobile_header"
+            "flex-layout.col#megamenu__header--content"
+            
         ],
         "props": {
             "blockClass": ["megamenu__content--header", "megamenu__content--headermobile"]
@@ -97,9 +96,11 @@
     "flex-layout.row#drawer-close-button": {
         "title": "drawer-close-button",
         "children": [
-            "drawer-close-button#mega-menu"
+            "drawer-close-button#mega-menu",
+            "login#mobile_header"
         ],
         "props": {
+            "preserveLayoutOnMobile": true,
             "verticalAlign": "middle",
             "horizontalAlign": "right",
             "blockClass": "cerrar-boton-megamenu"

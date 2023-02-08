@@ -6,7 +6,7 @@
       "header-layout.mobile#mobile__header"// tablet, phone
     ],
     "props": {
-      "blockClass": "header"
+      "blockClass": ["header", "header-tablet"]
     
     }
   },
@@ -17,7 +17,7 @@
       "header-layout.mobile#mobile__header"
     ],
     "props": {
-      "blockClass": "header"
+      "blockClass": ["header", "header-tablet"]
       
   
     }
