@@ -1,7 +1,9 @@
 .slideChildrenContainer--slider-children {
     max-width: 1350px;
     margin   : 0 auto 50px;
+    
 }
+
 
 .caretIcon--slider-children {
     color : rgb(0, 145, 255);
@@ -9,6 +11,10 @@
     height: 30px;
 
 }
+.slideChildrenContainer--slider-children :global(.vtex-store-components-3-x-imageElement){
+    height: 100%  !important;
+}
+
 
 .imageElement--home_slider_logo {
     max-width: 115px;
@@ -19,6 +25,7 @@
 
 .imageElement--home_slider {
     max-height: auto !important;
+   
 }
 
 .slideChildrenContainer--home_slider_logo {

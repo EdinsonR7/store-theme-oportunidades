@@ -2,10 +2,7 @@
   "header-row#mobile__header--initial": {
     "title": "mobile__header--initial",
     "children": [
-      "flex-layout.row#global__header--megamenu",
-      "logo#header__drawer--mobile",
-      "header-spacer",
-      "minicart.v2#mobile_header"
+      "flex-layout.row#mobile__header--principal"
     ],
     "props": {
       "sticky": true,
@@ -13,23 +10,51 @@
       "inverted": true
     }
   },
+  "flex-layout.row#mobile__header--principal": {
+    "title": "header--principal",
+    "children": [
+      "flex-layout.col#mobile__header--initial"
+    ]
+  },
+  "flex-layout.col#mobile__header--initial": {
+    "title": "header--initial",
+    "children": [
+      "flex-layout.row#mobile__header--initial",
+      "search-bar#mobile_header"
+    ],
+    "props": {
+      "blockClass": "header-tablet"
+    }
+  },
+  "flex-layout.row#mobile__header--initial": {
+    "title": "mobile__header--initial",
+    "children": [
+      "flex-layout.row#global__header--megamenu",
+      "logo#header__drawer--mobile",
+      "header-spacer",
+      "minicart.v2#mobile_header"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "header--initial-mobile"
+    }
+  },
   "logo#header__drawer--mobile": {
     "title": "mobile__header--logo",
     "props": {
-      "title": "header__drawer--logo",
       "href": "/",
-      "url": "https://lagobo.vtexassets.com/arquivos/MDC-logo.png?v=637391772316170000",
-      "width": "320",
-      "blockClass": "drawer--mobile_logo"
+      "url": "assets/img/oportunidades-logo.png",
+      "blockClass": "mobile_logo"
     }
   },
   "search-bar#mobile_header": {
-    "blocks": [],
+    "title": "mobile_header",
     "props": {
       "openAutocompleteOnFocus": true
     }
   },
   "login#mobile_header": {
+    "title": "mobile_header",
     "props": {
       "emailAndPasswordTitle": "LOG-IN",
       "accessCodeTitle": "Acess Code LOG-IN",
@@ -43,6 +68,7 @@
     }
   },
   "minicart.v2#mobile_header": {
+    "title": "mobile_header",
     "props": {
       "MinicartIcon": "icon-cart#minicart-icon_mobile",
       "linkVariationUrl": "MI CARRITO",
@@ -53,6 +79,7 @@
     ]
   },
   "icon-cart#minicart-icon_mobile": {
+    "title": "icon_mobile",
     "props": {
       "size": 28,
       "blockClass": "minicart-v2",

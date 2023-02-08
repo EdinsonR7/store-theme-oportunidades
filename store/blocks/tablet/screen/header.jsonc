@@ -1,0 +1,9 @@
+{
+    "responsive-layout.tablet#mobile-mobile": {
+        "title": "Mobile",
+        "children": [
+            "header-row#mobile__header--slider",
+            "header-row#tablet__header--initial"
+        ]
+    }
+}

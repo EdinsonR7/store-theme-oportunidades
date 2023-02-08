@@ -2,12 +2,21 @@
   "header-layout.mobile#mobile__header": {
     "title": "mobile__header",
     "children": [
-      "header-row#mobile__header--slider",
-      "header-row#mobile__header--initial",
-      "header-row#search__header--mobile"
+      "responsive-layout.phone#mobile-mobile",
+      "responsive-layout.tablet#mobile-mobile"
     ],
     "props": {
-      "blockClass": "mobile__header"
+      "blockClass": [
+        "mobile__header",
+        "mobile__header-mobile"
+      ]
     }
+  },
+  "responsive-layout.phone#mobile-mobile": {
+    "title": "mobile-mobile",
+    "children": [
+      "header-row#mobile__header--slider",
+      "header-row#mobile__header--initial"
+    ]
   }
 }
