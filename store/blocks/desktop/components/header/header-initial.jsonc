@@ -8,37 +8,26 @@
       "search-bar",
       "header-spacer",
       "flex-layout.row#icon__mi-ubicacion"
-      
     ],
     "props": {
       "sticky": true,
       "blockClass": "desktop__header--initial",
       "inverted": true
-      
     }
   },
-  "logo#header__drawer--logo":{
+  "logo#header__drawer--logo": {
     "title": "desktop__header--logo",
     "props": {
       "title": "header__drawer--logo",
       "href": "/",
-      "url": "https://lagobo.vtexassets.com/arquivos/MDC-logo.png?v=637391772316170000",
+      "url": "assets/img/oportunidades-logo.png",
       "width": "320",
       "blockClass": "header__drawer--logo"
     }
   },
   "search-bar": {
-    "blocks": [],
     "props": {
       "openAutocompleteOnFocus": true
-     
     }
   }
-
- 
-
-  
-
 }
-
-  

@@ -1,0 +1,37 @@
+{ "header-row#tablet__header--initial": {
+    "title": "Tablet",
+    "children": [
+      "flex-layout.row#tablet__header--principal"
+    ],
+    "props": {
+      "sticky": true,
+      "blockClass": "mobile__header--initial",
+      "inverted": true
+    }
+  },
+  "flex-layout.row#tablet__header--principal": {
+    "title": "header--principal",
+    "children": [
+      "flex-layout.col#mobile__header--initial"
+    ],
+    "props": {
+      "blockClass": "header-tablet"
+    }
+  },
+  "flex-layout.row#mobile__header": {
+    "title": "mobile__header",
+    "children": [
+      "flex-layout.col#mobile__header"
+    ],
+    "props": {
+      "blockClass": "header-tablet"
+    }
+  },
+  "flex-layout.col#mobile__header": {
+    "title": "mobile__header-header",
+    "children": [
+      "header-row#mobile__header--slider",
+      "header-row#mobile__header--initial"
+    ]
+  }
+}

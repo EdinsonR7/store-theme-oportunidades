@@ -54,7 +54,7 @@
   "flex-layout.row#boton_agregar": {
     "title": "boton_agregar",
     "children": [
-      "buy-button"
+      "add-to-cart-button"
     ],
     "props": {
       "blockClass": "boton_agregar"

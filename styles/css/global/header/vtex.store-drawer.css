@@ -1,0 +1,8 @@
+.menuIcon--megamenu__button--drawer {
+    color: #18337f;
+}
+
+
+.drawer--megamenu__button--drawer :global(.vtex-store-header-2-x-headerRowContentContainer--megamenu__header--logo) {
+    background-color: rgb(224, 239, 239);
+}
