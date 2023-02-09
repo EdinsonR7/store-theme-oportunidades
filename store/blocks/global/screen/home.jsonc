@@ -6,7 +6,7 @@
       "responsive-layout.tablet#tablet--slider1",
       "responsive-layout.phone#telefono--slider1",
       "whatsapp-button",
-    
+
 
       "responsive-layout.desktop#desktop_home1",
       "responsive-layout.phone#phone_phone1",
@@ -15,12 +15,12 @@
       "responsive-layout.desktop#desktop_slider-2",
       "responsive-layout.tablet#tablet--slider2",
       "responsive-layout.phone#telefono--slider3",
-    
+
 
       "responsive-layout.desktop#desktop_home2",
       "responsive-layout.phone#phone_phone2",
       "responsive-layout.tablet#tablet_tablet-2",
-      
+
       "slider-layout#categoria__home--slider1",
 
       "responsive-layout.desktop#desktop_home3",
@@ -33,9 +33,11 @@
 
       "list-context.product-list#demo_1",
       "responsive-layout.desktop#imagen_pagos",
+     
       "responsive-layout.tablet#imagen_pagos",
       "responsive-layout.phone#imagen_pagos-mobile"
-     
+
+
       ]
 }
 
