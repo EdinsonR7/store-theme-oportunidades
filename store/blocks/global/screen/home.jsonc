@@ -5,6 +5,7 @@
       "responsive-layout.desktop#desktop_slider-1",
       "responsive-layout.tablet#tablet--slider1",
       "responsive-layout.phone#telefono--slider1",
+    
 
       "responsive-layout.desktop#desktop_home1",
       "responsive-layout.phone#phone_phone1",
@@ -36,4 +37,5 @@
      
       ]
 }
+
 }
