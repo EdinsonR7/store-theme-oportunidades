@@ -12,6 +12,7 @@
     "children": [
       "flex-layout.col#product-image",
       "flex-layout.row#right-col"
+
     ]
   },
   "flex-layout.col#product-image": {
@@ -36,6 +37,9 @@
     "title": "right-col",
     "children": [
       "flex-layout.col#right-col"
+
+
+
     ]
   },
   "flex-layout.col#right-col": {
@@ -62,6 +66,7 @@
       "flex-layout.row#gestor_envio",
       "flex-layout.row#metodos_pagos",
       "flex-layout.row#metodos_pagos2"
+
     ]
   },
   "link#desktop_boton": {

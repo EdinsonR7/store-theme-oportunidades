@@ -3,8 +3,9 @@
         "title": "pdp-main-tabs",
         "children": [
             "flex-layout.row#product_main-mobile",
+            "whatsapp-button",
             "flex-layout.row#product-tabs-mobile"
-           
+
         ]
     }
 }

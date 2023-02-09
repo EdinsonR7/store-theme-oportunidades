@@ -15,6 +15,7 @@
     "title": "departament results",
     "children": [
       "flex-layout.col#filter__and__content"
+
     ],
     "props": {
       "blockClass": "flex-departament-results"
@@ -25,7 +26,8 @@
     "children": [
       "flex-layout.row#departament__breadcrumb",
       "flex-layout.row#image_prueba",
-      "flex-layout.row#marca_order-switcher"
+      "flex-layout.row#marca_order-switcher",
+      "whatsapp-button"
     ]
   },
   "flex-layout.row#departament__breadcrumb": {
@@ -107,7 +109,7 @@
   "order-by.v2": {
     "props": {
       "width": "80%",
-     
+
       "hiddenOptions": [
         "OrderByTopSaleDESC",
         "OrderByCollection",

@@ -18,7 +18,8 @@
         "children": [
             "rich-text#sobre_nosotros1",
             "image#sobre_nosotros-imagen",
-            "flex-layout.row#sobre_nosotros2"
+            "flex-layout.row#sobre_nosotros2",
+            "whatsapp-button"
         ],
         "props": {
             "blockClass": "nuestra_compañi"
@@ -27,7 +28,7 @@
     "flex-layout.row#sobre_nosotros2": {
         "title": "sobre_nosotros2",
         "children": [
-        
+
             "flex-layout.col#sobre_nosotros_textos"
         ],
         "props": {
@@ -90,7 +91,7 @@
             "text": "MISION",
             "blockClass": "nosotros-mision"
         }
-        
+
     },
 
     "rich-text#sobre_nosotros4": {
