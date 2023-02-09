@@ -2,7 +2,8 @@
   "flex-layout.row#departament__results-mobile": {
     "title": "departament-results-mobile",
     "children": [
-      "flex-layout.col#filter_and-mobile"
+      "flex-layout.col#filter_and-mobile",
+      "whatsapp-button"
     ],
     "props": {
       "blockClass": "flex-departament-mobile"

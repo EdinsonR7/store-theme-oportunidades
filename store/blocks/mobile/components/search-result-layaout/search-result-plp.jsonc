@@ -1,12 +1,13 @@
 {
-    
+
  "search-result-layout.mobile#departament": {
         "title": "store-search-mobile",
         "children": [
             "rich-text#mobile-search#departament"
+
         ],
         "props": {
-              
+
             "preventRouteChange": true,
             "thresholdForFacetSearch": 10,
             "showProductsCount": true,
@@ -14,7 +15,7 @@
          }
     },
 
-    
+
 "rich-text#mobile-search#departament": {
     "title": "texto-search-mobile",
     "props": {

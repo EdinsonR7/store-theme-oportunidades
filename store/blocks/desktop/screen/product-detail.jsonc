@@ -10,6 +10,7 @@
         "title": "",
         "children": [
             "flex-layout.row#product-main",
+            "whatsapp-button",
             "flex-layout.row#product-tabs"
         ]
     }
