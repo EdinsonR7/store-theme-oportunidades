@@ -148,10 +148,10 @@
       "blockClass": "buy-button02"
     },
     "children": [
-      "add-to-cart-button"
+      "add-to-cart-button#button"
     ]
   },
-  "add-to-cart-button": {
+  "add-to-cart-button#button": {
     "title": "agragar",
     "props": {
       "blockClass": "boton-agregar"

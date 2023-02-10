@@ -1,0 +1,92 @@
+{
+  "slider-layout#text-test": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "blockClass": "carousel",
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": false
+      }
+    },
+    "children": [
+      "list-context.bullet-group"
+    ]
+  },
+  "list-context.bullet-group": {
+    "title": "bullet group",
+    "props": {
+      "bullets": [
+        {
+          "image": "assets/img-bullets/lavadora-mabe.jpg",
+          "titleBullet": "LG Lavadoras 15kl/35lbs",
+          "price": 1200000,
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img-bullets/FH.jpg",
+          "titleBullet": "Nevaras Mabe 500-LT",
+          "price": 220000,
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img-bullets/CAMA-FOCUS-FINAL-11.jpg",
+          "titleBullet": "Cama-Focus-Final-140",
+          "price": 2500000,
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img-bullets/equipo-sonido.jpg",
+          "titleBullet": "Equipo De Sonido GL 10000W",
+          "price": 1800000,
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img-bullets/Imprsora-hp.webp",
+          "titleBullet": "Impresora HP Recargable",
+          "price": 800000,
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img-bullets/D_03.webp",
+          "titleBullet": "LCD-LED-TV-LG-2048px-0943",
+          "price": 3600000,
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img-bullets/celular-samsung.webp",
+          "titleBullet": "Samsung 128GB Camara 68px",
+          "price": 950000,
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img-bullets/computador-hp1.jpg",
+          "titleBullet": "Computador HP Ryzen-5",
+          "price": 2200000,
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  }
+}
