@@ -48,6 +48,7 @@
     "title": "imagen_pagos-mobile",
     "children": [
       "flex-layout.row#home_section--one2"
+
     ]
   }
 }
