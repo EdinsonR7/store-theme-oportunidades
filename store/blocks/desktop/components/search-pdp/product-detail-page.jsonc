@@ -171,6 +171,10 @@
       "blockClass": "buy-button02"
     },
     "children": [
+      "add-to-cart-button#1"
+    ]
+  },
+  "add-to-cart-button#1": {
       "add-to-cart-button#button"
     ]
   },
