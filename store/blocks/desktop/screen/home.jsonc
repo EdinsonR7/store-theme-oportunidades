@@ -3,6 +3,8 @@
     "title": "desktop",
     "children": [
       "flex-layout.row#desktop_titulo--two"
+
+
     ]
   },
   "responsive-layout.desktop#desktop_home2": {
@@ -33,6 +35,10 @@
     "title": "desktop_slider-2",
     "children": [
       "list-context.image-list#home_slider--list"
+
+
+
     ]
   }
+
 }
