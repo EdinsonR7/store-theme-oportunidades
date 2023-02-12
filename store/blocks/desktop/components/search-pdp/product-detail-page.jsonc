@@ -12,7 +12,6 @@
     "children": [
       "flex-layout.col#product-image",
       "flex-layout.row#right-col"
-
     ]
   },
   "flex-layout.col#product-image": {
@@ -37,9 +36,6 @@
     "title": "right-col",
     "children": [
       "flex-layout.col#right-col"
-
-
-
     ]
   },
   "flex-layout.col#right-col": {
@@ -65,9 +61,36 @@
       "flex-layout.row#calculo_envio",
       "flex-layout.row#gestor_envio",
       "flex-layout.row#metodos_pagos",
-      "flex-layout.row#metodos_pagos2"
-
+      "flex-layout.row#metodos_pagos2",
+      "modal-trigger#add-to-cart-info"
     ]
+  },
+  "modal-trigger#add-to-cart-info": {
+    "title": "add cart trigger",
+    "children": [
+      "modal-layout#add-to-cart-info"
+    ],
+    "props": {
+      "customPixelEventName": "addToCart"
+    }
+  },
+  "modal-layout#add-to-cart-info": {
+    "title": "add cart layout",
+    "children": [
+      "modal-header#add-to-cart-info",
+      "add-to-cart-info"
+    ],
+    "props": {
+      "blockClass": "modal-cart"
+    }
+  },
+  "modal-header#add-to-cart-info": {
+    "title": "heade add cart",
+    "props": {
+      "label": "Cancelar",
+      "showCloseButton": true,
+      "iconCloseSize": 24
+    }
   },
   "link#desktop_boton": {
     "title": "desktop_boton",

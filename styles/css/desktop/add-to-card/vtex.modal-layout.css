@@ -1,0 +1,7 @@
+.container--modal-cart {
+  justify-content: flex-end;
+}
+
+.paper--modal-cart {
+  width: 350px
+}
