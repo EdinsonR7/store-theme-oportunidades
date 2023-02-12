@@ -237,6 +237,7 @@
       "product-summary-price",
       "product-summary-space",
       "add-to-cart-button#departament"
+
     ],
     "props": {
       "blockClass": "productos_order123"
