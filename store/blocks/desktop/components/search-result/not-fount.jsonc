@@ -1,82 +1,83 @@
 {
-    "responsive-layout.desktop#not-found": {
-        "title": "Not-Found",
-        "children": [
-            "image#desktop",
-            "rich-text#desktop",
-            "flex-layout.row#rico-texto"
-        ]
-    },
-    "image#desktop": {
-        "title": "desktop-imagen",
-        "props": {
-            "src": "assets/not-fount/not-fount.gif",
-            "blockClass": "desktop_imagen",
-            "maxWidth": "20%"
-        }
-    },
-    "rich-text#desktop": {
-        "title": "desktop_text",
-        "props": {
-            "text": "Página no encontrada",
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER",
-            "blockClass": "desktop1"
-        }
-    },
-    "flex-layout.row#rico-texto": {
-        "title": "ric-texto1",
-        "children": [
-            "flex-layout.col#rico-texto"
-        ]
-    },
-    "flex-layout.col#rico-texto": {
-        "title": "ric-texto",
-        "children": [
-            "rich-text#desktop_texto1",
-            "rich-text#desktop_texto2",
-            "rich-text#desktop_texto3",
-            "rich-text#desktop_texto4",
-            "link.product#desktop_link"
-        ],
-        "props": {
-            "blockClass": "textos-informacion"
-        }
-    },
-    "rich-text#desktop_texto1": {
-        "title": "desktop-texto1",
-        "props": {
-            "text": "No encontramos la página que estas buscando. Te sugerimos probar con una de estas opciones.",
-            "blockClass": "desktop_texto1"
-        }
-    },
-    "rich-text#desktop_texto2": {
-        "title": "desktop-texto2",
-        "props": {
-            "text": "• Si tipeaste la URL directamente, asegúrate que la ortografía sea la correcta.",
-            "blockClass": "desktop_texto2"
-        }
-    },
-    "rich-text#desktop_texto3": {
-        "title": "desktop-texto3",
-        "props": {
-            "text": "• Por favor, intenta utilizando nuestro cuadro de búsqueda, para encontrar lo que necesitas.",
-            "blockClass": "desktop_texto3"
-        }
-    },
-    "rich-text#desktop_texto4": {
-        "title": "desktop-texto4",
-        "props": {
-            "text": "• Si no estás seguro de cómo llegaste hasta aquí, regresa a la página anterior o a la home.",
-            "blockClass": "desktop_texto4"
-        }
-    },
-    "link.product#desktop_link": {
-        "title": "desktop-link",
-        "props": {
-            "href": "/",
-            "label": "ir a la home",
-            "blockClass": "desktop_link"
-        }
+  "responsive-layout.desktop#not-found": {
+    "title": "Not-Found",
+    "children": [
+      "image#desktop",
+      "deparment-search",
+      "rich-text#desktop",
+      "flex-layout.row#rico-texto"
+    ]
+  },
+  "image#desktop": {
+    "title": "desktop-imagen",
+    "props": {
+      "src": "assets/not-fount/not-fount.gif",
+      "blockClass": "desktop_imagen",
+      "maxWidth": "20%"
     }
+  },
+  "rich-text#desktop": {
+    "title": "desktop_text",
+    "props": {
+      "text": "Página no encontrada",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "desktop1"
+    }
+  },
+  "flex-layout.row#rico-texto": {
+    "title": "ric-texto1",
+    "children": [
+      "flex-layout.col#rico-texto"
+    ]
+  },
+  "flex-layout.col#rico-texto": {
+    "title": "ric-texto",
+    "children": [
+      "rich-text#desktop_texto1",
+      "rich-text#desktop_texto2",
+      "rich-text#desktop_texto3",
+      "rich-text#desktop_texto4",
+      "link.product#desktop_link"
+    ],
+    "props": {
+      "blockClass": "textos-informacion"
+    }
+  },
+  "rich-text#desktop_texto1": {
+    "title": "desktop-texto1",
+    "props": {
+      "text": "No encontramos la página que estas buscando. Te sugerimos probar con una de estas opciones.",
+      "blockClass": "desktop_texto1"
+    }
+  },
+  "rich-text#desktop_texto2": {
+    "title": "desktop-texto2",
+    "props": {
+      "text": "• Si tipeaste la URL directamente, asegúrate que la ortografía sea la correcta.",
+      "blockClass": "desktop_texto2"
+    }
+  },
+  "rich-text#desktop_texto3": {
+    "title": "desktop-texto3",
+    "props": {
+      "text": "• Por favor, intenta utilizando nuestro cuadro de búsqueda, para encontrar lo que necesitas.",
+      "blockClass": "desktop_texto3"
+    }
+  },
+  "rich-text#desktop_texto4": {
+    "title": "desktop-texto4",
+    "props": {
+      "text": "• Si no estás seguro de cómo llegaste hasta aquí, regresa a la página anterior o a la home.",
+      "blockClass": "desktop_texto4"
+    }
+  },
+  "link.product#desktop_link": {
+    "title": "desktop-link",
+    "props": {
+      "href": "/",
+      "label": "ir a la home",
+      "blockClass": "desktop_link"
+    }
+  }
 }
