@@ -1,0 +1,25 @@
+{
+  "minicart.v2#header__cart": {
+    "title": "Cart",
+    "props": {
+      "MinicartIcon": "icon-cart#minicart-icon",
+      "openOnHover": true,
+      "quantityDisplay": "always"
+    },
+    "children": [
+      "flex-layout.row#minicart_prueba"
+    ]
+  },
+  "flex-layout.row#minicart_prueba": {
+    "title": "minicart_prueba",
+    "children": [
+      "flex-layout.col#minicart_prueba"
+    ]
+  },
+  "flex-layout.col#minicart_prueba": {
+    "title": "minicart_prueba2",
+    "children": [
+      "minicart-base-content"
+    ]
+  }
+}

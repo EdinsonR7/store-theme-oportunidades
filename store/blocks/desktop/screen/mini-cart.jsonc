@@ -1,0 +1,7 @@
+{
+  "store.custom#mini_cart-v2": {
+    "blocks": [
+      "minicart.v2#header__cart"
+    ]
+  }
+}
