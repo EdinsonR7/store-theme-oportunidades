@@ -25,7 +25,7 @@
       "tabId": "reviews-and-ratings",
       "label": "Descripcion",
       "defaultActiveTab": true,
-      "blockClass":"tab-desktop1"
+      "blockClass": "tab-desktop1"
     }
   },
   "tab-list.item#product-tabs2": {
@@ -34,7 +34,7 @@
       "tabId": "product-specifications",
       "label": "Especificaciones",
       "defaultActiveTab": true,
-      "blockClass":"tab-desktop2"
+      "blockClass": "tab-desktop2"
     }
   },
   "tab-content#product-tabs": {
@@ -48,7 +48,6 @@
     "title": "product-tabs",
     "props": {
       "tabId": "reviews-and-ratings"
-      
     },
     "children": [
       "rich-text#descripcion"
@@ -67,13 +66,15 @@
       "tabId": "product-specifications"
     },
     "children": [
-      "rich-text#specifications"
+      "pdf-reader"
     ]
   },
-  "rich-text#specifications": {
-    "title": "specification",
+  "pdf-reader": {
+    "title": "PDF Reader",
     "props": {
-      "text": ""
+      "pdfUrl": "assets/documents/Reparaciones.pdf",
+      "width": 1350,
+      "height": 800
     }
   }
 }
