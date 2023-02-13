@@ -1,6 +1,6 @@
 {
 
- "search-result-layout.mobile#departament": {
+ "search-result-layout.mobile#departament-2": {
         "title": "store-search-mobile",
         "children": [
             "rich-text#mobile-search#departament"
