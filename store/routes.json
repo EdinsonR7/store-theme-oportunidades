@@ -1,10 +1,5 @@
 {
     "store.custom#about-us": {
         "path": "/sobre-nosotros"
-    },
-
-    "store.custom#mini-cart":{
-      "path": "/cart"
     }
-
-  }
+}
