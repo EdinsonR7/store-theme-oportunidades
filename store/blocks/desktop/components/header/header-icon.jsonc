@@ -79,6 +79,12 @@
       "blockClass": "cart__header3"
     }
   },
+  "minicart.v2#header__cart": {
+    "props": {
+      "MinicartIcon": "icon-cart#minicart-icon",
+      "openOnHover": true
+      }
+     },
   "icon-cart#minicart-icon": {
     "title": "minicart-icon",
     "props": {
@@ -199,11 +205,32 @@
             "variation": "popup"
         }
     },
-    "link.product#icon_cart-3": {
-        "props": {
-            "label": "Mi carrito",
-            "href": "/",
-            "blockClass": "link-minicart-2"
-        }
+    "children": [
+      "flex-layout.row#minicart_prueba"
+    ]
+  },
+  "flex-layout.row#minicart_prueba": {
+    "children": [
+      "flex-layout.col#minicart_prueba"
+    ]
+  },
+  "flex-layout.col#minicart_prueba": {
+    "children": [
+      "minicart-base-content"
+    ]
+  },
+  "icon-cart#minicart-icon": {
+    "props": {
+      "size": 35,
+      "blockClass": "minicart-v2",
+      "variation": "popup"
     }
+  },
+  "link.product#icon_cart-3": {
+    "props": {
+      "label": "Mi carrito",
+      "href": "/",
+      "blockClass": "link-minicart-2"
+    }
+  }
 }
