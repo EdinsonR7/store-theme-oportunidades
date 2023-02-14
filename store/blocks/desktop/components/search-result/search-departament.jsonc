@@ -27,6 +27,7 @@
       "flex-layout.row#departament__breadcrumb",
       "flex-layout.row#image_prueba",
       "flex-layout.row#marca_order-switcher",
+      "quick-order",
       "whatsapp-button"
     ]
   },
