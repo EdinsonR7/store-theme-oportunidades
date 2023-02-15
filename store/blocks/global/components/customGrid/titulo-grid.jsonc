@@ -1,0 +1,15 @@
+{
+  "flex-layout.row#titulo_grid": {
+    "title": "titulo_grid",
+    "children": [
+      "rich-text#titulo-grid"
+    ]
+  },
+  "rich-text#titulo-grid": {
+    "title": "titulo-grid",
+    "props": {
+      "text": "### Dale el mejor regalo a tu hogar y disfruta nuestras promociones en este mes",
+      "blockClass": "titulo-grid"
+    }
+  }
+}
