@@ -23,6 +23,7 @@
       "responsive-layout.tablet#tablet_tablet-4",
       "list-context.product-list#demo_1",
       "responsive-layout.desktop#imagen_pagos",
+      "flex-layout.row#titulo_grid",
       "custom-grid",
       "slider-layout#text-test",
       "responsive-layout.tablet#imagen_pagos",
