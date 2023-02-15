@@ -1,0 +1,42 @@
+{
+  "custom-grid": {
+    "title": "Custom Grid",
+    "children": [
+      "image#grid-1",
+      "image#grid-2",
+      "image#grid-2-2",
+      "image#grid-3",
+      "image#grid-3-3"
+    ]
+  },
+  "image#grid-1": {
+    "title": "Custom Grid 1",
+    "props": {
+      "src": "assets/grid/estufa.jpeg"
+    }
+  },
+  "image#grid-2": {
+    "title": "Custom Grid 2",
+    "props": {
+      "src": "assets/grid/telvisor-xiaomi.webp"
+    }
+  },
+  "image#grid-2-2": {
+    "title": "Custom Grid 2-2",
+    "props": {
+      "src": "assets\/grid/1604654372_894608_1604656126_noticia_normal.jpg"
+    }
+  },
+  "image#grid-3": {
+    "title": "Custom Grid 3",
+    "props": {
+      "src": "assets/grid/telvisor-xiaomi.webp"
+    }
+  },
+  "image#grid-3-3": {
+    "title": "Custom Grid 3-3",
+    "props": {
+      "src": "assets/grid/equipo-sonido-coche.webp"
+    }
+  }
+}
