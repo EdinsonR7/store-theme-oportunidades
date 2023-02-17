@@ -1,13 +1,22 @@
 .sliderLayoutContainer--home_slider_telefono {
-    margin-top: 55px;
+  margin-top: 55px;
 }
 
 .caretIcon--home_slider_telefono {
-    color: #50d6ff;
+  color: #50d6ff;
 
 }
 
 
-.caretIcon--telefono__home--slide{
-    color: #50d6ff;
+.caretIcon--telefono__home--slide {
+  color: #50d6ff;
+}
+
+.sliderArrows--slider-telefono,
+.sliderLeftArrow--slider-telefono {
+  color: #50d6ff;
+}
+
+.sliderTrack--home_slider_telefono{
+  margin-left: 42px;
 }

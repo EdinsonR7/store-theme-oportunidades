@@ -1,10 +1,22 @@
 .element--vitrinas-telefono {
-    width     : 140px;
-    padding   : 10px;
-    text-align: center;
-    display   : contents;
+  width     : 140px;
+  padding   : 10px;
+  text-align: center;
+  display   : contents;
 }
 
 .containerNormal--vitrinas-telefono :global(.vtex-product-summary-2-x-installmentContainer--precio-telefono) {
-    display: none
+  display: none
+}
+
+
+.containerNormal--vitrinas-telefono {
+  padding-top: 40px;
+}
+
+.clearLink--vitrinas-telefono {
+  margin      : 2px;
+  min-height  : 396px;
+  margin-left : 10px;
+  margin-right: 10px;
 }

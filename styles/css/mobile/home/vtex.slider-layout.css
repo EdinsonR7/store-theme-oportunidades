@@ -1,49 +1,37 @@
-
-.paginationDot--isActive{
-    background-color: #00c4ff;
+.paginationDot--isActive {
+  background-color: #00c4ff;
 }
 
 
 
-.imageElement--mobile_slider--list{
-  position: relative;
-  transform: translateY(30px);
-  display: inline-block;
-  object-fit: cover; 
-    
-   
+.imageElement--mobile_slider--list {
+  position  : relative;
+  transform : translateY(30px);
+  display   : inline-block;
+  object-fit: cover;
+
+
 }
 
 .slideChildrenContainer--mobile_slider--list {
-    max-width: 115px;
-    margin   : 0 auto 15px;
+  max-width: 115px;
+  margin   : 0 auto 15px;
 
 }
-
-
-
-
-.caretIcon{
-    position: relative;
-    width : 15px;
-    height: 15px;
-    left: 10px;
-}
-
 
 .caretIcon--mobile_slider--list {
-    position: relative;
-    left: 5px;
-    left: auto;
-    color : rgb(0, 145, 255);
-    width : 15px;
-    height: 15px;
-    left: 10px;
-    transform: translateY(30px)
+  position : relative;
+  left     : 5px;
+  left     : auto;
+  color    : rgb(0, 145, 255);
+  width    : 15px;
+  height   : 15px;
+  left     : 10px;
+  transform: translateY(30px)
 }
 
 
-.paginationDot--slider-mobile{
-    position : relative;
-    top: -10px;
-} 
+.paginationDot--slider-mobile {
+  position: relative;
+  top     : -10px;
+}
