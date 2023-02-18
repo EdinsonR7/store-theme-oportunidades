@@ -1,0 +1,6 @@
+.searchBarInnerContainer :global(.vtex-input-prefix__group){
+  height: 40px;
+  margin-left: -10px;
+  margin-right: -12px;
+  border: none;
+}
