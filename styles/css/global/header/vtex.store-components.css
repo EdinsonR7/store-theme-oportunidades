@@ -1,1 +1,3 @@
-
+.searchBarContainer :global(.vtex-input__suffix) {
+  margin-left: 1px;
+}
