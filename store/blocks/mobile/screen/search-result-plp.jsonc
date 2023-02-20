@@ -2,7 +2,8 @@
   "search-result-layout.mobile#departament": {
     "title": "store-search-mobile",
     "children": [
-      "flex-layout.row#departament__results-mobile"
+      "responsive-layout.phone#plp",
+      "responsive-layout.tablet#plp"
     ],
     "props": {
       "preventRouteChange": true,

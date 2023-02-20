@@ -44,7 +44,8 @@
     "props": {
       "href": "/",
       "url": "assets/img/oportunidades-logo.png",
-      "blockClass": "mobile_logo"
+      "blockClass": "mobile_logo",
+      "width":"80%"
     }
   },
   "search-bar#mobile_header": {

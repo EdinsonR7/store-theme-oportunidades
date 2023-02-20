@@ -1,0 +1,8 @@
+{
+  "responsive-layout.tablet#plp": {
+    "title":"plp tablet",
+    "children": [
+      "flex-layout.row#departament__results-mobile"
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+.clearLink--productos_order-mobile :global(.vtex-button) {
+  background-color: red;
+  border          : none;
+  font-family     : Montserrat, sans-serif;
+  font-weight     : 800;
+  font-size       : .75rem;
+}
