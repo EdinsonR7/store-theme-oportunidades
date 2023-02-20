@@ -5,5 +5,15 @@
       "message": "Bienvenido es un gusto atenderte en que podemos servirte",
       "phone": "5555555555"
     }
+  },
+  "flex-layout.row#whatsapp":{
+    "title": "whatsapp",
+    "children": [
+      "whatsapp-button"
+    ],
+    "props": {
+      "width": 0,
+      "blockClass": "button-whatsapp"
+    }
   }
 }

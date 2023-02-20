@@ -3,19 +3,24 @@
     "title": "departament-results-mobile",
     "children": [
       "flex-layout.col#filter_and-mobile",
-      "whatsapp-button"
+      "flex-layout.row#whatsapp"
     ],
     "props": {
-      "blockClass": "flex-departament-mobile"
+      "blockClass": [
+        "flex-departament-mobile",
+        "flex-departament-tablet"
+      ]
     }
   },
   "flex-layout.col#filter_and-mobile": {
     "title": "filter__and__content",
     "children": [
       "flex-layout.row#departament__breadcrumb-mobile",
-      "flex-layout.row#image_prueba-mobile",
       "flex-layout.row#marca_order-switcher-mobile"
-    ]
+    ],
+    "props": {
+      "width": "grow"
+    }
   },
   "flex-layout.row#departament__breadcrumb-mobile": {
     "title": "bradcrumb-departament-mobile",
@@ -32,24 +37,10 @@
   "breadcrumb.search#mobile": {
     "title": "search",
     "props": {
-      "showOnMobile":true,
+      "showOnMobile": true,
       "homeIconSize": 20
-
     }
   },
-  "flex-layout.row#image_prueba-mobile": {
-    "title": "image",
-    "children": [
-      "image#imagen_plp-mobile"
-    ]
-  },
-  "image#imagen_plp-mobile": {
-    "title": "imagen_plp",
-    "props": {
-      "src": "assets/image-plp/Refrigeracion.webp"
-    }
-  },
-  //------------------------------------------- ROW PADRE
   "flex-layout.row#marca_order-switcher-mobile": {
     "title": "filter_prueba-mobile",
     "children": [
@@ -87,14 +78,13 @@
       "appliedFiltersOverview": "show",
       "totalProductsOnMobile": "show",
       "updateOnFilterSelectionOnMobile": true,
-      "drawerDirectionMobile":"drawerRight"
+      "drawerDirectionMobile": "drawerRight"
     }
   },
   "flex-layout.row#productos#mobile": {
     "title": "mobile",
     "children": [
-      "flex-layout.row#switcher#mobile",
-      "search-content#mobile-departament-mobile"
+      "flex-layout.col#productos#mobile2"
     ]
   },
   "order-by.v2#mobile": {
@@ -107,6 +97,13 @@
       ],
       "showOrderTitle": true
     }
+  },
+  "flex-layout.col#productos#mobile2": {
+    "title": "productos#mobile2",
+    "children": [
+      "flex-layout.row#switcher#mobile",
+      "search-content#mobile-departament-mobile"
+    ]
   },
   "flex-layout.row#switcher#mobile": {
     "title": "productos-switcher-mobile",
