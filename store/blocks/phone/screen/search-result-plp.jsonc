@@ -1,0 +1,8 @@
+{
+  "responsive-layout.phone#plp": {
+    "title": "plp phone",
+    "children": [
+      "flex-layout.row#departament__results-mobile"
+    ]
+  }
+}

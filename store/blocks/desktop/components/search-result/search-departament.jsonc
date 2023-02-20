@@ -15,7 +15,6 @@
     "title": "departament results",
     "children": [
       "flex-layout.col#filter__and__content"
-
     ],
     "props": {
       "blockClass": "flex-departament-results"
@@ -57,7 +56,8 @@
   "image#imagen_plp": {
     "title": "imagen_plp",
     "props": {
-      "src": "assets/image-plp/Refrigeracion.webp"
+      "src": "assets/image-plp/Refrigeracion.webp",
+      "width": "100%"
     }
   },
   "flex-layout.row#marca_order-switcher": {
@@ -76,7 +76,6 @@
       "width": "20%"
     }
   },
-
   "filter-navigator.v3": {
     "title": "navigator-v3",
     "blocks": [
@@ -110,7 +109,6 @@
   "order-by.v2": {
     "props": {
       "width": "80%",
-
       "hiddenOptions": [
         "OrderByTopSaleDESC",
         "OrderByCollection",
@@ -238,7 +236,6 @@
       "product-summary-price",
       "product-summary-space",
       "add-to-cart-button#departament"
-
     ],
     "props": {
       "blockClass": "productos_order123"
@@ -248,6 +245,58 @@
     "title": "departament",
     "props": {
       "blockClass": "vitrinas-plp"
+    }
+  },
+  "store.search": {
+    "title": "store search",
+    "blocks": [
+      "search-result-layout#departament"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "store.search#category": {
+    "title": "categoria-search",
+    "blocks": [
+      "search-result-layout#departament"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 12,
+        "hideUnavailableItems": true
+      }
+    }
+  },
+  "store.search#subcategory": {
+    "title": "store search subcategoria",
+    "blocks": [
+      "search-result-layout#departament"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 12,
+        "hideUnavailableItems": true
+      }
+    }
+  },
+  "store.search#brand": {
+    "title": "store search brand",
+    "blocks": [
+      "search-result-layout#departament"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
+      }
     }
   }
 }

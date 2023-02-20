@@ -1,0 +1,7 @@
+.clearLink--productos_order123 :global(.vtex-button) {
+  background-color: red;
+  border          : none;
+  font-family     : Montserrat, sans-serif;
+  font-weight     : 800;
+  font-size       : .90rem;
+}
