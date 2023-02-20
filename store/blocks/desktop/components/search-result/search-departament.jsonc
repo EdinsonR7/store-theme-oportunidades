@@ -260,7 +260,7 @@
     }
   },
   "store.search#category": {
-    "title": "categoria search",
+    "title": "categoria-search",
     "blocks": [
       "search-result-layout#departament"
     ],
