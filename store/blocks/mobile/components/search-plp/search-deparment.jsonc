@@ -41,7 +41,6 @@
       "homeIconSize": 20
     }
   },
-  //------------------------------------------- ROW PADRE
   "flex-layout.row#marca_order-switcher-mobile": {
     "title": "filter_prueba-mobile",
     "children": [
